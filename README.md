@@ -7,7 +7,7 @@
 ![GitHub Actions](https://img.shields.io/badge/Automation-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 
-Language: English | [简体中文](README_zh-cn.md)
+**Language: English | [简体中文](README_zh-cn.md)**
 
 An automated RSS-to-email digest pipeline that fetches curated RSS feeds, uses an LLM to select high-signal stories, translates and structures the selected items, renders a polished HTML digest, and sends it through Resend.
 
@@ -37,6 +37,7 @@ This public edition is sanitized: real run logs, sent-item state, local outputs,
 - [Selection And Diversity Controls](#selection-and-diversity-controls)
 - [GitHub Actions](#github-actions)
 - [Outputs And Logs](#outputs-and-logs)
+- [Demo](#Demo)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
@@ -55,8 +56,10 @@ RSS feeds
   -> Resend email delivery
   -> state and run-log commit
 ```
+<img width="1472" height="1680" alt="optimized-rss-ai-email-pipeline" src="https://github.com/user-attachments/assets/ef6356e8-4531-49c8-9bc5-9547accad422" />
 
-Pipeline steps:
+
+### Pipeline steps:
 
 1. Fetch RSS items from sources in `config/sources.yaml`.
 2. Normalize and deduplicate items against `state/sent_items.json` and recent run logs.
@@ -290,6 +293,11 @@ The state/log commit is rebased before pushing, which reduces failures when `mai
 | `state/sent_items.json` | Sent signatures for deduplication |
 
 `processed_items.json` is useful for recovery if a workflow run sends email but fails before committing state.
+
+
+## Demo
+[digest_preview.html](https://github.com/user-attachments/files/27551916/digest_preview.html)
+
 
 ## Troubleshooting
 
