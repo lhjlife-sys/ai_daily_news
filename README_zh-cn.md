@@ -7,7 +7,7 @@
 ![GitHub Actions](https://img.shields.io/badge/Automation-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 
-语言：[English](README.md) | 简体中文
+**语言：[English](README.md) | 简体中文**
 
 一个自动化 RSS 新闻摘要邮件流水线：从配置好的 RSS 源抓取新闻，用 LLM 选择高信号内容，再把入选文章翻译、总结并结构化，渲染成 HTML 邮件，最后通过 Resend 发送到邮箱。
 
@@ -37,6 +37,7 @@
 - [选择与多样性控制](#选择与多样性控制)
 - [GitHub Actions](#github-actions)
 - [输出与日志](#输出与日志)
+- [Demo](#Demo)
 - [常见问题](#常见问题)
 - [License](#license)
 
@@ -55,8 +56,9 @@ RSS feeds
   -> Resend 邮件发送
   -> 提交 state 和运行日志
 ```
+<img width="1472" height="1680" alt="image" src="https://github.com/user-attachments/assets/c3e5d76a-f9f6-43ee-a231-eacf3da6f883" />
 
-核心步骤：
+### 核心步骤：
 
 1. 从 `config/sources.yaml` 中配置的 RSS 源抓取文章。
 2. 标准化 RSS item，并结合 `state/sent_items.json` 与近期运行日志去重。
@@ -290,6 +292,10 @@ LLM 选择后：
 | `state/sent_items.json` | 已发送签名，用于去重 |
 
 `processed_items.json` 可用于恢复：如果 workflow 已经发出邮件，但在提交 state 前失败，可以用它补回已发送状态。
+
+## Demo
+[digest_preview.html](https://github.com/user-attachments/files/27551916/digest_preview.html)
+
 
 ## 常见问题
 
