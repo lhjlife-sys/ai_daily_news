@@ -1,0 +1,6 @@
+pipeline:
+  user_preference: >
+    MUST include: technology products, computer engineering, technology companies stock markets.
+    PREFER: world politics (major events only), finance & markets, science breakthroughs, Canada.
+    EXCLUDE: entertainment, sports, celebrity news, lifestyle, music/film reviews.
+    When in doubt, prefer technical depth over breadth.

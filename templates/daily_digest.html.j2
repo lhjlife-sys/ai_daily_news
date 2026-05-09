@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ subject }}</title>
+  <style>
+    body { margin: 0; padding: 0; background: #EFF2F7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif; -webkit-text-size-adjust: 100%; }
+    a { color: inherit; }
+    a:hover { opacity: 0.8; }
+
+    /* ── Wrapper ── */
+    .outer { background: #EFF2F7; padding: 32px 16px 48px; }
+    .inner { max-width: 620px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .hdr { background: #0F172A; border-radius: 14px 14px 0 0; padding: 28px 32px 26px; }
+    .hdr-eyebrow { color: #60A5FA; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin: 0 0 8px; }
+    .hdr-title { color: #F8FAFC; font-size: 26px; font-weight: 700; margin: 0 0 12px; letter-spacing: -0.4px; line-height: 1.2; }
+    .hdr-meta { color: #94A3B8; font-size: 12px; line-height: 1.5; margin: 0; }
+    .hdr-meta b { color: #CBD5E1; font-weight: 600; }
+
+    /* ── Main card ── */
+    .body-card { background: #fff; border-radius: 0 0 14px 14px; overflow: hidden; }
+
+    /* ── Article item ── */
+    .art { padding: 26px 32px 24px; border-top: 1px solid #F1F5F9; }
+    .art:first-child { border-top: none; }
+
+    /* Meta row: badge + time */
+    .art-meta { margin: 0 0 10px; line-height: 1; }
+    .src-badge { display: inline-block; background: #EFF6FF; color: #1D4ED8; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 5px; }
+    .art-time { color: #94A3B8; font-size: 11px; margin-left: 8px; }
+
+    /* Title (Chinese) */
+    .art-title { margin: 0 0 3px; }
+    .art-title a { color: #0F172A; font-size: 17px; font-weight: 700; line-height: 1.45; text-decoration: none; }
+    .art-title a:hover { color: #2563EB; }
+
+    /* Original title (English) */
+    .art-orig { color: #94A3B8; font-size: 12px; margin: 0 0 14px; line-height: 1.4; font-style: italic; }
+
+    /* Summary paragraph */
+    .art-summary { color: #334155; font-size: 14px; line-height: 1.75; margin: 0 0 14px; }
+
+    /* Key points */
+    .kp-list { margin: 0 0 14px; padding: 0; list-style: none; }
+    .kp-list li { color: #374151; font-size: 13px; line-height: 1.65; padding: 3px 0 3px 20px; position: relative; }
+    .kp-list li::before { content: "▸"; position: absolute; left: 0; top: 4px; color: #3B82F6; font-size: 11px; }
+
+    /* Why it matters callout */
+    .callout { background: #F0F9FF; border-left: 3px solid #38BDF8; border-radius: 0 8px 8px 0; padding: 11px 14px; margin: 0 0 18px; }
+    .callout-label { color: #0369A1; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 4px; }
+    .callout-text { color: #0C4A6E; font-size: 13px; line-height: 1.6; margin: 0; }
+
+    /* Read more link */
+    .read-more { color: #2563EB; font-size: 12px; font-weight: 600; text-decoration: none; }
+    .read-more:hover { text-decoration: underline; }
+    .read-more-arr { display: inline-block; margin-left: 3px; transition: transform 0.1s; }
+
+    /* Empty state */
+    .empty { padding: 40px 32px; text-align: center; color: #94A3B8; font-size: 14px; line-height: 1.7; }
+
+    /* ── Footer ── */
+    .ftr { margin-top: 16px; padding: 0 4px; }
+    .ftr p { color: #94A3B8; font-size: 11px; line-height: 1.6; margin: 0; text-align: center; }
+
+    /* ── Item count badge in header ── */
+    .count-badge { display: inline-block; background: rgba(96,165,250,0.15); color: #60A5FA; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 20px; margin-left: 6px; vertical-align: middle; }
+
+    @media (max-width: 480px) {
+      .hdr { padding: 22px 20px 20px; }
+      .art { padding: 20px 20px 18px; }
+      .hdr-title { font-size: 22px; }
+      .art-title a { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">
+
+      <!-- ══ Header ══ -->
+      <div class="hdr">
+        <p class="hdr-eyebrow">Daily Digest</p>
+        <p class="hdr-title">今日精选
+          <span class="count-badge">{{ items | length }} 条</span>
+        </p>
+        <p class="hdr-meta">
+          <b>{{ generated_at }}</b> &nbsp;·&nbsp; {{ timezone }}
+        </p>
+      </div>
+
+      <!-- ══ Article list ══ -->
+      <div class="body-card">
+
+        {% if items | length == 0 %}
+          <div class="empty">
+            今日暂无高信息量内容。<br>可尝试扩充 RSS 源或调整偏好设置。
+          </div>
+        {% endif %}
+
+        {% for it in items %}
+        <div class="art">
+
+          <!-- Meta: source + time -->
+          <div class="art-meta">
+            <span class="src-badge">{{ it.source_name }}</span>
+            {% if it.published_at %}
+            <span class="art-time">{{ it.published_at[:10] }} {{ it.published_at[11:16] }} UTC</span>
+            {% endif %}
+          </div>
+
+          <!-- Chinese title (linked) -->
+          <p class="art-title">
+            <a href="{{ it.url }}">{{ it.translated_title or it.title }}</a>
+          </p>
+
+          <!-- Original English title -->
+          {% if it.translated_title and it.translated_title != it.title %}
+          <p class="art-orig">{{ it.title }}</p>
+          {% endif %}
+
+          <!-- Summary paragraph -->
+          {% if it.translated_summary %}
+          <p class="art-summary">{{ it.translated_summary }}</p>
+          {% endif %}
+
+          <!-- Key points -->
+          {% if it.key_points %}
+          <ul class="kp-list">
+            {% for point in it.key_points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+          <!-- Why it matters callout -->
+          {% if it.why_it_matters %}
+          <div class="callout">
+            <p class="callout-label">为何重要</p>
+            <p class="callout-text">{{ it.why_it_matters }}</p>
+          </div>
+          {% endif %}
+
+          <!-- Read more -->
+          <a href="{{ it.url }}" class="read-more">阅读原文 <span class="read-more-arr">→</span></a>
+
+        </div>
+        {% endfor %}
+
+      </div><!-- /body-card -->
+
+      <!-- ══ Footer ══ -->
+      <div class="ftr">
+        <p>您收到此邮件，因为您配置了该仓库的 GitHub Actions 工作流。<br>{{ generated_at }} 生成 · {{ timezone }}</p>
+      </div>
+
+    </div><!-- /inner -->
+  </div><!-- /outer -->
+</body>
+</html>

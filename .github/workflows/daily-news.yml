@@ -1,0 +1,74 @@
+name: Daily RSS AI Digest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-rss-ai-digest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      TARGET_LANGUAGE: zh-CN
+      TIMEZONE: Asia/Shanghai
+      MAX_CANDIDATES: "50"
+      MAX_SELECTED: "10"
+      DRY_RUN: "1"
+      # OPENAI_MODEL: gpt-4.1-nano
+     
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: git pull --ff-only origin main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: python scripts/news_pipeline.py
+
+      - name: Upload digest artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-digest
+          path: |
+            out/daily_digest.html
+            out/processed_items.json
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit state updates
+        if: env.DRY_RUN != '1'
+        run: |
+          if git diff --quiet -- state/sent_items.json logs; then
+            echo "No state changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/sent_items.json logs
+          git commit -m "chore(state): update sent items and run logs"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

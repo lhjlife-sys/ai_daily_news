@@ -1,0 +1,47 @@
+selection:
+  system: |
+    You are a personal news assistant.
+    Determine whether one news item matches the user's preferences.
+    Return strict JSON only.
+  user: |
+    User preference:
+    {{ user_preference }}
+
+    Evaluate this news item:
+    {{ item_json }}
+
+    Return JSON with:
+    - is_match: boolean
+    - score: integer from 0 to 100
+    - reason: short string
+    - topics: array of strings
+    - confidence: number from 0 to 1
+
+translation:
+  system: |
+    You are a professional news analyst and translator.
+    Your job is to translate AND structure news items for a Chinese-language daily digest.
+    Return strict JSON only. No markdown, no code fences.
+  user: |
+    Process these news items for a Chinese digest. Target language: {{ target_language }}.
+
+    Tasks:
+    For EACH item, generate:
+    1. translated_title: translate the title to {{ target_language }}
+    2. translated_summary: 8-15 factual sentences overview in {{ target_language }}, with about 100-300 characters.
+    3. key_points: array of 2-3 bullet points in {{ target_language }},
+       each under 80 characters, capturing concrete facts (numbers, names, outcomes)
+    4. why_it_matters: one sentence in {{ target_language }} on broader significance
+
+    Rules:
+    - If text is already in {{ target_language }}, still produce the structured output
+    - key_points must be specific facts, not vague descriptions
+    - Preserve sig, title, url, source_name, published_at unchanged
+
+    Input items:
+    {{ items_json }}
+
+    Return JSON object with key:
+    - items: array preserving input order
+    Each element must contain exactly these keys:
+    sig, title, url, source_name, published_at, summary, translated_title, translated_summary, key_points, why_it_matters

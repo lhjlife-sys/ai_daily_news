@@ -1,0 +1,15 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local/runtime output
+out/
+.tmp/
+logs/*.json
+state/sent_items.json
+
+# Secrets
+.env
+.env.*
+!.env.example
