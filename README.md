@@ -56,7 +56,7 @@ RSS feeds
   -> Resend email delivery
   -> state and run-log commit
 ```
-<img width="1472" height="1680" alt="optimized-rss-ai-email-pipeline" src="https://github.com/user-attachments/assets/ef6356e8-4531-49c8-9bc5-9547accad422" />
+<img width="1472" height="1680" alt="optimized-rss-ai-email-pipeline" src="https://github.com/user-attachments/assets/a407f425-7550-4fb4-913d-4b5446a97321" />
 
 
 ### Pipeline steps:
