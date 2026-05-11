@@ -56,7 +56,9 @@ RSS feeds
   -> Resend 邮件发送
   -> 提交 state 和运行日志
 ```
-<img width="1472" height="1680" alt="image" src="https://github.com/user-attachments/assets/c3e5d76a-f9f6-43ee-a231-eacf3da6f883" />
+
+<img width="1472" height="1680" alt="rss_ai_email_pipeline_architecture" src="https://github.com/user-attachments/assets/dfe786c2-4c89-4a80-8325-3538e660940b" />
+
 
 ### 核心步骤：
 
