@@ -18,12 +18,27 @@ jobs:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
-      TARGET_LANGUAGE: zh-CN
-      TIMEZONE: Asia/Shanghai
-      MAX_CANDIDATES: "50"
-      MAX_SELECTED: "10"
-      DRY_RUN: "1"
-      # OPENAI_MODEL: gpt-4.1-nano
+      TARGET_LANGUAGE: ${{ vars.TARGET_LANGUAGE || 'zh-CN' }}
+      TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Shanghai' }}
+      MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '80' }}
+      MAX_SELECTED: ${{ vars.MAX_SELECTED || '15' }}
+      MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || '60' }}
+      MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '2' }}
+      MAX_PER_TOPIC_CLUSTER: ${{ vars.MAX_PER_TOPIC_CLUSTER || '2' }}
+      OPENAI_API_MODE: ${{ vars.OPENAI_API_MODE || 'responses' }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      SELECTION_MODEL: ${{ vars.SELECTION_MODEL }}
+      OPENAI_SELECTION_MODEL: ${{ vars.OPENAI_SELECTION_MODEL }}
+      SELECTION_REASONING_EFFORT: ${{ vars.SELECTION_REASONING_EFFORT }}
+      OPENAI_SELECTION_REASONING_EFFORT: ${{ vars.OPENAI_SELECTION_REASONING_EFFORT }}
+      SELECTION_REASONING_SUMMARY: ${{ vars.SELECTION_REASONING_SUMMARY }}
+      TRANSLATION_MODEL: ${{ vars.TRANSLATION_MODEL }}
+      OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL }}
+      TRANSLATION_BATCH_SIZE: ${{ vars.TRANSLATION_BATCH_SIZE || '3' }}
+      USER_PREFERENCE: ${{ vars.USER_PREFERENCE }}
+      EMAIL_SUBJECT: ${{ vars.EMAIL_SUBJECT }}
+      DRY_RUN: ${{ vars.DRY_RUN || '1' }}
+      COMMIT_RUNTIME_STATE: ${{ vars.COMMIT_RUNTIME_STATE || '0' }}
      
 
     steps:
@@ -59,7 +74,7 @@ jobs:
           retention-days: 7
 
       - name: Commit state updates
-        if: env.DRY_RUN != '1'
+        if: env.DRY_RUN != '1' && env.COMMIT_RUNTIME_STATE == '1'
         run: |
           if git diff --quiet -- state/sent_items.json logs; then
             echo "No state changes."

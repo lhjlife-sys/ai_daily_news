@@ -11,7 +11,7 @@
 
 一个自动化 RSS 新闻摘要邮件流水线：从配置好的 RSS 源抓取新闻，用 LLM 选择高信号内容，再把入选文章翻译、总结并结构化，渲染成 HTML 邮件，最后通过 Resend 发送到邮箱。
 
-项目面向无人值守运行：默认由 GitHub Actions 每天定时触发，同时也支持本地 dry-run，方便调试 RSS 源、优化 prompt、调整筛选策略和迭代邮件模板。
+项目可以通过 GitHub Actions 无人值守运行，同时也支持本地 dry-run，方便调试 RSS 源、优化 prompt、调整筛选策略和迭代邮件模板。此公开仓库中签入的 workflow 默认只手动触发并使用 dry-run。
 
 这是去隐私后的 public 版本：真实运行日志、已发送状态、本地输出和私有自动化历史都不会包含在此仓库中。
 
@@ -23,7 +23,7 @@
 - **LLM 前硬过滤**：在选题前排除明显不符合偏好的体育、娱乐、名人、生活方式、音乐、电影和评论类内容。
 - **结构化摘要输出**：生成中文标题、事实摘要、关键要点和重要性说明。
 - **可观测运行日志**：记录 prompts、抓取报告、选择指标、输出指标和入选文章。
-- **GitHub 原生自动化**：成功发送后自动把 state 和 logs 提交回仓库。
+- **GitHub 原生自动化**：显式开启后，可在成功发送后把 state 和 logs 提交回仓库。
 
 ## 目录
 
@@ -37,7 +37,6 @@
 - [选择与多样性控制](#选择与多样性控制)
 - [GitHub Actions](#github-actions)
 - [输出与日志](#输出与日志)
-- [Demo](#Demo)
 - [常见问题](#常见问题)
 - [License](#license)
 
@@ -54,9 +53,8 @@ RSS feeds
   -> LLM 批量翻译与结构化
   -> HTML 渲染
   -> Resend 邮件发送
-  -> 提交 state 和运行日志
+  -> 可选更新 state 和运行日志
 ```
-
 <img width="1472" height="1680" alt="rss_ai_email_pipeline_architecture" src="https://github.com/user-attachments/assets/dfe786c2-4c89-4a80-8325-3538e660940b" />
 
 
@@ -77,7 +75,9 @@ RSS feeds
 
 | 配置 | 默认值 |
 | --- | --- |
+| OpenAI API 模式 | `responses` |
 | 选择模型 | `gpt-4.1-mini` |
+| 选择推理强度 | 未设置 |
 | 翻译模型 | `gpt-4.1-nano` |
 | 目标语言 | `zh-CN` |
 | 最大候选数 | `50` |
@@ -158,12 +158,17 @@ pip install -r requirements.txt
 | `MAX_SELECTED` | `10` | 最终 digest 最大文章数 |
 | `MIN_MATCH_SCORE` | `60` | LLM 选择最低分 |
 | `OPENAI_MODEL` | `gpt-4.1-nano` | 默认/兜底模型值 |
+| `OPENAI_API_MODE` | `responses` | OpenAI API 模式：`responses` 或 `chat` |
 | `SELECTION_MODEL` | `gpt-4.1-mini` | 选题阶段模型 |
+| `SELECTION_REASONING_EFFORT` | 空 | 可选的选题推理强度，适用于支持的推理模型：`none`、`minimal`、`low`、`medium`、`high` 或 `xhigh` |
+| `SELECTION_REASONING_SUMMARY` | 空 | 可选的 Responses API 推理摘要，仅写入日志：`off`、`auto`、`concise` 或 `detailed` |
 | `TRANSLATION_MODEL` | `gpt-4.1-nano` | 翻译与总结阶段模型 |
+| `TRANSLATION_BATCH_SIZE` | `3` | 每次翻译调用处理的文章数；调低可减少批量翻译漏项 |
 | `MAX_PER_SOURCE` | `2` | 来源多样性限制 |
 | `MAX_PER_TOPIC_CLUSTER` | `2` | 主题多样性限制 |
 | `USER_PREFERENCE` | 来自 `config/settings.yaml` | 覆盖用户偏好 |
 | `DRY_RUN` | 空 | 设置 `DRY_RUN=1` 跳过邮件与 state 更新 |
+| `COMMIT_RUNTIME_STATE` | 公开 workflow 中为 `0` | 设置 `COMMIT_RUNTIME_STATE=1` 允许 GitHub Actions 提交生成的 state/logs |
 
 ## 本地运行
 
@@ -209,10 +214,10 @@ python scripts/news_pipeline.py
 ```yaml
 pipeline:
   user_preference: >
-    MUST include: technology products, computer engineering, technology companies stock markets.
-    PREFER: world politics (major events only), finance & markets, science breakthroughs, Canada.
+    MUST include: high-signal technology, science, business, and world news.
+    PREFER: software engineering, AI research, hardware, security, finance, policy, and practical technical context.
     EXCLUDE: entertainment, sports, celebrity news, lifestyle, music/film reviews.
-    When in doubt, prefer technical depth over breadth.
+    When in doubt, prefer factual depth and broad reader relevance.
 ```
 
 这段文本会传入选择阶段，作为个人编辑偏好。
@@ -267,10 +272,7 @@ LLM 选择后：
 .github/workflows/daily-news.yml
 ```
 
-默认计划任务：
-
-- 每天 `01:00 UTC`
-- 即 `Asia/Shanghai` 时间 `09:00`
+公开仓库默认只保留手动触发（`workflow_dispatch`），并且在没有 repository variables 覆盖时使用 `DRY_RUN=1`，避免意外公开个人运行状态或日志。
 
 需要配置的 GitHub Actions secrets：
 
@@ -279,7 +281,22 @@ LLM 选择后：
 - `EMAIL_FROM`
 - `EMAIL_TO`
 
-工作流会检出仓库、同步最新 `main`、安装依赖、运行 pipeline、上传 digest artifact，并把更新后的 state/logs 提交回 `main`。
+可选运行参数可以配置在 GitHub 仓库的 **Settings -> Secrets and variables -> Actions -> Variables**。GitHub repository variables 不会自动导出到 job；`.github/workflows/daily-news.yml` 会显式把支持的 `vars.*` 映射为环境变量，再运行 `scripts/news_pipeline.py`。
+
+支持的 repository variables 包括：
+
+- `TARGET_LANGUAGE`、`TIMEZONE`、`MAX_CANDIDATES`、`MAX_SELECTED`
+- `MIN_MATCH_SCORE`、`MAX_PER_SOURCE`、`MAX_PER_TOPIC_CLUSTER`
+- `OPENAI_API_MODE`、`OPENAI_MODEL`
+- `SELECTION_MODEL`、`OPENAI_SELECTION_MODEL`
+- `SELECTION_REASONING_EFFORT`、`OPENAI_SELECTION_REASONING_EFFORT`
+- `SELECTION_REASONING_SUMMARY`
+- `TRANSLATION_MODEL`、`OPENAI_TRANSLATION_MODEL`、`TRANSLATION_BATCH_SIZE`
+- `USER_PREFERENCE`、`EMAIL_SUBJECT`、`DRY_RUN`、`COMMIT_RUNTIME_STATE`
+
+如果未配置对应 repository variables，workflow 默认使用 `MAX_CANDIDATES=80`、`MAX_SELECTED=15`、`OPENAI_API_MODE=responses`、`TARGET_LANGUAGE=zh-CN`、`TIMEZONE=Asia/Shanghai`、`DRY_RUN=1` 和 `COMMIT_RUNTIME_STATE=0`。
+
+工作流会检出仓库、同步最新 `main`、安装依赖、运行 pipeline 并上传 digest artifact。只有在 `DRY_RUN` 不是 `1` 且 `COMMIT_RUNTIME_STATE=1` 时，才会把更新后的 state/logs 提交回 `main`。
 
 提交 state/logs 前会 rebase 到最新 `main`，降低运行期间远端分支前进导致 push 失败的概率。
 
@@ -295,9 +312,7 @@ LLM 选择后：
 
 `processed_items.json` 可用于恢复：如果 workflow 已经发出邮件，但在提交 state 前失败，可以用它补回已发送状态。
 
-## Demo
-[digest_preview.html](https://github.com/user-attachments/files/27551916/digest_preview.html)
-
+运行日志会在 `output_metrics.token_usage` 中记录 LLM 可观测信息，包括实际 API 模式、模型名、input/output token、缓存 input token、reasoning token、response ID，以及可选的 selection reasoning summary。`output_metrics.translation_integrity` 会记录期望翻译数、模型返回数、fallback 数和缺失 sig。邮件底部会显示精简的 selection/translation token 摘要。
 
 ## 常见问题
 

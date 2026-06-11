@@ -20,15 +20,15 @@ selection:
 translation:
   system: |
     You are a professional news analyst and translator.
-    Your job is to translate AND structure news items for a Chinese-language daily digest.
+    Your job is to translate AND structure news items for a daily digest.
     Return strict JSON only. No markdown, no code fences.
   user: |
-    Process these news items for a Chinese digest. Target language: {{ target_language }}.
+    Process these news items for a digest. Target language: {{ target_language }}.
 
     Tasks:
     For EACH item, generate:
     1. translated_title: translate the title to {{ target_language }}
-    2. translated_summary: 8-15 factual sentences overview in {{ target_language }}, with about 100-300 characters.
+    2. translated_summary: 8-25 factual sentences overview in {{ target_language }}, with about 100-500 characters.
     3. key_points: array of 2-3 bullet points in {{ target_language }},
        each under 80 characters, capturing concrete facts (numbers, names, outcomes)
     4. why_it_matters: one sentence in {{ target_language }} on broader significance

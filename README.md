@@ -11,7 +11,7 @@
 
 An automated RSS-to-email digest pipeline that fetches curated RSS feeds, uses an LLM to select high-signal stories, translates and structures the selected items, renders a polished HTML digest, and sends it through Resend.
 
-It is built for unattended daily runs on GitHub Actions, with local dry-runs for prompt tuning, RSS debugging, and template iteration.
+It can run unattended on GitHub Actions, with local dry-runs for prompt tuning, RSS debugging, and template iteration. This public repository keeps the checked-in workflow manual and dry-run by default.
 
 This public edition is sanitized: real run logs, sent-item state, local outputs, and private automation history are intentionally excluded.
 
@@ -23,7 +23,7 @@ This public edition is sanitized: real run logs, sent-item state, local outputs,
 - **Pre-LLM exclusion filter**: removes obvious sports, entertainment, celebrity, lifestyle, film, music, and review content before selection.
 - **Structured digest output**: generates translated title, factual summary, key points, and why-it-matters context.
 - **Operational logs**: records prompts, fetch reports, selection metrics, output metrics, and selected items for auditability.
-- **GitHub-native automation**: commits sent state and run logs back to the repository after successful sends.
+- **GitHub-native automation**: can commit sent state and run logs back to the repository after successful sends when explicitly enabled.
 
 ## Table Of Contents
 
@@ -54,8 +54,9 @@ RSS feeds
   -> LLM batch translation and structuring
   -> HTML rendering
   -> Resend email delivery
-  -> state and run-log commit
+  -> optional state and run-log update
 ```
+
 <img width="1472" height="1680" alt="optimized-rss-ai-email-pipeline" src="https://github.com/user-attachments/assets/a407f425-7550-4fb4-913d-4b5446a97321" />
 
 
@@ -76,7 +77,9 @@ RSS feeds
 
 | Setting | Default |
 | --- | --- |
+| OpenAI API mode | `responses` |
 | Selection model | `gpt-4.1-mini` |
+| Selection reasoning effort | unset |
 | Translation model | `gpt-4.1-nano` |
 | Target language | `zh-CN` |
 | Max candidates | `50` |
@@ -157,12 +160,17 @@ Optional runtime controls:
 | `MAX_SELECTED` | `10` | Max final digest items |
 | `MIN_MATCH_SCORE` | `60` | Minimum LLM selection score |
 | `OPENAI_MODEL` | `gpt-4.1-nano` | Fallback model value |
+| `OPENAI_API_MODE` | `responses` | OpenAI API surface: `responses` or `chat` |
 | `SELECTION_MODEL` | `gpt-4.1-mini` | Editorial selection model |
+| `SELECTION_REASONING_EFFORT` | empty | Optional selection reasoning effort for supported reasoning models: `none`, `minimal`, `low`, `medium`, `high`, or `xhigh` |
+| `SELECTION_REASONING_SUMMARY` | empty | Optional Responses API reasoning summary for logs: `off`, `auto`, `concise`, or `detailed` |
 | `TRANSLATION_MODEL` | `gpt-4.1-nano` | Translation and summary model |
+| `TRANSLATION_BATCH_SIZE` | `3` | Items per translation call; lower values reduce missing translated items |
 | `MAX_PER_SOURCE` | `2` | Source diversity cap |
 | `MAX_PER_TOPIC_CLUSTER` | `2` | Topic diversity cap |
 | `USER_PREFERENCE` | from `config/settings.yaml` | Override preference profile |
 | `DRY_RUN` | empty | Set `DRY_RUN=1` to skip email and state update |
+| `COMMIT_RUNTIME_STATE` | `0` in the public workflow | Set `COMMIT_RUNTIME_STATE=1` to let GitHub Actions commit generated state/logs |
 
 ## Run Locally
 
@@ -208,10 +216,10 @@ Edit `config/settings.yaml`:
 ```yaml
 pipeline:
   user_preference: >
-    MUST include: technology products, computer engineering, technology companies stock markets.
-    PREFER: world politics (major events only), finance & markets, science breakthroughs, Canada.
+    MUST include: high-signal technology, science, business, and world news.
+    PREFER: software engineering, AI research, hardware, security, finance, policy, and practical technical context.
     EXCLUDE: entertainment, sports, celebrity news, lifestyle, music/film reviews.
-    When in doubt, prefer technical depth over breadth.
+    When in doubt, prefer factual depth and broad reader relevance.
 ```
 
 This text is passed into the selection step as the editorial preference profile.
@@ -266,10 +274,7 @@ Workflow file:
 .github/workflows/daily-news.yml
 ```
 
-Default schedule:
-
-- `01:00 UTC` daily
-- `09:00 Asia/Shanghai`
+This public repository keeps the workflow manual by default (`workflow_dispatch`) and sets `DRY_RUN=1` unless repository variables override it. This prevents accidental publication of personal run state or logs.
 
 Required GitHub Actions secrets:
 
@@ -278,9 +283,27 @@ Required GitHub Actions secrets:
 - `EMAIL_FROM`
 - `EMAIL_TO`
 
-The workflow checks out the repository, syncs latest `main`, installs dependencies, runs the pipeline, uploads digest artifacts, and commits updated state/logs back to `main`.
+Optional runtime controls can be set in GitHub repository **Settings -> Secrets and variables -> Actions -> Variables**. GitHub repository variables are not automatically exported to jobs; `.github/workflows/daily-news.yml` explicitly maps supported `vars.*` values into environment variables before running `scripts/news_pipeline.py`.
+
+Supported repository variables include:
+
+- `TARGET_LANGUAGE`, `TIMEZONE`, `MAX_CANDIDATES`, `MAX_SELECTED`
+- `MIN_MATCH_SCORE`, `MAX_PER_SOURCE`, `MAX_PER_TOPIC_CLUSTER`
+- `OPENAI_API_MODE`, `OPENAI_MODEL`
+- `SELECTION_MODEL`, `OPENAI_SELECTION_MODEL`
+- `SELECTION_REASONING_EFFORT`, `OPENAI_SELECTION_REASONING_EFFORT`
+- `SELECTION_REASONING_SUMMARY`
+- `TRANSLATION_MODEL`, `OPENAI_TRANSLATION_MODEL`, `TRANSLATION_BATCH_SIZE`
+- `USER_PREFERENCE`, `EMAIL_SUBJECT`, `DRY_RUN`, `COMMIT_RUNTIME_STATE`
+
+The workflow defaults are `MAX_CANDIDATES=80`, `MAX_SELECTED=15`, `OPENAI_API_MODE=responses`, `TARGET_LANGUAGE=zh-CN`, `TIMEZONE=Asia/Shanghai`, `DRY_RUN=1`, and `COMMIT_RUNTIME_STATE=0` when repository variables are not set.
+
+The workflow checks out the repository, syncs latest `main`, installs dependencies, runs the pipeline, and uploads digest artifacts. It commits updated state/logs back to `main` only when `DRY_RUN` is not `1` and `COMMIT_RUNTIME_STATE=1`.
 
 The state/log commit is rebased before pushing, which reduces failures when `main` changes while the job is running.
+
+
+
 
 ## Outputs And Logs
 
@@ -294,6 +317,7 @@ The state/log commit is rebased before pushing, which reduces failures when `mai
 
 `processed_items.json` is useful for recovery if a workflow run sends email but fails before committing state.
 
+Run logs include LLM observability under `output_metrics.token_usage`, including the actual API mode, model names, input/output token counts, cached input tokens, reasoning tokens, response IDs, and optional selection reasoning summaries. `output_metrics.translation_integrity` records expected, returned, fallback, and missing translation counts. The email footer includes a compact selection/translation token summary.
 
 ## Demo
 [digest_preview.html](https://github.com/user-attachments/files/27551916/digest_preview.html)

@@ -13,6 +13,8 @@ def render_digest_html(
     generated_at: str,
     timezone: str,
     items: list[dict],
+    token_usage_summary: str | None = None,
+    schedule_summary: str | None = None,
 ) -> str:
     template_path = Path(template_path)
     env = Environment(
@@ -25,5 +27,7 @@ def render_digest_html(
         generated_at=generated_at,
         timezone=timezone,
         items=items,
+        token_usage_summary=token_usage_summary,
+        schedule_summary=schedule_summary,
         now=datetime.utcnow(),
     )

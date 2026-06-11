@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 import re
 import sys
@@ -14,7 +15,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from scripts.ai_processor import select_items, summarize_and_translate  # noqa: E402
+from scripts.ai_processor import TokenUsage, select_items, summarize_and_translate  # noqa: E402
 from scripts.email_renderer import render_digest_html  # noqa: E402
 from scripts.email_sender_resend import send_email_resend  # noqa: E402
 from scripts.normalize import news_item_to_dict  # noqa: E402
@@ -34,6 +35,41 @@ def _load_prompts(path: str) -> dict:
     if not isinstance(data, dict):
         raise RuntimeError(f"Invalid prompts config: {path}")
     return data
+
+
+def _get_reasoning_effort(name: str, fallback_name: str | None = None) -> str | None:
+    raw = os.getenv(name)
+    if (raw is None or raw.strip() == "") and fallback_name:
+        raw = os.getenv(fallback_name)
+    if raw is None or raw.strip() == "":
+        return None
+    value = raw.strip().lower()
+    allowed = {"none", "minimal", "low", "medium", "high", "xhigh"}
+    if value not in allowed:
+        raise RuntimeError(
+            f"Invalid {name}: {raw!r}. "
+            "Expected one of: none, minimal, low, medium, high, xhigh."
+        )
+    return value
+
+
+def _get_api_mode(name: str) -> str:
+    raw = getenv_str(name, "responses").strip().lower()
+    if raw not in {"responses", "chat"}:
+        raise RuntimeError(f"Invalid {name}: {raw!r}. Expected responses or chat.")
+    return raw
+
+
+def _get_reasoning_summary(name: str) -> str | None:
+    raw = os.getenv(name)
+    if raw is None or raw.strip() == "":
+        return None
+    value = raw.strip().lower()
+    if value in {"off", "none", "0", "false"}:
+        return None
+    if value not in {"auto", "concise", "detailed"}:
+        raise RuntimeError(f"Invalid {name}: {raw!r}. Expected off, auto, concise, or detailed.")
+    return value
 
 
 EXCLUDE_KEYWORDS = (
@@ -214,6 +250,88 @@ def _build_decision(*, is_match: bool, score: int, reason: str, confidence: floa
     }
 
 
+def _format_token_usage_summary(
+    *,
+    selection_model: str,
+    selection_usage: TokenUsage,
+    translation_model: str,
+    translation_usage: TokenUsage,
+) -> str:
+    return (
+        "本次运行 token 消耗："
+        f"selection({selection_model}) input {selection_usage.input_tokens}, output {selection_usage.output_tokens}；"
+        f"translation({translation_model}) input {translation_usage.input_tokens}, output {translation_usage.output_tokens}。"
+    )
+
+
+def _token_usage_log_payload(
+    *,
+    selection_model: str,
+    selection_usage: TokenUsage,
+    translation_model: str,
+    translation_usage: TokenUsage,
+) -> dict:
+    return {
+        "selection": {
+            "model": selection_model,
+            **selection_usage.model_dump(),
+        },
+        "translation": {
+            "model": translation_model,
+            **translation_usage.model_dump(),
+        },
+    }
+
+
+def _translation_integrity_payload(result) -> dict:
+    return {
+        "expected_count": int(getattr(result, "expected_count", 0) or 0),
+        "returned_count": int(getattr(result, "returned_count", 0) or 0),
+        "fallback_count": int(getattr(result, "fallback_count", 0) or 0),
+        "missing_sigs": list(getattr(result, "missing_sigs", []) or []),
+    }
+
+
+def _schedule_summary_from_github_event(*, timezone_name: str) -> str | None:
+    if os.getenv("GITHUB_EVENT_NAME") != "schedule":
+        return None
+    event_path = os.getenv("GITHUB_EVENT_PATH")
+    if not event_path:
+        return None
+    try:
+        with open(event_path, "r", encoding="utf-8") as f:
+            event = json.load(f)
+    except Exception:
+        return None
+
+    cron = str(event.get("schedule") or "").strip()
+    parts = cron.split()
+    if len(parts) != 5:
+        return None
+    minute, hour, day_of_month, month, day_of_week = parts
+    if not (minute.isdigit() and hour.isdigit()):
+        return f"计划触发：{cron} UTC"
+    if (day_of_month, month, day_of_week) != ("*", "*", "*"):
+        return f"计划触发：{cron} UTC"
+
+    local_tz = tz.gettz(timezone_name)
+    if local_tz is None:
+        return f"计划触发：{cron} UTC"
+    try:
+        import datetime as _dt
+
+        utc_dt = _dt.datetime.now(tz=_dt.timezone.utc).replace(
+            hour=int(hour),
+            minute=int(minute),
+            second=0,
+            microsecond=0,
+        )
+        local_dt = utc_dt.astimezone(local_tz)
+    except Exception:
+        return f"计划触发：{cron} UTC"
+    return f"计划触发：每日 {local_dt.strftime('%H:%M')} · {timezone_name}（cron: {cron} UTC）"
+
+
 def _summary_sentence_count(text: str | None) -> int:
     if not text:
         return 0
@@ -246,11 +364,18 @@ def main() -> int:
     timezone_name = getenv_str("TIMEZONE", "Asia/Shanghai")
 
     openai_model = getenv_str("OPENAI_MODEL", "gpt-4.1-nano")
+    openai_api_mode = _get_api_mode("OPENAI_API_MODE")
     selection_model = getenv_str("SELECTION_MODEL", getenv_str("OPENAI_SELECTION_MODEL", "gpt-4.1-mini"))
     translation_model = getenv_str("TRANSLATION_MODEL", getenv_str("OPENAI_TRANSLATION_MODEL", openai_model))
+    selection_reasoning_effort = _get_reasoning_effort(
+        "SELECTION_REASONING_EFFORT",
+        "OPENAI_SELECTION_REASONING_EFFORT",
+    )
+    selection_reasoning_summary = _get_reasoning_summary("SELECTION_REASONING_SUMMARY")
     min_match_score = getenv_int("MIN_MATCH_SCORE", 60)
     max_per_source = getenv_int("MAX_PER_SOURCE", 2)
     max_per_topic_cluster = getenv_int("MAX_PER_TOPIC_CLUSTER", 2)
+    translation_batch_size = getenv_int("TRANSLATION_BATCH_SIZE", 3)
 
     dry_run = getenv_str("DRY_RUN", "").lower() in {"1", "true", "yes"}
 
@@ -310,6 +435,14 @@ def main() -> int:
     evaluation_logs: list[dict] = []
     selected: list[dict] = []
     translated: list[dict] = []
+    selection_token_usage = TokenUsage(api_mode=openai_api_mode)
+    translation_token_usage = TokenUsage(api_mode=openai_api_mode)
+    translation_integrity: dict = {
+        "expected_count": 0,
+        "returned_count": 0,
+        "fallback_count": 0,
+        "missing_sigs": [],
+    }
     selection_metrics: dict = {
         "excluded_keyword_count": len(excluded_items),
         "excluded_keyword_reasons": dict(Counter(it.get("exclude_reason", "unknown") for it in excluded_items)),
@@ -329,7 +462,11 @@ def main() -> int:
                 model=selection_model,
                 max_selected=max_selected,
                 topic_hint=user_preference,
+                api_mode=openai_api_mode,
+                reasoning_effort=selection_reasoning_effort,
+                reasoning_summary=selection_reasoning_summary,
             )
+            selection_token_usage = selection_res.token_usage
             for item in selection_res.items:
                 selected_by_index[item.index] = {
                     "score": item.score,
@@ -409,13 +546,18 @@ def main() -> int:
         )
 
         try:
-            batch_translated = summarize_and_translate(
+            translation_res = summarize_and_translate(
                 selected,
                 model=translation_model,
                 target_language=target_language,
                 system_prompt=translation_system_prompt,
                 user_prompt_template=translation_user_template,
+                api_mode=openai_api_mode,
+                batch_size=translation_batch_size,
             )
+            batch_translated = translation_res.items
+            translation_token_usage = translation_res.token_usage
+            translation_integrity = _translation_integrity_payload(translation_res)
             translated = [
                 {
                     "sig": it.sig,
@@ -433,6 +575,12 @@ def main() -> int:
                 for idx, it in enumerate(batch_translated)
             ]
         except Exception as e:
+            translation_integrity = {
+                "expected_count": len(selected),
+                "returned_count": 0,
+                "fallback_count": len(selected),
+                "missing_sigs": [str(it.get("sig") or "") for it in selected],
+            }
             for it in selected:
                 content = (it.get("content_text", "") or it.get("title", ""))[:500]
                 translated.append(
@@ -470,6 +618,7 @@ def main() -> int:
 
     subject_date = utc_now_iso()[:10]
     subject = getenv_str("EMAIL_SUBJECT", f"Daily Digest · {subject_date}")
+    schedule_summary = _schedule_summary_from_github_event(timezone_name=timezone_name)
 
     local_tz = tz.gettz(timezone_name)
     generated_at = utc_now_iso()
@@ -488,6 +637,13 @@ def main() -> int:
         generated_at=generated_at,
         timezone=timezone_name,
         items=processed,
+        token_usage_summary=_format_token_usage_summary(
+            selection_model=selection_model,
+            selection_usage=selection_token_usage,
+            translation_model=translation_model,
+            translation_usage=translation_token_usage,
+        ),
+        schedule_summary=schedule_summary,
     )
 
     output_metrics = {
@@ -495,6 +651,14 @@ def main() -> int:
         "selected_topic_distribution": dict(Counter(_topic_cluster(it) for it in selected)),
         "excluded_keyword_count": selection_metrics["excluded_keyword_count"],
         "summary_sentence_stats": _sentence_stats(processed),
+        "translation_integrity": translation_integrity,
+        "schedule_summary": schedule_summary,
+        "token_usage": _token_usage_log_payload(
+            selection_model=selection_model,
+            selection_usage=selection_token_usage,
+            translation_model=translation_model,
+            translation_usage=translation_token_usage,
+        ),
     }
 
     out_dir = REPO_ROOT / "out"
@@ -521,7 +685,10 @@ def main() -> int:
                 "prompts_config": prompts_path,
                 "settings_config": settings_path,
                 "model": openai_model,
+                "openai_api_mode": openai_api_mode,
                 "selection_model": selection_model,
+                "selection_reasoning_effort": selection_reasoning_effort,
+                "selection_reasoning_summary": selection_reasoning_summary,
                 "translation_model": translation_model,
                 "target_language": target_language,
                 "user_preference": user_preference,
@@ -530,6 +697,7 @@ def main() -> int:
                 "max_selected": max_selected,
                 "max_per_source": max_per_source,
                 "max_per_topic_cluster": max_per_topic_cluster,
+                "translation_batch_size": translation_batch_size,
             },
             "selection_metrics": selection_metrics,
             "output_metrics": output_metrics,
@@ -575,7 +743,10 @@ def main() -> int:
             "prompts_config": prompts_path,
             "settings_config": settings_path,
             "model": openai_model,
+            "openai_api_mode": openai_api_mode,
             "selection_model": selection_model,
+            "selection_reasoning_effort": selection_reasoning_effort,
+            "selection_reasoning_summary": selection_reasoning_summary,
             "translation_model": translation_model,
             "target_language": target_language,
             "user_preference": user_preference,
@@ -584,6 +755,7 @@ def main() -> int:
             "max_selected": max_selected,
             "max_per_source": max_per_source,
             "max_per_topic_cluster": max_per_topic_cluster,
+            "translation_batch_size": translation_batch_size,
         },
         "selection_metrics": selection_metrics,
         "output_metrics": output_metrics,

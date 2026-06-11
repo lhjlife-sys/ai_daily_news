@@ -153,7 +153,7 @@
 
       <!-- ══ Footer ══ -->
       <div class="ftr">
-        <p>您收到此邮件，因为您配置了该仓库的 GitHub Actions 工作流。<br>{{ generated_at }} 生成 · {{ timezone }}</p>
+        <p>您收到此邮件，因为您配置了该仓库的 GitHub Actions 工作流。<br>{% if token_usage_summary %}{{ token_usage_summary }}<br>{% endif %}{% if schedule_summary %}{{ schedule_summary }}<br>{% endif %}{{ generated_at }} 生成 · {{ timezone }}</p>
       </div>
 
     </div><!-- /inner -->

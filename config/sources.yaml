@@ -2,12 +2,14 @@ sources:
   - id: hackernews
     name: "Hacker News: Front Page"
     url: "https://news.ycombinator.com/rss"
-  - id: arxiv_cs
-    name: "arXiv CS (new submissions)"
-    url: "https://export.arxiv.org/rss/cs"
+
   - id: verge
     name: "The Verge: Tech & Science"
     url: "https://www.theverge.com/rss/index.xml"
+
+  - id: IT之家
+    name: "IThome: 24h Ranking"
+    url: "https://rsshub.app/ithome/ranking/24h"
 
   - id: ars_technica
     name: "Ars Technica"
@@ -37,6 +39,18 @@ sources:
     name: "WSJ: Markets News"
     url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
 
+  - id: yahoo_business
+    name: "yahoo business"
+    url: "https://news.yahoo.com/rss/business"
+
+  - id: yahoo_health
+    name: "yahoo health"
+    url: "http://rss.news.yahoo.com/rss/health"
+
+  - id: yahoo_tech
+    name: "yahoo technology"
+    url: "https://news.yahoo.com/rss/tech"
+
   - id: cnbc_finance
     name: "CNBC: Finance"
     url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
@@ -45,6 +59,6 @@ sources:
     name: "The Economist: World News"
     url: "https://www.economist.com/the-world-this-week/rss.xml"
 
-id: wired_top_stories
-name: "Wired: Top Stories"
-url: "https://www.wired.com/feed/rss"
+  - id: wired_top_stories
+    name: "Wired: Top Stories"
+    url: "https://www.wired.com/feed/rss"

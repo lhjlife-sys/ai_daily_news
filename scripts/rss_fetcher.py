@@ -76,7 +76,7 @@ def fetch_source(source: Source, timeout: int = 20) -> list[NewsItem]:
     response = requests.get(
         source.url,
         headers={
-            "User-Agent": "rss-ai-digest-email-pipeline/1.0 (+https://github.com/wyivz/rss_AI_digest_email_pipeline)",
+            "User-Agent": "rss-ai-email-digest/1.0 (+https://github.com/wyivz/rss_AI_email_pipeline)",
             "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
         },
         timeout=timeout,
@@ -123,7 +123,7 @@ def fetch_all(sources: Iterable[Source], timeout: int = 20) -> tuple[list[NewsIt
             response = requests.get(
                 s.url,
                 headers={
-                    "User-Agent": "rss-ai-digest-email-pipeline/1.0 (+https://github.com/wyivz/rss_AI_digest_email_pipeline)",
+                    "User-Agent": "rss-ai-email-digest/1.0 (+https://github.com/wyivz/rss_AI_email_pipeline)",
                     "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
                 },
                 timeout=timeout,

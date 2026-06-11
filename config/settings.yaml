@@ -1,6 +1,6 @@
 pipeline:
   user_preference: >
-    MUST include: technology products, computer engineering, technology companies stock markets.
-    PREFER: world politics (major events only), finance & markets, science breakthroughs, Canada.
+    MUST include: high-signal technology, science, business, and world news.
+    PREFER: software engineering, AI research, hardware, security, finance, policy, and practical technical context.
     EXCLUDE: entertainment, sports, celebrity news, lifestyle, music/film reviews.
-    When in doubt, prefer technical depth over breadth.
+    When in doubt, prefer factual depth and broad reader relevance.
