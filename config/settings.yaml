@@ -1,6 +1,8 @@
 pipeline:
   user_preference: >
-    MUST include: high-signal technology, science, business, and world news.
-    PREFER: software engineering, AI research, hardware, security, finance, policy, and practical technical context.
-    EXCLUDE: entertainment, sports, celebrity news, lifestyle, music/film reviews.
-    When in doubt, prefer factual depth and broad reader relevance.
+    MUST include: AI industry news — new model releases, product launches,
+    research breakthroughs, funding, policy/regulation, and major company moves.
+    PREFER: LLM, agents, multimodal AI, inference/training infrastructure,
+    open-source models, and practical developer tools.
+    EXCLUDE: general entertainment, sports, celebrity, lifestyle, non-AI tech gossip.
+    When in doubt, prefer high-signal AI developments over broad tech news.
