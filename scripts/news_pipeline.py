@@ -9,15 +9,19 @@ from pathlib import Path
 
 from dateutil import tz
 import yaml
+from dotenv import load_dotenv
 
 # Allow `python scripts/news_pipeline.py` from repo root.
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+load_dotenv(REPO_ROOT / ".env")
+
 from scripts.ai_processor import TokenUsage, select_items, summarize_and_translate  # noqa: E402
 from scripts.email_renderer import render_digest_html  # noqa: E402
 from scripts.email_sender_resend import send_email_resend  # noqa: E402
+from scripts.email_sender_smtp import send_email_smtp  # noqa: E402
 from scripts.normalize import news_item_to_dict  # noqa: E402
 from scripts.run_log_store import load_dedup_signatures_from_logs, trim_old_logs, write_run_log  # noqa: E402
 from scripts.rss_fetcher import fetch_all, load_sources, sort_items_newest_first  # noqa: E402
@@ -54,10 +58,17 @@ def _get_reasoning_effort(name: str, fallback_name: str | None = None) -> str | 
 
 
 def _get_api_mode(name: str) -> str:
-    raw = getenv_str(name, "responses").strip().lower()
+    raw = getenv_str(name, "chat").strip().lower()
     if raw not in {"responses", "chat"}:
         raise RuntimeError(f"Invalid {name}: {raw!r}. Expected responses or chat.")
     return raw
+
+
+def _send_digest_email(*, from_email: str, to_email: str, subject: str, html: str) -> dict:
+    provider = getenv_str("EMAIL_PROVIDER", "smtp").strip().lower()
+    if provider == "resend":
+        return send_email_resend(from_email=from_email, to_email=to_email, subject=subject, html=html)
+    return send_email_smtp(from_email=from_email, to_email=to_email, subject=subject, html=html)
 
 
 def _get_reasoning_summary(name: str) -> str | None:
@@ -474,6 +485,7 @@ def main() -> int:
                 }
         except Exception as e:
             selection_error = str(e)
+            _log(f"[warn] selection_failed: {selection_error}")
 
         decision_by_index: dict[int, dict] = {}
         for idx, it in enumerate(candidates):
@@ -720,8 +732,8 @@ def main() -> int:
     if not email_to or not email_from:
         raise RuntimeError("Missing EMAIL_TO or EMAIL_FROM (required unless DRY_RUN=1).")
 
-    resp = send_email_resend(from_email=email_from, to_email=email_to, subject=subject, html=html)
-    _log(f"Resend response: {resp}")
+    resp = _send_digest_email(from_email=email_from, to_email=email_to, subject=subject, html=html)
+    _log(f"Email sent via {getenv_str('EMAIL_PROVIDER', 'smtp')}: {resp}")
 
     # Update state only on successful send.
     mark_sent(state, translated)

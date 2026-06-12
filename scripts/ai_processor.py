@@ -137,8 +137,47 @@ TRANSLATION_RESPONSE_SCHEMA: dict[str, Any] = {
 }
 
 
+def _use_json_object_mode() -> bool:
+    """DeepSeek and similar APIs only support json_object, not json_schema."""
+    mode = os.getenv("LLM_JSON_MODE", "").strip().lower()
+    if mode in {"json_object", "1", "true", "yes"}:
+        return True
+    base = os.getenv("OPENAI_BASE_URL", "").lower()
+    return "deepseek.com" in base
+
+
 def _client() -> OpenAI:
+    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
+    if base_url:
+        return OpenAI(base_url=base_url)
     return OpenAI()
+
+
+def _normalize_selection_items(data: Any) -> list[dict[str, Any]]:
+    if not isinstance(data, dict):
+        return []
+    raw_items = data.get("items")
+    if not isinstance(raw_items, list):
+        return []
+    normalized: list[dict[str, Any]] = []
+    for item in raw_items:
+        if not isinstance(item, dict):
+            continue
+        idx = item.get("index", item.get("i"))
+        if idx is None:
+            continue
+        try:
+            idx_int = int(idx)
+        except (TypeError, ValueError):
+            continue
+        score = item.get("score", 0)
+        try:
+            score_int = int(score)
+        except (TypeError, ValueError):
+            score_int = 0
+        reason = str(item.get("reason") or item.get("why") or "")
+        normalized.append({"index": idx_int, "score": score_int, "reason": reason})
+    return normalized
 
 
 def _get(obj: Any, name: str, default: Any = None) -> Any:
@@ -319,6 +358,7 @@ def _chat_json(
         request["reasoning_effort"] = reasoning_effort
     else:
         request["temperature"] = 0.2
+    request["max_tokens"] = int(os.getenv("OPENAI_MAX_TOKENS", "8192"))
     resp = client.chat.completions.create(**request)
     content = resp.choices[0].message.content or "{}"
     return _parse_json_content(content), _token_usage_from_response(resp, api_mode="chat")
@@ -502,7 +542,7 @@ def select_items(
 
     system = (
         "You are an editor selecting high-signal news for a daily digest. "
-        "Return strict JSON only."
+        "Respond with valid JSON only."
     )
     hint = f"Topic focus: {topic_hint}\n" if topic_hint else ""
     user = (
@@ -514,10 +554,8 @@ def select_items(
         "- Exclude entertainment, sports, celebrity, lifestyle content\n"
         "- Prefer source diversity; avoid selecting more than 2 items from the same source when alternatives exist\n"
         "Criteria: relevance, novelty, informational density.\n"
-        "Return JSON with key: items (array). Each item must include:\n"
-        "- index (int)\n"
-        "- score (0-100)\n"
-        "- reason (one sentence explaining why this item was selected)\n\n"
+        "Return a JSON object with key items (array). Each item must include index (int), score (0-100), reason (string).\n"
+        'Example JSON: {"items":[{"index":0,"score":85,"reason":"Major AI model release."}]}\n\n'
         f"Items: {json.dumps(slim, ensure_ascii=False)}"
     )
 
@@ -531,9 +569,13 @@ def select_items(
         reasoning_effort=reasoning_effort,
         reasoning_summary=reasoning_summary,
     )
+    normalized_items = _normalize_selection_items(data)
+    if normalized_items:
+        data = {"items": normalized_items}
     try:
         res = SelectionResult.model_validate(data)
-    except Exception:
+    except Exception as exc:
+        print(f"[warn] selection JSON validation failed: {exc}", flush=True)
         res = SelectionResult(items=[])
     res.token_usage = token_usage
 
@@ -567,7 +609,7 @@ def summarize_and_translate(
         system = (
             "You are a professional news analyst and translator. "
             "Translate and structure items for a Chinese daily digest. "
-            "Return strict JSON only."
+            "Respond with valid JSON only."
         )
 
     def build_payload(batch_items: list[dict]) -> list[dict]:
@@ -603,8 +645,11 @@ def summarize_and_translate(
             f"- translated_summary: 5-8 factual sentences in {target_language} with key numbers/names.\n"
             f"- key_points: exactly 3 concise fact bullets in {target_language}, each under 60 characters.\n"
             f"- why_it_matters: one sentence in {target_language} on broader significance.\n"
-            "Return JSON object with key items: an array, preserving input order. Each element must include:\n"
-            "sig, title, url, source_name, published_at, summary, translated_title, translated_summary, key_points, why_it_matters.\n\n"
+            "Return a JSON object with key items: an array, preserving input order. Each element must include:\n"
+            "sig, title, url, source_name, published_at, summary, translated_title, translated_summary, key_points, why_it_matters.\n"
+            'Example JSON: {"items":[{"sig":"abc","title":"t","url":"u","source_name":"s","published_at":null,'
+            '"summary":"","translated_title":"标题","translated_summary":"摘要","key_points":["a","b","c"],'
+            '"why_it_matters":"意义"}]}\n\n'
             f"Input items: {json.dumps(payload, ensure_ascii=False)}"
         )
         return user
