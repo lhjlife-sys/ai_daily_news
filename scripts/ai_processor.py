@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from collections import Counter
 from typing import Any
 
@@ -308,8 +309,12 @@ def _chat_json(
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
-        "response_format": _chat_response_format(schema_name, schema),
     }
+    if _use_json_object_mode():
+        # DeepSeek JSON Output: https://api-docs.deepseek.com/guides/json_mode
+        request["response_format"] = {"type": "json_object"}
+    else:
+        request["response_format"] = _chat_response_format(schema_name, schema)
     if reasoning_effort:
         request["reasoning_effort"] = reasoning_effort
     else:
@@ -485,7 +490,7 @@ def select_items(
         source_name = it.get("source_name", it.get("source_id", ""))
         slim.append(
             {
-                "i": i,
+                "index": i,   # 原来是 "i": i
                 "title": it.get("title", ""),
                 "source": source_name,
                 "source_count": source_counts.get(source_name, 0),
