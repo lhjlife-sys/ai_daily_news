@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-12T14:27:09+00:00",
+  "updated_at": "2026-06-12T14:35:01+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -61,6 +61,51 @@
       "sig": "02b9c90015956d47433b25362b2897ae6416ebf3ff2881365105471cb2e2794c",
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "554ef6c84799aa2aab8f6a66593b17cbced9144cec04eb217594e1853f330ea5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "416f1eec7676dbeb9ae83f45ce4a5939bd7ddff59f32eaae46247ba3ec36169d",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "c663906cd60c6febe8ba39e12d6d278d65c0675ece3847f7689f1136c81b120c",
+      "url": "https://9to5mac.com/2026/06/08/craig-federighi-details-apples-collaboration-with-google-for-siri-ai-in-ios-27/",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "4dbb4daa381a06bf988e871d7723c4978c616f4bf716d1ff88f61afc5779474e",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "c28761bd296716ea5420323873aef29f90772cf79e33d3f601847ce417d713c0",
+      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "04c1d26ba61347eee091bca614912e14d03b90699b0b7c7e370befed36bd9fc5",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "0494efb8a3ac88df7b4a8c541f12b798a0e474d3bfe7f46e00c55d585b2f6b89",
+      "url": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "be3ad97197e440f09d9787e74823bfeb3bac2e53a250cdacbfc318df147cef29",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "4de8c57f473bc55c73072e54061acdbf871d2f4366923b54b1fec6e94d336bf7",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "sent_at": "2026-06-12T14:35:01+00:00"
     }
   ]
 }
