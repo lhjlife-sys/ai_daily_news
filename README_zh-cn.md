@@ -1,6 +1,6 @@
 # RSS AI Digest Email Pipeline
 
-[![Daily RSS AI Digest](https://github.com/wyivz/rss_AI_digest_email_pipeline/actions/workflows/daily-news.yml/badge.svg)](https://github.com/wyivz/rss_AI_digest_email_pipeline/actions/workflows/daily-news.yml)
+[![Daily RSS AI Digest](https://github.com/lhjlife-sys/ai_daily_news/actions/workflows/daily-news.yml/badge.svg)](https://github.com/lhjlife-sys/ai_daily_news/actions/workflows/daily-news.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-LLM-412991?logo=openai&logoColor=white)
 ![Resend](https://img.shields.io/badge/Email-Resend-000000)
