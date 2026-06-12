@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-12T14:35:01+00:00",
+  "updated_at": "2026-06-12T14:56:17+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -106,6 +106,51 @@
       "sig": "4de8c57f473bc55c73072e54061acdbf871d2f4366923b54b1fec6e94d336bf7",
       "url": "https://huggingface.co/blog/hf-cli-for-agents",
       "sent_at": "2026-06-12T14:35:01+00:00"
+    },
+    {
+      "sig": "3381a474afe6dd0c98d7796295dbfeb6c7dc694a966fc06adcf64084e6993a56",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "45b0a390bb942370762c9a8c82e7d2aa2b2094f81221d3248feec2d11b634977",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "9bc16690ccf90e497a290f9a2acb48ccfef99fae22bee1e8c5018c2d46909424",
+      "url": "https://arxiv.org/abs/2606.12451",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "42b1adc7739ed11ab68a4ef4b96542527bc3845c68d129760b1817642c673a74",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "c3ab8c2b1dbfd6f45f5909420b29ccecdb3f8256a83f8c57488ed1ebf24f7c24",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "e7455462824dd896e2c037fa8bc0f249fbbd1fd1ad5eec3d5c315563ac592aa8",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "37a356f2d0f05f3ac227812746c3466f6fe0ec439328cd74c0e5e5946fcf2919",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "ed1c2193d6b80a8c39ebbf42a00eaaaf49de6e8851625cf1cc669747962c1978",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "fadcefb41d0aa0be21f9fe9a26df4583ed7818afe3a3a11116c883d673ebe9f9",
+      "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/",
+      "sent_at": "2026-06-12T14:56:17+00:00"
     }
   ]
 }
