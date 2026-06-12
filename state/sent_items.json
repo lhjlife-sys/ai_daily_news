@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-12T13:43:48+00:00",
+  "updated_at": "2026-06-12T14:27:09+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -31,6 +31,36 @@
       "sig": "ab13ad334f3918262fe92b8f281c5b93365e56d969ca4eb4ab825253320b62a3",
       "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
       "sent_at": "2026-06-12T13:43:48+00:00"
+    },
+    {
+      "sig": "b25b2eec7bd70abacf1f604d6cb4b598deb5b9498160a49a19709e3a3cd75543",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
+      "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "c512bbaf334263a83fb6f7d15b454df7c34b147ff2cb85b3734826be182d440c",
+      "url": "https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf",
+      "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "76338580cdcca0ea57edcc3391b7a430baa3064a46b69b2d2b5daae3219f6546",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "bc2f663b5543662689a214012100c69d39aa7b07c7fb9c2f310fd41b069b5cf2",
+      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+      "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "32a436ff121f8d99546b4d6e433fd588e96fb0a3d3d6e748a70352e1e3038817",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "sent_at": "2026-06-12T14:27:09+00:00"
+    },
+    {
+      "sig": "02b9c90015956d47433b25362b2897ae6416ebf3ff2881365105471cb2e2794c",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "sent_at": "2026-06-12T14:27:09+00:00"
     }
   ]
 }
