@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-12T14:56:17+00:00",
+  "updated_at": "2026-06-13T03:45:47+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -151,6 +151,46 @@
       "sig": "fadcefb41d0aa0be21f9fe9a26df4583ed7818afe3a3a11116c883d673ebe9f9",
       "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/",
       "sent_at": "2026-06-12T14:56:17+00:00"
+    },
+    {
+      "sig": "f53f7bc596980a1cc4c2a9a6cb26ca40da542808e1e4b4638bf42cab8c651662",
+      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "533d0694cd8a54af3062f4f7c64c91a60b2bd7633e7dfec240a5667fd8baf012",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "7d59dffb0893cd3f746c7cafa8c67b285a5138ceed08f57a8f737514a0437518",
+      "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "8f17aa587489de7693c0cbaf872e18445d4df304b81382d003119fbf12c08fdc",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "99929da37dd40050d05ea4b483e680ee7d11b8593155da23ef1db5e26b9748d2",
+      "url": "https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year/",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "41cdeaa8f7ac2acb1e3f1de0c2cc3c358efff33b66c60ed780311ffa5d6b79ea",
+      "url": "https://arxiv.org/abs/2606.12797",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "071ef486161ea85226d79e006e04748785a17b7278bd23c6cbcd761bb3f347b8",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "b040c6a9760044cef0af7ff5adeba2353e63a755fca8ed4f4c6835246b9604c6",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "sent_at": "2026-06-13T03:45:47+00:00"
     }
   ]
 }
