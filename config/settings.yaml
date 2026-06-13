@@ -1,8 +1,20 @@
 pipeline:
+  max_selected: 20
   user_preference: >
-    MUST include: AI industry news — new model releases, product launches,
-    research breakthroughs, funding, policy/regulation, and major company moves.
-    PREFER: LLM, agents, multimodal AI, inference/training infrastructure,
-    open-source models, and practical developer tools.
-    EXCLUDE: general entertainment, sports, celebrity, lifestyle, non-AI tech gossip.
-    When in doubt, prefer high-signal AI developments over broad tech news.
+    MUST cover ALL FOUR AI stack layers in each digest (when fresh news exists):
+    1) COMPUTE — datacenter, cloud AI compute, training/inference infra, capex, power/cooling.
+    2) CHIP — GPU/TPU/ASIC, foundry, packaging, supply chain, semiconductor policy.
+    3) MODEL — foundation model releases, open weights, research breakthroughs, agents (model-side).
+    4) APPLICATION — enterprise adoption, SaaS, vertical solutions, Copilot-style products, workflows.
+
+    ALSO MUST include capital markets signal:
+    - US listed AI leaders: earnings, guidance, analyst moves, material stock reactions.
+    - China: A-share/HK AI names, BAT/字节/华为/小米 AI strategy, 融资/IPO/监管.
+
+    HARD LIMIT: select at most 20 items total. Prefer breadth across layers over depth in one layer.
+
+    PREFER: concrete numbers (revenue, capex, shipments, valuation, utilization).
+
+    EXCLUDE: sports/entertainment/celebrity/lifestyle; crypto price noise; gadget reviews without AI angle.
+
+    When trade-offs exist, ensure no single layer dominates; capital news should attach to its layer context.

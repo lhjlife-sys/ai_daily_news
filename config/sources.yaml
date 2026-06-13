@@ -1,40 +1,117 @@
 sources:
+  # --- 模型层 model ---
   - id: openai
     name: "OpenAI Blog"
+    category: model
     url: "https://openai.com/blog/rss.xml"
 
   - id: deepmind
     name: "Google DeepMind"
+    category: model
     url: "https://deepmind.google/blog/rss.xml"
 
   - id: huggingface
     name: "Hugging Face Blog"
+    category: model
     url: "https://huggingface.co/blog/feed.xml"
 
   - id: arxiv_cs_ai
     name: "arXiv cs.AI"
+    category: model
     url: "https://rss.arxiv.org/rss/cs.AI"
 
   - id: hn_ai
     name: "Hacker News: AI (10+ points)"
+    category: model
     url: "https://hnrss.org/newest?q=AI&points=10"
 
   - id: verge_ai
     name: "The Verge: AI"
+    category: model
     url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
 
   - id: techcrunch_ai
     name: "TechCrunch: AI"
+    category: model
     url: "https://techcrunch.com/category/artificial-intelligence/feed/"
 
+  # --- 算力层 compute ---
+  - id: datacenter_dynamics
+    name: "Data Center Dynamics"
+    category: compute
+    url: "https://www.datacenterdynamics.com/en/rss/"
+
+  - id: the_register
+    name: "The Register"
+    category: compute
+    url: "https://www.theregister.com/headlines.atom"
+
+  # --- 芯片层 chip ---
+  - id: nvidia_news
+    name: "NVIDIA Newsroom"
+    category: chip
+    url: "https://nvidianews.nvidia.com/rss.xml"
+
+  - id: toms_hardware
+    name: "Tom's Hardware"
+    category: chip
+    url: "https://www.tomshardware.com/feeds/all"
+
+  # --- 应用层 application ---
+  - id: venturebeat_ai
+    name: "VentureBeat AI"
+    category: application
+    url: "https://venturebeat.com/category/ai/feed/"
+
+  - id: infoq_ai
+    name: "InfoQ"
+    category: application
+    url: "https://feed.infoq.com/"
+
+  # --- 资本市场 capital_public ---
+  - id: marketwatch
+    name: "MarketWatch Top Stories"
+    category: capital_public
+    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+
+  - id: cnbc_tech
+    name: "CNBC Technology"
+    category: capital_public
+    url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"
+
+  # --- 中国资本/产业 china_ai_capital ---
+  - id: jiqizhixin
+    name: "机器之心"
+    category: china_ai_capital
+    url: "https://www.jiqizhixin.com/rss"
+
+  - id: qbitai
+    name: "量子位"
+    category: china_ai_capital
+    url: "https://www.qbitai.com/feed"
+
+  - id: kr36
+    name: "36氪"
+    category: china_ai_capital
+    url: "https://36kr.com/feed"
+
+  - id: huxiu
+    name: "虎嗅"
+    category: china_ai_capital
+    url: "https://rss.huxiu.com/"
+
+  # --- 泛科技 general（低采样权重） ---
   - id: mit_tech_review
     name: "MIT Technology Review"
+    category: general
     url: "https://www.technologyreview.com/feed/"
 
   - id: wired
     name: "Wired"
+    category: general
     url: "https://www.wired.com/feed/rss"
 
   - id: ars_technica
     name: "Ars Technica"
+    category: general
     url: "https://feeds.arstechnica.com/arstechnica/index"

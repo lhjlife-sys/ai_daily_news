@@ -108,23 +108,49 @@ EXCLUDE_KEYWORDS = (
     "movie",
     "tv",
     "television",
-    "review",
+    "movie review",
+    "film review",
     "hollywood",
     "box office",
 )
 
+STACK_LAYERS = ("compute", "chip", "model", "application")
+
+CATEGORY_SAMPLE_WEIGHTS: dict[str, float] = {
+    "compute": 0.15,
+    "chip": 0.15,
+    "model": 0.25,
+    "application": 0.20,
+    "capital_public": 0.12,
+    "china_ai_capital": 0.13,
+    "general": 0.05,
+}
+
 TOPIC_KEYWORDS = (
-    ("semiconductors", ("chip", "chips", "semiconductor", "nvidia", "amd", "intel", "tsmc")),
-    ("software", ("software", "developer", "programming", "cloud", "security", "cyber", "app")),
-    ("finance", ("stock", "stocks", "market", "markets", "fed", "rates", "inflation", "earnings")),
-    ("crypto", ("bitcoin", "crypto", "ethereum", "blockchain")),
-    ("ai", ("ai", "artificial intelligence", "openai", "llm", "machine learning", "model")),
-    ("geopolitics", ("china", "russia", "ukraine", "israel", "iran", "tariff", "trade", "war")),
-    ("elections", ("election", "vote", "voters", "parliament", "congress", "president")),
-    ("canada", ("canada", "canadian", "ottawa", "toronto", "vancouver")),
-    ("science", ("science", "research", "study", "space", "nasa", "physics")),
-    ("climate", ("climate", "weather", "emissions", "carbon", "energy")),
-    ("health", ("health", "drug", "medicine", "disease", "vaccine")),
+    ("compute", (
+        "datacenter", "data center", "cloud compute", "inference cluster", "training cluster",
+        "capex", "gpu cluster", "liquid cooling", "hyperscaler", "算力", "数据中心",
+    )),
+    ("chip", (
+        "gpu", "tpu", "asic", "nvidia", "amd", "intel", "tsmc", "asml", "hbm", "semiconductor",
+        "foundry", "blackwell", "chiplet", "芯片", "代工",
+    )),
+    ("model", (
+        "foundation model", "open-source model", "open source model", "llm", "gpt", "claude",
+        "multimodal", "reasoning model", "agent framework", "arxiv", "基座模型", "大模型",
+    )),
+    ("application", (
+        "enterprise ai", "copilot", "saas", "vertical ai", "workflow", "落地", "商业化",
+        "industry solution", "developer tool",
+    )),
+    ("capital_public", (
+        "earnings", "guidance", "analyst", "market cap", "stock", "shares", "ipo", "valuation",
+        "m&a", "merger", "acquisition", "财报", "股价",
+    )),
+    ("china_ai_capital", (
+        "a股", "港股", "字节", "阿里", "腾讯", "华为", "小米", "融资", "上市", "监管", "证监会",
+        "bat", "bytedance",
+    )),
 )
 
 STOPWORDS = {
@@ -198,6 +224,23 @@ def _topic_cluster(item: dict) -> str:
     return "misc:" + "-".join(tokens[:3]) if tokens else "misc:unknown"
 
 
+def _item_category(item: dict) -> str:
+    cat = str(item.get("category") or "").strip().lower()
+    if cat in CATEGORY_SAMPLE_WEIGHTS:
+        return cat
+    topic = _topic_cluster(item)
+    if topic in CATEGORY_SAMPLE_WEIGHTS:
+        return topic
+    return "general"
+
+
+def _item_layer(item: dict) -> str | None:
+    cat = _item_category(item)
+    if cat in STACK_LAYERS:
+        return cat
+    return None
+
+
 def _is_similar_topic(tokens: set[str], selected_token_sets: list[set[str]]) -> bool:
     if not tokens:
         return False
@@ -211,43 +254,77 @@ def _is_similar_topic(tokens: set[str], selected_token_sets: list[set[str]]) -> 
     return False
 
 
+def _category_sample_limits(limit: int) -> dict[str, int]:
+    if limit <= 0:
+        return {}
+    raw = {cat: max(1, int(limit * weight)) for cat, weight in CATEGORY_SAMPLE_WEIGHTS.items()}
+    total = sum(raw.values())
+    if total <= limit:
+        return raw
+    order = sorted(CATEGORY_SAMPLE_WEIGHTS.keys(), key=lambda c: raw[c], reverse=True)
+    while total > limit:
+        for cat in order:
+            if raw[cat] > 1 and total > limit:
+                raw[cat] -= 1
+                total -= 1
+    return raw
+
+
 def _balanced_candidate_sample(items: list[dict], limit: int) -> list[dict]:
     if limit <= 0:
         return []
 
-    source_topic_groups: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
-    source_order: list[str] = []
-    topic_order_by_source: dict[str, list[str]] = defaultdict(list)
+    category_limits = _category_sample_limits(limit)
+    category_source_groups: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    category_order: list[str] = []
+    source_order_by_category: dict[str, list[str]] = defaultdict(list)
     for item in items:
+        category = _item_category(item)
         source = str(item.get("source_name") or item.get("source_id") or "unknown")
-        topic = _topic_cluster(item)
-        if source not in source_topic_groups:
-            source_order.append(source)
-        if topic not in source_topic_groups[source]:
-            topic_order_by_source[source].append(topic)
-        source_topic_groups[source][topic].append(item)
+        if category not in category_source_groups:
+            category_order.append(category)
+        if source not in category_source_groups[category]:
+            source_order_by_category[category].append(source)
+        category_source_groups[category][source].append(item)
 
-    topic_pos_by_source = {source: 0 for source in source_order}
+    preferred_order = [c for c in CATEGORY_SAMPLE_WEIGHTS if c in category_order]
+    preferred_order.extend(c for c in category_order if c not in preferred_order)
+    source_pos_by_category = {category: 0 for category in preferred_order}
+    category_counts: Counter[str] = Counter()
     sampled: list[dict] = []
+
     while len(sampled) < limit:
         progressed = False
-        for source in source_order:
-            topic_order = topic_order_by_source[source]
-            if not topic_order:
+        for category in preferred_order:
+            if category_counts[category] >= category_limits.get(category, 1):
                 continue
-            for _ in range(len(topic_order)):
-                pos = topic_pos_by_source[source] % len(topic_order)
-                topic = topic_order[pos]
-                topic_pos_by_source[source] += 1
-                bucket = source_topic_groups[source][topic]
+            source_order = source_order_by_category[category]
+            if not source_order:
+                continue
+            for _ in range(len(source_order)):
+                pos = source_pos_by_category[category] % len(source_order)
+                source = source_order[pos]
+                source_pos_by_category[category] += 1
+                bucket = category_source_groups[category][source]
                 if bucket:
                     sampled.append(bucket.pop(0))
+                    category_counts[category] += 1
                     progressed = True
                     break
             if len(sampled) >= limit:
                 break
         if not progressed:
             break
+
+    if len(sampled) < limit:
+        remaining: list[dict] = []
+        for category in preferred_order:
+            for source in source_order_by_category[category]:
+                remaining.extend(category_source_groups[category][source])
+        for item in remaining:
+            if len(sampled) >= limit:
+                break
+            sampled.append(item)
     return sampled
 
 
@@ -369,8 +446,8 @@ def main() -> int:
     template_path = getenv_str("TEMPLATE_PATH", str(REPO_ROOT / "templates" / "daily_digest.html.j2"))
     logs_dir = getenv_str("LOGS_DIR", str(REPO_ROOT / "logs"))
 
-    max_candidates = getenv_int("MAX_CANDIDATES", 50)
-    max_selected = getenv_int("MAX_SELECTED", 10)
+    max_candidates = getenv_int("MAX_CANDIDATES", 80)
+    max_selected = min(getenv_int("MAX_SELECTED", 20), 20)
     target_language = getenv_str("TARGET_LANGUAGE", "zh-CN")
     timezone_name = getenv_str("TIMEZONE", "Asia/Shanghai")
 
@@ -386,6 +463,7 @@ def main() -> int:
     min_match_score = getenv_int("MIN_MATCH_SCORE", 60)
     max_per_source = getenv_int("MAX_PER_SOURCE", 2)
     max_per_topic_cluster = getenv_int("MAX_PER_TOPIC_CLUSTER", 2)
+    max_per_layer = getenv_int("MAX_PER_LAYER", 5)
     translation_batch_size = getenv_int("TRANSLATION_BATCH_SIZE", 3)
 
     dry_run = getenv_str("DRY_RUN", "").lower() in {"1", "true", "yes"}
@@ -458,7 +536,8 @@ def main() -> int:
         "excluded_keyword_count": len(excluded_items),
         "excluded_keyword_reasons": dict(Counter(it.get("exclude_reason", "unknown") for it in excluded_items)),
         "candidate_source_distribution": dict(Counter(str(it.get("source_name") or "unknown") for it in candidates)),
-        "candidate_topic_distribution": dict(Counter(_topic_cluster(it) for it in candidates)),
+        "candidate_topic_distribution": dict(Counter(_item_category(it) for it in candidates)),
+        "candidate_layer_distribution": dict(Counter(_item_layer(it) or "capital_or_other" for it in candidates)),
         "post_selection_rejections": {},
     }
 
@@ -517,6 +596,7 @@ def main() -> int:
         rejection_counts: Counter[str] = Counter()
         source_counts: Counter[str] = Counter()
         topic_counts: Counter[str] = Counter()
+        layer_counts: Counter[str] = Counter()
         selected_token_sets: list[set[str]] = []
         selected_candidates = [
             (idx, candidates[idx], decision_by_index[idx])
@@ -527,12 +607,15 @@ def main() -> int:
         for idx, it, decision_dict in selected_candidates:
             source = str(it.get("source_name") or it.get("source_id") or "unknown")
             topic = _topic_cluster(it)
+            layer = _item_layer(it)
             tokens = _title_tokens(it)
             rejection_reason = ""
             if len(selected) >= max_selected:
                 rejection_reason = "post_selection_max_selected"
             elif source_counts[source] >= max_per_source:
                 rejection_reason = "post_selection_source_cap"
+            elif layer and layer_counts[layer] >= max_per_layer:
+                rejection_reason = "post_selection_layer_cap"
             elif topic_counts[topic] >= max_per_topic_cluster or _is_similar_topic(tokens, selected_token_sets):
                 rejection_reason = "post_selection_topic_cap"
 
@@ -544,17 +627,20 @@ def main() -> int:
 
             source_counts[source] += 1
             topic_counts[topic] += 1
+            if layer:
+                layer_counts[layer] += 1
             selected_token_sets.append(tokens)
             selected.append({**it, "selection": decision_dict})
 
         selection_metrics["post_selection_rejections"] = dict(rejection_counts)
         selection_metrics["selected_source_distribution"] = dict(Counter(str(it.get("source_name") or "unknown") for it in selected))
-        selection_metrics["selected_topic_distribution"] = dict(Counter(_topic_cluster(it) for it in selected))
+        selection_metrics["selected_topic_distribution"] = dict(Counter(_item_category(it) for it in selected))
+        selection_metrics["selected_layer_distribution"] = dict(Counter(_item_layer(it) or "capital_or_other" for it in selected))
 
         _log(
             "Selected "
             f"{len(selected)} items after batch AI selection and hard caps "
-            f"(source<= {max_per_source}, topic<= {max_per_topic_cluster})."
+            f"(source<= {max_per_source}, layer<= {max_per_layer}, topic<= {max_per_topic_cluster}, max= {max_selected})."
         )
 
         try:
@@ -660,7 +746,7 @@ def main() -> int:
 
     output_metrics = {
         "selected_source_distribution": dict(Counter(str(it.get("source_name") or "unknown") for it in processed)),
-        "selected_topic_distribution": dict(Counter(_topic_cluster(it) for it in selected)),
+        "selected_topic_distribution": dict(Counter(_item_category(it) for it in selected)),
         "excluded_keyword_count": selection_metrics["excluded_keyword_count"],
         "summary_sentence_stats": _sentence_stats(processed),
         "translation_integrity": translation_integrity,
@@ -709,6 +795,7 @@ def main() -> int:
                 "max_selected": max_selected,
                 "max_per_source": max_per_source,
                 "max_per_topic_cluster": max_per_topic_cluster,
+                "max_per_layer": max_per_layer,
                 "translation_batch_size": translation_batch_size,
             },
             "selection_metrics": selection_metrics,
@@ -767,6 +854,7 @@ def main() -> int:
             "max_selected": max_selected,
             "max_per_source": max_per_source,
             "max_per_topic_cluster": max_per_topic_cluster,
+            "max_per_layer": max_per_layer,
             "translation_batch_size": translation_batch_size,
         },
         "selection_metrics": selection_metrics,

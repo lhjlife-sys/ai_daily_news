@@ -31,10 +31,11 @@ jobs:
       TARGET_LANGUAGE: ${{ vars.TARGET_LANGUAGE || 'zh-CN' }}
       TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Shanghai' }}
       MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '80' }}
-      MAX_SELECTED: ${{ vars.MAX_SELECTED || '15' }}
+      MAX_SELECTED: ${{ vars.MAX_SELECTED || '20' }}
       MIN_MATCH_SCORE: ${{ vars.MIN_MATCH_SCORE || '50' }}
       MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '2' }}
       MAX_PER_TOPIC_CLUSTER: ${{ vars.MAX_PER_TOPIC_CLUSTER || '2' }}
+      MAX_PER_LAYER: ${{ vars.MAX_PER_LAYER || '5' }}
       OPENAI_API_MODE: ${{ vars.OPENAI_API_MODE || 'chat' }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
       SELECTION_MODEL: ${{ vars.SELECTION_MODEL || 'deepseek-v4-flash' }}

@@ -16,6 +16,7 @@ class Source:
     id: str
     name: str
     url: str
+    category: str = "general"
 
 
 @dataclass(frozen=True)
@@ -26,6 +27,7 @@ class NewsItem:
     title: str
     published_at: str | None  # ISO-8601 UTC
     content_text: str
+    category: str = "general"
 
 
 @dataclass(frozen=True)
@@ -38,6 +40,19 @@ class FetchReport:
     error: str | None = None
 
 
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; rss-ai-email-digest/1.0; "
+    "+https://github.com/lhjlife-sys/ai_daily_news)"
+)
+
+
+def _request_headers() -> dict[str, str]:
+    return {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+    }
+
+
 def load_sources(config_path: str) -> list[Source]:
     data = yaml.safe_load(open(config_path, "r", encoding="utf-8"))
     sources = data.get("sources", []) if isinstance(data, dict) else []
@@ -48,8 +63,9 @@ def load_sources(config_path: str) -> list[Source]:
         sid = str(s.get("id", "")).strip()
         name = str(s.get("name", sid)).strip() or sid
         url = str(s.get("url", "")).strip()
+        category = str(s.get("category", "general")).strip().lower() or "general"
         if sid and url:
-            out.append(Source(id=sid, name=name, url=url))
+            out.append(Source(id=sid, name=name, url=url, category=category))
     return out
 
 
@@ -72,46 +88,48 @@ def _parse_datetime_to_utc_iso(value: str | None) -> str | None:
         return None
 
 
+def _entry_to_news_item(source: Source, e) -> NewsItem | None:
+    url = (getattr(e, "link", None) or getattr(e, "id", None) or "").strip()
+    title = (getattr(e, "title", None) or "").strip()
+    published_raw = getattr(e, "published", None) or getattr(e, "updated", None) or None
+    published_at = _parse_datetime_to_utc_iso(published_raw)
+
+    content_html = ""
+    if hasattr(e, "content") and e.content:
+        try:
+            content_html = e.content[0].value or ""
+        except Exception:
+            content_html = ""
+    if not content_html:
+        content_html = getattr(e, "summary", None) or getattr(e, "description", None) or ""
+
+    content_text = _html_to_text(content_html)
+    if not url or not title:
+        return None
+    return NewsItem(
+        source_id=source.id,
+        source_name=source.name,
+        url=url,
+        title=title,
+        published_at=published_at,
+        content_text=content_text,
+        category=source.category,
+    )
+
+
 def fetch_source(source: Source, timeout: int = 20) -> list[NewsItem]:
     response = requests.get(
         source.url,
-        headers={
-            "User-Agent": "rss-ai-email-digest/1.0 (+https://github.com/lhjlife-sys/ai_daily_news)",
-            "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-        },
+        headers=_request_headers(),
         timeout=timeout,
     )
     response.raise_for_status()
     parsed = feedparser.parse(response.content)
     items: list[NewsItem] = []
     for e in parsed.entries or []:
-        url = (getattr(e, "link", None) or getattr(e, "id", None) or "").strip()
-        title = (getattr(e, "title", None) or "").strip()
-        published_raw = getattr(e, "published", None) or getattr(e, "updated", None) or None
-        published_at = _parse_datetime_to_utc_iso(published_raw)
-
-        content_html = ""
-        if hasattr(e, "content") and e.content:
-            try:
-                content_html = e.content[0].value or ""
-            except Exception:
-                content_html = ""
-        if not content_html:
-            content_html = getattr(e, "summary", None) or getattr(e, "description", None) or ""
-
-        content_text = _html_to_text(content_html)
-        if not url or not title:
-            continue
-        items.append(
-            NewsItem(
-                source_id=source.id,
-                source_name=source.name,
-                url=url,
-                title=title,
-                published_at=published_at,
-                content_text=content_text,
-            )
-        )
+        item = _entry_to_news_item(source, e)
+        if item:
+            items.append(item)
     return items
 
 
@@ -122,10 +140,7 @@ def fetch_all(sources: Iterable[Source], timeout: int = 20) -> tuple[list[NewsIt
         try:
             response = requests.get(
                 s.url,
-                headers={
-                    "User-Agent": "rss-ai-email-digest/1.0 (+https://github.com/lhjlife-sys/ai_daily_news)",
-                    "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-                },
+                headers=_request_headers(),
                 timeout=timeout,
             )
             status_code = response.status_code
@@ -133,33 +148,9 @@ def fetch_all(sources: Iterable[Source], timeout: int = 20) -> tuple[list[NewsIt
             parsed = feedparser.parse(response.content)
             items: list[NewsItem] = []
             for e in parsed.entries or []:
-                url = (getattr(e, "link", None) or getattr(e, "id", None) or "").strip()
-                title = (getattr(e, "title", None) or "").strip()
-                published_raw = getattr(e, "published", None) or getattr(e, "updated", None) or None
-                published_at = _parse_datetime_to_utc_iso(published_raw)
-
-                content_html = ""
-                if hasattr(e, "content") and e.content:
-                    try:
-                        content_html = e.content[0].value or ""
-                    except Exception:
-                        content_html = ""
-                if not content_html:
-                    content_html = getattr(e, "summary", None) or getattr(e, "description", None) or ""
-
-                content_text = _html_to_text(content_html)
-                if not url or not title:
-                    continue
-                items.append(
-                    NewsItem(
-                        source_id=s.id,
-                        source_name=s.name,
-                        url=url,
-                        title=title,
-                        published_at=published_at,
-                        content_text=content_text,
-                    )
-                )
+                item = _entry_to_news_item(s, e)
+                if item:
+                    items.append(item)
             all_items.extend(items)
             reports.append(
                 FetchReport(
@@ -172,7 +163,6 @@ def fetch_all(sources: Iterable[Source], timeout: int = 20) -> tuple[list[NewsIt
                 )
             )
         except Exception as e:
-            # Non-fatal: one bad source shouldn't block the daily digest.
             print(f"[warn] failed to fetch source {s.id} ({s.url}): {e}", flush=True)
             reports.append(
                 FetchReport(
