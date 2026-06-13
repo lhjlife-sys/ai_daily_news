@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T03:45:47+00:00",
+  "updated_at": "2026-06-13T05:57:02+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -191,6 +191,81 @@
       "sig": "b040c6a9760044cef0af7ff5adeba2353e63a755fca8ed4f4c6835246b9604c6",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
       "sent_at": "2026-06-13T03:45:47+00:00"
+    },
+    {
+      "sig": "9834e7aca0f9f75f8c0422976a5ca3141edffe6a42c4b8b5b282a82678defa48",
+      "url": "https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "e5266a56559dbd603518c0826b05f99caa2bd6cf1ea024fae57f811834b9a2a4",
+      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "ee9c67df0098902e514b7e0b79ad79fbc986639a0fcbfd711665c7df78a7d6dc",
+      "url": "https://arstechnica.com/space/2026/06/spacex-is-now-a-public-company-valued-for-its-ai-potential-so-what-comes-next/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "405ee5e69b9d53cae9f44466c19353fd2b70acd442850b9ed75b0bed3534d42b",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-offers-china-early-access-to-vera-cpus-as-h200-sales-stay-frozen",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "185affdd0fe14239c755deae1fbf2cb6fa93e6d05716c56a6f911364a4d1758d",
+      "url": "https://www.huxiu.com/article/4867006.html?f=rss",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "23f52dc54cf478bda82a236027a5fe9b0e8eda4ac28cf4e87323278532b940c3",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "9e68f412e5ee2698fa9d34f42aadd9f21cc7389b3967ad2f67e309a78600ada9",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-data-centers-used-25bn-gallons-of-water-in-2025/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "72fcf910c4b9a8784818c5b18853f43297b0f917bf2c38d26d84afa4d8f7e66b",
+      "url": "https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "d865b59977c5fb0dfcc0d7855cee2f403a1ea102d565c69beaffe38547806043",
+      "url": "https://www.vanityfair.com/story/doge-defense-startups",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "fdb993ca7c41046ab4186ac30cc755ed3ebe56b2881cde428955b7e8548bdeb4",
+      "url": "https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "dd73139d2e3dcd4c1e4b506e29f09bd5c1b6a55186dfb93e70e88f44c3b919f8",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "86df1903aa87352c6743691c2ef3bb20458d98768e6bc1f545429e86ac3e11f7",
+      "url": "https://www.datacenterdynamics.com/en/news/gmi-cloud-and-magna-ai-partner-on-global-network-of-sovereign-ai-factories/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "c351aa7df44b242b4a4ae7c67d14dd3ac59561a85bd1d87a6224df4b4268ad07",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "8f76e67ad854a6c03a6f04613a9386cac98c1aa7310f5dfa58606d6962ff0b31",
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "985c6e03e3b99055cf6305c8249c279b55a6cefff49e47599e87b3c0eae9e3ef",
+      "url": "https://www.infoq.com/news/2026/06/google-colab-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-13T05:57:02+00:00"
     }
   ]
 }
