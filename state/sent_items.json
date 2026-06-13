@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T05:57:02+00:00",
+  "updated_at": "2026-06-13T23:00:13+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -266,6 +266,76 @@
       "sig": "985c6e03e3b99055cf6305c8249c279b55a6cefff49e47599e87b3c0eae9e3ef",
       "url": "https://www.infoq.com/news/2026/06/google-colab-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-06-13T05:57:02+00:00"
+    },
+    {
+      "sig": "c324d96608f563d60c0488fce323e35068143d2f6a1ad22dab03ea4f1cc4916a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "07c89f51394cd87939f04c1c81210ddd0b6bf350e35d49079446db55aa0c3eb8",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/more-than-75-data-center-build-outs-worth-usd130-billion-have-been-successfully-blocked-in-the-first-four-months-of-2026-bipartisan-opposition-mounts-nationwide-over-fears-of-soaring-power-and-water-costs",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "a76b0170d96b58a77a85ca9b05a2ed4e8933c473ba869e3fd8cb9a31284461a4",
+      "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "f15d804676ea01f306aac115c4bd6a6fa40adaee2283de7d464b2b054015633a",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "4597899222017888c57e30a8bdc3169885c1d890ef0e04ad30322a31edf25fb4",
+      "url": "https://www.theregister.com/systems/2026/06/12/sk-hynix-to-triple-wafer-capacity-by-2034/5255151",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "46964c7a12ca5d0884432f6f6f4dd4b4978516dd4c1308b2920f0503e44fe1f6",
+      "url": "https://www.cnbc.com/2026/06/12/openai-says-its-engaging-constructively-with-state-ags-.html",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "043e5abd402665567d8a3ac36cb0f278db619ca628a60164323cc03322ed121e",
+      "url": "https://openai.com/index/bbva",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "b3c8b4a755176fe64adba9221f61e7aef8a558246b0078019fcbf893a54f97bd",
+      "url": "https://www.qbitai.com/2026/06/435483.html",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "0f1e03715b0853c79d4d42e81fbf243be6d14a34fd3662bc398bbd2e088ae4dc",
+      "url": "https://www.infoq.com/news/2026/06/pinecone-ai-agents-onelake/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "0d32aa6b6a8fd310bb9ea110d936f524a7ea15ff4f0af5e647f4b8db8c59b25c",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "e1f11b9d982bebb670218a79fb013197a01a343117fbc823d9b630c570c0580d",
+      "url": "https://www.qbitai.com/2026/06/435455.html",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "442c0e276a648c7d2fffe6067bc0106c06ddd44ffae7ab34ff7fb3e6f30f79c7",
+      "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "ddc7b24a91dcf271798bdbe6978e14dd8d01e9120890cb3b3370adf7289638e7",
+      "url": "https://openai.com/index/preply",
+      "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "3d5aa39d0e80ce2a32a495c638e14a80d704924a79be7d2cbb7a59d801aee882",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "sent_at": "2026-06-13T23:00:13+00:00"
     }
   ]
 }
