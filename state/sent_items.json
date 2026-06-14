@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-14T12:03:05+00:00",
+  "updated_at": "2026-06-14T23:03:53+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -401,6 +401,81 @@
       "sig": "c9b4861f5a18a60ca1a59cc9a92632c7c568e2654b22c24e2be281b430ad27c8",
       "url": "https://www.infoq.com/news/2026/06/terraform-mcp-server-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "c8120a3f312c3589fa0674fa2c5c6f2da240521e87f06d8199d3db88655980c5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "99a74fa8e5c3257d2eab6dd0d46c7471fc3744f94074f09092e5357d2d7e6e6e",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "61bc4695fa75539e5d6ce59a14ca658337cc659fe5df1a8a7fbeabe69105812d",
+      "url": "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "4b0b581f96fdff4b22f43403dede893e341ce3acbf4e1a803a615bcefe3ab2d3",
+      "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "64d5226568c18034e031e3c5c7565ea0ffa9229862dff02aac6fa5eec4874a83",
+      "url": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "de03516f26c15a89eeae774b96806f5e20685108cb64ab6378d761e3d7a22205",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "f3fed80171c0662970a8c09ccd13390d1f31a9d02a08eec602997a373820d4ef",
+      "url": "https://www.huxiu.com/article/4867241.html?f=rss",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "ed97a7971fbb0470372c22c61abdcd872f8246235bf6968ba58f2a4e3baf3574",
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "b67abf9b35173ac1aa876b83d335ce8979f1e1679d5ba3e0999a4d6230e5f139",
+      "url": "https://36kr.com/newsflashes/3852722264101889?f=rss",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "d38f7a49e86de9da6ce8539def0da546f8bd3f4e9f0c14b17d2f3cbfb7801776",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "86b06ec016d893f418ca19b85c189febbaadad1080fd2d30ec282102fb7cccb7",
+      "url": "https://www.qbitai.com/2026/06/435394.html",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "02542707f6d0feb7a81cf77c1d6b8ab52f29ad318293c01ab5bc6c80b5dd5314",
+      "url": "https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "1a124fc9f4a7572baec71d3f7c2c3a3f97b1865c4c4582d3313cdc878e675930",
+      "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "2480dfd86b2f79237ff1fd6a658153f2f35d5f7795308e83212aec768d3b2d10",
+      "url": "https://www.theregister.com/networks/2026/06/13/aws-rolls-the-dice-for-faster-more-efficient-networking/5253248",
+      "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "c7866bf4d0809ad491d368e229e3f5bb5b8e9a2ef3345044ed9d36535de63c7e",
+      "url": "https://openai.com/index/lseg",
+      "sent_at": "2026-06-14T23:03:53+00:00"
     }
   ]
 }
