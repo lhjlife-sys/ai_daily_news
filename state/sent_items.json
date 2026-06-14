@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-13T23:00:13+00:00",
+  "updated_at": "2026-06-14T12:03:05+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -336,6 +336,71 @@
       "sig": "3d5aa39d0e80ce2a32a495c638e14a80d704924a79be7d2cbb7a59d801aee882",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
       "sent_at": "2026-06-13T23:00:13+00:00"
+    },
+    {
+      "sig": "6952c92b75cf98872ae9f7304921aef7e2fba5dc18c0d8284d4d7f620ec4d6f6",
+      "url": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "7f9102717fb19b933dc90dbe75e9675c47762958f0391006a14a1eedbbc78f7f",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "cbdd28ce68758d125120cc45d418569b639e11fe788dc32cb6de0d106bb3f3a0",
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "3df54228bc1d87fe46fac01c6acc9d4e1cce7f962149b219aea8b20f10e1ff07",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "f16502f90eaad7d2d676fd663065e3db8e2f196de22ff5e2cba47c218a3b15f7",
+      "url": "https://www.theregister.com/off-prem/2026/06/14/eu-sovereignty-push-gives-tech-buyers-a-new-alphabet-soup-to-swallow/5251995",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "61ae2308d52a41fe9add39ce0de210737127444a34c772e76127228b0628bc84",
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "27870879434904650fc8a5adfabfb321445d2850bfaa5575912184f09f288c8b",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "8a8d46c10609e3d0e079d0f12467c4d50ae471a7931d746930605d64e3f2fcca",
+      "url": "https://36kr.com/newsflashes/3852835263878148?f=rss",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "ab821ef0e278466673248c4f71a2023ad7d258927a77d4038519925f3619b055",
+      "url": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "6cd5ff5f02416bc164923bcabe041907705a934ec1bd42eccbb7dab6253e6f82",
+      "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "cd6f443ffd527cd476f6a00dfc8fabdbb51c81e769f3ac4d6393a53b90a2edba",
+      "url": "https://www.infoq.com/news/2026/06/untrusted-ai-agents-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "157324a9612f0389d5d2b99c055aaf6bae11b010da60504f99aa39fb85c6b025",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "sent_at": "2026-06-14T12:03:05+00:00"
+    },
+    {
+      "sig": "c9b4861f5a18a60ca1a59cc9a92632c7c568e2654b22c24e2be281b430ad27c8",
+      "url": "https://www.infoq.com/news/2026/06/terraform-mcp-server-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-14T12:03:05+00:00"
     }
   ]
 }
