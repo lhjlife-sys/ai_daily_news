@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-14T23:03:53+00:00",
+  "updated_at": "2026-06-15T15:52:21+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -476,6 +476,71 @@
       "sig": "c7866bf4d0809ad491d368e229e3f5bb5b8e9a2ef3345044ed9d36535de63c7e",
       "url": "https://openai.com/index/lseg",
       "sent_at": "2026-06-14T23:03:53+00:00"
+    },
+    {
+      "sig": "f8e65bb09b66d0edde70dc724365a0e0947268e1f0367dce034ce97a7b08e700",
+      "url": "https://www.marketwatch.com/story/even-nvidia-is-joining-the-ai-borrowing-spree-with-a-historic-20-billion-bond-deal-a054cff4?mod=mw_rss_topstories",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "365cbd6cf971ad6866404554cebc48c9c65170b8fd1ae0eef54b8a80cac9857d",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "b728c366d98693076395eb63493ab802481df088bddaa2825e1285a1f3ef4022",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/15/salesforce-reels-in-customer-support-ai-specialist-fin-for-36b/5255571",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "65c6ef60768a4c4d44a68647fdc8b621b309581975c2bdfbe14eebaad2e5b1f3",
+      "url": "https://nvidianews.nvidia.com/news/sk-telecom-ai-infrastructure",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "8fac5ae9a7e1acb38a00deeedb356ccfaf690c7ae89f9413c940ceec3aab8359",
+      "url": "https://www.tomshardware.com/tech-industry/chinas-top-court-bars-infineon-from-selling-gan-power-chips-in-china",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "fb326bb1fa59759980ec2d0551828ecd39e936db8120a3f044495141428417cf",
+      "url": "https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "f709ad439501bbf0d718807cc9846770adb5ff7f931a89cdd692fa8d621bef91",
+      "url": "https://36kr.com/p/3854486447510535?f=rss",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "f8256236050db625eef3b0899b263d61433eecf1264f16765ec1322c91cd836e",
+      "url": "https://www.datacenterdynamics.com/en/news/singapore-launches-new-national-supercomputer/",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "4a1a2edfc53fbcf838cd3e67aee3928da3bf9bd941569f25f53548ad55a383fa",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "d2aefcbddbc04c9cf7c397c838be09c04cf86213d325ee0ec54c0bfed3dbceee",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "2f6e8f891c0a8aeb6b5ffd5f362ee458dde4999901273a682b70bf0c3fb9e6bf",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "6154bab88f7c340ca0fdafaf6a6addc042c9f98d9f1b7caba811dc610edbf2c8",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "cf754107b5f1c2361f69b861e3bc4ca3b7ff981f79686bec1f257a7c7391cbd1",
+      "url": "https://www.qbitai.com/2026/06/435817.html",
+      "sent_at": "2026-06-15T15:52:21+00:00"
     }
   ]
 }
