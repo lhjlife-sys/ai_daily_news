@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-15T15:52:21+00:00",
+  "updated_at": "2026-06-15T23:32:59+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -541,6 +541,71 @@
       "sig": "cf754107b5f1c2361f69b861e3bc4ca3b7ff981f79686bec1f257a7c7391cbd1",
       "url": "https://www.qbitai.com/2026/06/435817.html",
       "sent_at": "2026-06-15T15:52:21+00:00"
+    },
+    {
+      "sig": "c048d65ba0d87f50eccae3f9ab1bae2d65dd40a4ce39fb6d3900e2608893c30f",
+      "url": "https://www.cnbc.com/2026/06/15/nvidia-plans-to-raise-about-20-billion-first-debt-sale-in-ai-boom.html",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "f75d247706921887dd07ed4cbbe76f0d6588d9136fffc3824b2897402b000093",
+      "url": "https://www.infoq.com/news/2026/06/claude-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "fe052daa70a8c4c9c72b741ca2b88bfc560c52f7bc38e89c79b4accefda8b454",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "d058340e220a1be4aba3be6587a252afa1f1f3900cdfc1e35064bb62c1026a8c",
+      "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "1bae3e2b5b5e2e28e92f9aba59003e767f98ae638cf21d760818f173d2e96325",
+      "url": "https://www.cnbc.com/2026/06/15/salesforce-ai-customer-service-fin-acquistion.html",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "56b6a61606856899eef49717ad77b97d2f32e958f01186d5bedd809bf5dc2983",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/marvell-details-vision-of-optically-interconnected-data-centers-spanning-across-thousands-of-kilometers-new-interconnects-sampling-later-this-year-would-allow-csps-to-pool-resources-based-on-workload",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "09bd415ddfbd4d2df762ff72b474df88dfd095af673ffc7aa36e3b276a406758",
+      "url": "https://www.theregister.com/public-sector/2026/06/15/feds-snooze-as-us-datacenter-law-set-to-lapse-with-no-replacement-in-site/5255679",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "c17e7186c8901da25fd7fb4f82432c69d9fe8048e1dd59c35889e26c4a6be760",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "5cef4596cb8484d4783d8248b0400d5dbcd418eb7b0809f53e74a68d43700f75",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "1a85f06ebae3cd4037f729c8d1b6d74906af46618c078dc6bb59510a4a2e027b",
+      "url": "https://www.infoq.com/news/2026/06/claude-code-harnesses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "3ef148ac8d22ef45dabf3f855150f24c4ef62114a698accd14c086e1eda59be7",
+      "url": "https://36kr.com/newsflashes/3854595022132226?f=rss",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "3d24892a566c08f588b2c9a8f406db89bac2a8ceb580602e4e1c5ce9470ca670",
+      "url": "https://www.qbitai.com/2026/06/435848.html",
+      "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "47f2ec4e6430e91bbdfe8cdb68224390fe482989719329de1f1f90a19613a8b0",
+      "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "sent_at": "2026-06-15T23:32:59+00:00"
     }
   ]
 }
