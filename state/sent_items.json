@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-15T23:32:59+00:00",
+  "updated_at": "2026-06-16T15:15:36+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -606,6 +606,71 @@
       "sig": "47f2ec4e6430e91bbdfe8cdb68224390fe482989719329de1f1f90a19613a8b0",
       "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
       "sent_at": "2026-06-15T23:32:59+00:00"
+    },
+    {
+      "sig": "092d2649f244b3abcdb3f85467071e62580855489c179f4c40e72a95810ea14b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "fe29805bd6d9c3905acb1d14cf4101b6f7be90271ca0b9c2bb2a11236e6cec35",
+      "url": "https://www.theregister.com/systems/2026/06/16/non-x86-servers-now-nearly-half-the-market-idc-says/5256248",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "a38794b78fcd98334610348c639b1d49e037517bbc0f4b2cb62995e6e5f03eb6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "d31989e720fd7b5de2f6bbd977c4dc0e18ae0cd3180f7ac2b037ca8b074bce15",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "f8584e7e365acd655905c1ef1271f0bff4aa55240f4f158ab463e2cfe2d723b3",
+      "url": "https://www.theregister.com/systems/2026/06/16/microsoft-faces-down-sueball-capacity-problems-in-series-of-challenges/5256175",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "3f68619183d089b9e079d9a74f06565980e7884a4fe548234c697f7e4642f77e",
+      "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "8596f4289f281e1c1a6f9dc7e73606c704d5bfb7a7967e3a7b7548354e502323",
+      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "a3724a2248fdcb28ded3422e90756303ae3ea6b1e572d8496d4ab97f6911d010",
+      "url": "https://www.datacenterdynamics.com/en/news/bitdeer-looks-to-develop-750mw-data-center-campus-in-ohio/",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "1dcb8fd4439ddd1efae05d27f63a38918b584805d4bf5e8fe2e36cc69ed34004",
+      "url": "https://www.cnbc.com/2026/06/16/self-driving-tech-supplier-mobileye-targets-us-robotaxi-launch-in-2027.html",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "bf23b3ee4a1727fab08b34f75c2e83181007dc1d31b707ed39694b4d5240f08a",
+      "url": "https://www.tomshardware.com/pc-components/ssds/smis-pcie-6-0-ssd-controller-for-consumer-ssds-coming-next-year-but-severe-nand-shortages-will-get-even-worse-in-2027-as-ai-data-centers-swallow-supply-an-interview-with-silicon-motions-svp-nelson-duann",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "0cfa692df762b17e7080d91f70d6580fb4afd3f2e48983ebdf5e101f9ff12256",
+      "url": "https://www.qbitai.com/2026/06/436073.html",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "31fa40f0efa4b71629cdf99a3929da67e3bbf6af3181ba3d28aef230c453ed35",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "sent_at": "2026-06-16T15:15:36+00:00"
+    },
+    {
+      "sig": "e7f969e1c0fa8890361dc97bf2b214bc9faa71cb2944f2caa7cd86e26e2f6a79",
+      "url": "https://36kr.com/newsflashes/3855851907749127?f=rss",
+      "sent_at": "2026-06-16T15:15:36+00:00"
     }
   ]
 }
