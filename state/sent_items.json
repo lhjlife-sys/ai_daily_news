@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-16T23:21:11+00:00",
+  "updated_at": "2026-06-17T13:47:08+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -736,6 +736,71 @@
       "sig": "fc68331373f981907bfbf62e6f2c4a91f4b3f967635820e1f33e7d566029967a",
       "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
       "sent_at": "2026-06-16T23:21:11+00:00"
+    },
+    {
+      "sig": "d865c171f89c7cf62d4a98d0b7accca9297b02baa010df9af64ba16727c6709c",
+      "url": "https://www.cnbc.com/2026/06/17/spacex-stock-elon-musk-market-cap.html",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "a023ef6ffe3633bb286667d77d6fac86c6b3b6cf94b587cb5c5ccc34ba8af2bb",
+      "url": "https://www.theregister.com/systems/2026/06/17/intel-starts-cooking-up-enhanced-18a-p-silicon-for-would-be-foundry-customers/5257487",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "8062bf98f8b56cbb05da20f96c258d8d3bd468294c6a930b0bda30c77559eb7b",
+      "url": "https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "f010174f49c24a292fc8a612e3ce52cd178d31b90a3a021ddace9b6b2669ce21",
+      "url": "https://www.datacenterdynamics.com/en/news/us-government-may-allow-fdcea-to-expire-report/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "5199c18265dd3d5ed3d0b3784c32522d7d0adf448d7a636785120f7a801b1bff",
+      "url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "b0169e7e9fdd1c50d86ecc766bc241868b1e9fdb46a0bb64aad80c783b7346d7",
+      "url": "https://www.datacenterdynamics.com/en/news/panasonic-to-expand-battery-module-manufacturing-in-response-to-surging-data-center-demand/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "5de9d2310ca4f3c932e367316127b72a435088552a72840cf4b7681e8d820138",
+      "url": "https://www.infoq.com/news/2026/06/github-copilot-app/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "9e3636b0b0345d81fb9b468aac6cd17098c3b8cf461586190d617c4fcbd3cdb6",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "d4ee4a9df2e38344262134ab920867a39fd60c48064ce416e9d91478b060ed46",
+      "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "3ee6548401ce063ecf6a52fd48287a52ee964a8030267c2a35b2bfeaebed74aa",
+      "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "29b8d20cd8bd31d647c7448240847952d252c0090113354095cea1853d3c2ce9",
+      "url": "https://arxiv.org/abs/2606.17209",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "cb0050ce80fc13f0ad73174b3250b2e0794b4afe127c0809ac3867ffab6fc1f7",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "16ac3ff2031dbeb2af6bfa2066b7f82486945cfdb65a8b35176a7a65b399da4b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
+      "sent_at": "2026-06-17T13:47:08+00:00"
     }
   ]
 }
