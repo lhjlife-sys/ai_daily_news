@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-17T13:47:08+00:00",
+  "updated_at": "2026-06-17T23:20:57+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -801,6 +801,61 @@
       "sig": "16ac3ff2031dbeb2af6bfa2066b7f82486945cfdb65a8b35176a7a65b399da4b",
       "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
       "sent_at": "2026-06-17T13:47:08+00:00"
+    },
+    {
+      "sig": "efb506160ad97fe3f54789478560fb80d1dd1ad0423e69238f585e5fe5d68032",
+      "url": "https://www.qbitai.com/2026/06/436456.html",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "df7701f7052509546fd95afba13d5f2504b5de5eefecac0d72ea4e442df38006",
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "8a24000d9f7265a8a87d864a9bfb210bef33eb08f2f268945340eae15e698a44",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "c67817b5f57991dab672ea7c322c485d495ec6b10a4b0906298905c42d116b8f",
+      "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "eda9ea6a23974c66f52047419f317639ab53db58289a51ac78c52b28431293d6",
+      "url": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "473f5bdd068b37e4b589ec6167dbd8ccc5a12eed22b9d640c0590a1d753d5edb",
+      "url": "https://www.infoq.com/news/2026/06/ai-agent-identity-uber-auth0/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "dfead4a85775d033880f95a7b21ca9956e51cb7315edb880e498159d27105cef",
+      "url": "https://www.datacenterdynamics.com/en/news/oracle-denies-3bn-microsoft-data-center-deal-collapsed-over-security-and-compliance-concerns/",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "5ff2f715f1e6274165f0a220fe59fab8964a1280e439982b3599f06c295492ef",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "cc4954c8c22b71e53f5aeb442e614db88a1e0b79d0d54343d5f5fcd2151f066e",
+      "url": "https://www.marketwatch.com/story/its-unavoidable-apple-says-it-will-be-forced-to-raise-prices-due-to-the-ai-boom-e3d1e4c4?mod=mw_rss_topstories",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "609790f3111a41f8c3213dde9412e07a56592d2d04fe61dcec39876d880ef6bd",
+      "url": "https://www.qbitai.com/2026/06/436223.html",
+      "sent_at": "2026-06-17T23:20:57+00:00"
+    },
+    {
+      "sig": "381e7f583722c98d0f6921620c6a57514d268545e9a9291726e0da07c5943199",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "sent_at": "2026-06-17T23:20:57+00:00"
     }
   ]
 }
