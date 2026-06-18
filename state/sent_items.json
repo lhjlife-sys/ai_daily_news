@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-18T13:03:54+00:00",
+  "updated_at": "2026-06-18T23:32:41+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -936,6 +936,71 @@
       "sig": "1d78bc2bd5ee135b7b0920319812745d2692a826af571a8c33b0a75492fdb8fd",
       "url": "https://arxiv.org/abs/2606.17220",
       "sent_at": "2026-06-18T13:03:54+00:00"
+    },
+    {
+      "sig": "65216556a7a2ee27907b15f3962f4da0bea38d1f7b7e1c06c8fab160939bf94e",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "c17524a0e5227a7c19ab7cddd41bdb7ee7bbbb75ef1842234230f040644d1266",
+      "url": "https://www.marketwatch.com/story/intel-shares-rally-as-trump-says-company-will-build-chips-for-apple-in-the-u-s-c72d8c88?mod=mw_rss_topstories",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "f53aff1afeef2419060a8089393446d64d5155647e8667e370386469ffa10102",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "860049b4fd225b7068d143a07132afb3e3ed5bb87bbbb37b974d627c413bff01",
+      "url": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "366b3975a2b07fce49b0ec3957f30293ac30a4491b0364263d9672ade6c08d1c",
+      "url": "https://www.huxiu.com/article/4868671.html?f=rss",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "cd32a0b326930ea5ceb890559d2076d764947a3f6af8666368fa1a33b76f8fe2",
+      "url": "https://www.ft.com/content/9f063b07-da39-4feb-92ab-ee0f91385c62",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "c087215826856a96e8ce1e597f0c75b07eaf5da6810a426a5237e984a958b26e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "c16698f0fcb14c5d2ad71bbf5fbf7e92401bc1d2055b947cf9b8605643203dc8",
+      "url": "https://www.datacenterdynamics.com/en/news/google-unveils-new-open-source-liquid-to-air-cooling-sidecar-for-air-cooled-environments/",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "efa6761cda1472ceb4a5f2b7f0a0e78a8322f86c301add63071de6d85f10fe53",
+      "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "26548f002b04520b2f8f580588cd12de612682c7755f2e69d98258a023ae2d87",
+      "url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "27ef51524edc46a55294f11edbd533c5f3b4bef2136fff9bf08db4a34cbd3b75",
+      "url": "https://36kr.com/newsflashes/3858680792192265?f=rss",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "bd802cfe0d36de765ca9181be74b6302369826c929e92e8d1f129bc53b0202e6",
+      "url": "https://www.marketwatch.com/story/this-ai-company-wants-to-replace-mris-with-a-60-second-dip-in-the-spa-can-that-really-work-3bce6681?mod=mw_rss_topstories",
+      "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "b9253e151614843ceace30eebbc457b8fede9758cbfda7c99fc2eba8044460fe",
+      "url": "https://www.theregister.com/os-platforms/2026/06/18/canonical-unveils-myna-speech-to-text-app-for-ubuntu-2610/5258376",
+      "sent_at": "2026-06-18T23:32:41+00:00"
     }
   ]
 }
