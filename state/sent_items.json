@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-18T23:32:41+00:00",
+  "updated_at": "2026-06-19T13:39:51+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1001,6 +1001,71 @@
       "sig": "b9253e151614843ceace30eebbc457b8fede9758cbfda7c99fc2eba8044460fe",
       "url": "https://www.theregister.com/os-platforms/2026/06/18/canonical-unveils-myna-speech-to-text-app-for-ubuntu-2610/5258376",
       "sent_at": "2026-06-18T23:32:41+00:00"
+    },
+    {
+      "sig": "19d6285f0f3b30d14ec30c47d55487283407813f1f36d4d0d56ce765a37f0c00",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "ff877696afbbaaaf7f639b8991ae59a5761f49f0c03352f0dfe01f74e4183ef2",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-signs-16gw-capacity-agreement-with-crusoe-report/",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "7d449005fc8d409e865929c665e26209771aa20c756ac5b15741b1061d9c4fda",
+      "url": "https://www.infoq.com/presentations/data-aware-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "85201e0370e13d964b2fb98dc6648cda8351228ff5cf644cf2b2f9f3f320f42b",
+      "url": "https://www.cnbc.com/2026/06/19/memory-crisis-hits-such-extremes-that-even-apple-cant-be-safe-.html",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "bd056869a29bf635225fe11ec8835c304695b5b98504463982836f1ded1575bd",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "6b99cc354511af2cc315cbb367a3e0f0cb807a9f94773d34fb7f2057c381014f",
+      "url": "https://www.infoq.com/news/2026/06/gitlab-19-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "9302086d3c2ca49c0189c418385382637463cdbe677a56e1c961642060a3f0b1",
+      "url": "https://36kr.com/newsflashes/3859744863884292?f=rss",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "260212e25527350dfbe1528656634fd28f975ebc756ca7758c6dfb2abb82ce4b",
+      "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "b66385808543a5143f9ce41111ed98a041727a4be8d644216eccd7512d933b10",
+      "url": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "ddf3198d9a35c93290d84a83fd578a137895b8c6d390e27e59489d15d59578a8",
+      "url": "https://www.cnbc.com/2026/06/19/tech-download-qualcomm-ai-agents-amon.html",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "88fc33e692fec700898973b09c70d6aa131b4f8ada0310749a2ef3cd96616eb0",
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "19f66f51881ba1dd58993447b9be6ce595de83a2026ac7f8176b3cde47858a65",
+      "url": "https://www.datacenterdynamics.com/en/news/aston-power-raises-20m-to-scale-private-power-platform-for-data-centers/",
+      "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "6a74c44efb65e4f0e1d4782aa6c3d46d1eeb45ec6e59496fc4eab2b11c865fcf",
+      "url": "https://www.marketwatch.com/story/trading-in-french-server-company-suspended-after-short-sellers-accusations-trigger-stock-collapse-861135d2?mod=mw_rss_topstories",
+      "sent_at": "2026-06-19T13:39:51+00:00"
     }
   ]
 }
