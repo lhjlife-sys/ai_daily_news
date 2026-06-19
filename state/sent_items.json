@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-19T13:39:51+00:00",
+  "updated_at": "2026-06-19T22:48:55+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1066,6 +1066,76 @@
       "sig": "6a74c44efb65e4f0e1d4782aa6c3d46d1eeb45ec6e59496fc4eab2b11c865fcf",
       "url": "https://www.marketwatch.com/story/trading-in-french-server-company-suspended-after-short-sellers-accusations-trigger-stock-collapse-861135d2?mod=mw_rss_topstories",
       "sent_at": "2026-06-19T13:39:51+00:00"
+    },
+    {
+      "sig": "ae5bcb37d44c9e159a255870b3dc3a4fad66a65a9b691cc6a3595b81d2bc442c",
+      "url": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "318a0fd588898a88f7cfdcac76bdedaf73aeb4714ff1ce3381287210b0430a17",
+      "url": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "082bd0f22af565fd92eddef77618ecc5978675107c8120faca309dfd6b39c9b5",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "459e5a734f30334080f2f96879bdc512e232682916026142ac57ba6ab89b0611",
+      "url": "https://www.qbitai.com/2026/06/436813.html",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "c10891d9735e421ab4ff8cfbe052c78adae1bd15d7ac06ca49a8c0f8f0c6e325",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-could-sell-trainium-ai-chips-to-data-centers-report/",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "102c606a6c3cf0744b11fffa953040847f371921e68a70f403dc634c113d3e88",
+      "url": "https://www.huxiu.com/article/4867715.html?f=rss",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "8859f4a246e730f211e8f744b1de3b2df5c060960be21681ec11746b766c4a32",
+      "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "390c409a8e97ab823a0c62ffa86caab95008f8ad09052a89677378ec8617a551",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "45bc33c734d049b3f6ff727e8be31b9ffbe6b4d6637f1c2d628f5d30b6dc0f99",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "317002a5314d07bc9bca81fbd790300a4208ff618c0bdd9446c5ae28a3999b82",
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "64631c10407a42ba6fcfa0c295c2a3943a935d6b2075d8dfbc3bb024a3df832d",
+      "url": "https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "c4c15a69da41eeb8bf1183504f44d103f47b7492ab066695d16a572c23a162d1",
+      "url": "https://www.infoq.com/news/2026/06/azure-functions-serverless-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "26cac67090219df52b95f14c0c936551c938e7352d3292f317b5d5f8d36591a5",
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "42a47275c556185b122431ee1021b44740c462a1ae32737bdacb85007241c0bc",
+      "url": "https://www.infoq.com/news/2026/06/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-19T22:48:55+00:00"
     }
   ]
 }
