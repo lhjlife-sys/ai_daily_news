@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-19T22:48:55+00:00",
+  "updated_at": "2026-06-20T12:02:15+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1136,6 +1136,81 @@
       "sig": "42a47275c556185b122431ee1021b44740c462a1ae32737bdacb85007241c0bc",
       "url": "https://www.infoq.com/news/2026/06/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-06-19T22:48:55+00:00"
+    },
+    {
+      "sig": "a72532f8748ceb52acf88ddb34aa5cf8fd7ce17da21813e2863bd73effcfb46b",
+      "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "44ac5a5c532ac212aa2bd8062a56031af68cb9fd309c1b4286731b6c9f9a383a",
+      "url": "https://www.qbitai.com/2026/06/436996.html",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "2536908b98bf0f6233541dcb267ec0a1c1fd99abec4662a93d20f35a96f00ff5",
+      "url": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "4dd2505c1fc513ec0829e26844f6286c1071b970cd101c2665590321543220ac",
+      "url": "https://www.qbitai.com/2026/06/436980.html",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "2fee3d084618ca8ab24d1e8a5176f80c02acb50f547811d6c360ef9d5c20ddac",
+      "url": "https://arxiv.org/abs/2606.19464",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "374b952e350f804c439dface4ab3f8641116eeea2f3689a4454f56e93a1b7934",
+      "url": "https://www.huxiu.com/article/4868875.html?f=rss",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "67d0422be3c1f116700f3aac004856a802ac42dda148056cd3a41e366386a691",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "e53e600435105144e1797f02525d5d51b9c0c0e45877c21f25a1fa0382fb34de",
+      "url": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "132009f319e1e98c46fef6fb3e734b8859a2ad880e34802fd7b5a2f0695fcf10",
+      "url": "https://www.datacenterdynamics.com/en/opinions/bess-is-becoming-the-bridge-between-ai-data-centers-and-the-grid/",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "2eb5bcc3ad88b97ec36616da4492f783e0b7188871f20dd0ee456f000c78f604",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "773e19f3884851ab014959ef2f1b95ff41f8d2720551b826bbd0c2c0c796a97c",
+      "url": "https://www.infoq.com/news/2026/06/windows-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "9f4dbdd37bfa3bd34250cd86994e87f6901bdfdbc9560ab1a1dfbf5c85fec1b0",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "c7e0934b3133134d3360ebb2a6c753d984ed792d0514e5fb888df32886073b60",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "3f38d8dccc57140e84ed3f91553bd55acb01e2182af5608299f5c5e30741972c",
+      "url": "https://www.theregister.com/devops/2026/06/19/vercel-debuts-eve-open-source-agent-framework-tries-to-fix-shadow-ai-with-passport/5258726",
+      "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "1e78938ed539a55271a4ba9c3e1e5bc886e58deb65cd4470af2ff1229220e763",
+      "url": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
+      "sent_at": "2026-06-20T12:02:15+00:00"
     }
   ]
 }
