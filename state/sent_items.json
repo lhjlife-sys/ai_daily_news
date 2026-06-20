@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T12:02:15+00:00",
+  "updated_at": "2026-06-20T23:02:30+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1211,6 +1211,71 @@
       "sig": "1e78938ed539a55271a4ba9c3e1e5bc886e58deb65cd4470af2ff1229220e763",
       "url": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
       "sent_at": "2026-06-20T12:02:15+00:00"
+    },
+    {
+      "sig": "a7d53e1615eecb2ee4cc18954ff4a7344e7b8efae60ca8b322ae049a52c46fd7",
+      "url": "https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "2d37e5db495d522302f2f8c4816f0d0490fcfcbe3ea944f09d0ca6540235b2ee",
+      "url": "https://www.datacenterdynamics.com/en/news/buzz-hpc-signs-220m-cloud-deal-with-bell-ai-and-cohere/",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "c4ca8e0aa53fabe89ca65da9355476080cc73c8e87a500547f9af93aab8ebbc1",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "2f622a8d7dc7ae66f192970926e02bd18d7448512b8660cca6043e4e318c0c4b",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "f4194664a969cf694e166a2a9a96cbd029487c937e3acab0d04b8189fa30f8d0",
+      "url": "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "10274c56a43b8391848fb5674077da62243c5887176cda7f9332a72a764a8b30",
+      "url": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "90ad9651e560b46e992bfbe510449dd773fc7a94615924ff7942a8a0452207be",
+      "url": "https://www.huxiu.com/article/4860037.html?f=rss",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "edcdc2401b35c3702c68739cae4a3775325029112944c2547396d076ceb1214d",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "21b28d7c945af8a7f0e44fc990ad096acd1321bb230860b4319863b829424cde",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "8fed5023c090dbbda26701fbf01b10d9435ba9a1cf61eb064c731f52d27a4df2",
+      "url": "https://36kr.com/newsflashes/3861259140764678?f=rss",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "4aef1414fb2b3954a9774cf977840d6e0ade69da1b5f76e8116aed17c6e3e360",
+      "url": "https://36kr.com/newsflashes/3861257682129921?f=rss",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "b59b3271b775356f43c3e1f39bde513ae65d2b95652fdc4a2521e0f6b11ad45d",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "2ddd77795dad57d94d163b44beaece87e65574facb8e3ee68b611086288e298b",
+      "url": "https://www.qbitai.com/2026/06/437023.html",
+      "sent_at": "2026-06-20T23:02:30+00:00"
     }
   ]
 }
