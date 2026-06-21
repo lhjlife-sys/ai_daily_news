@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20T23:02:30+00:00",
+  "updated_at": "2026-06-21T12:14:43+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1276,6 +1276,71 @@
       "sig": "2ddd77795dad57d94d163b44beaece87e65574facb8e3ee68b611086288e298b",
       "url": "https://www.qbitai.com/2026/06/437023.html",
       "sent_at": "2026-06-20T23:02:30+00:00"
+    },
+    {
+      "sig": "ebdda3101f6cac2a3ca7a8abdda8704cf9c86f383bbcf6faa47459f1ea82fc03",
+      "url": "https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "59a5b0b67055e06257bdfae3566c95fa11afdad22dbbe519646735ec4e9cb491",
+      "url": "https://www.tomshardware.com/tech-industry/bank-of-korea-flags-samsung-and-sk-hynix-chip-bonuses-as-a-national-inflation-risk",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "e17db8a7202ed65861c63d7ab0b2c6d05d608b2e7b18011c6cc9e66e008aa218",
+      "url": "https://www.qbitai.com/2026/06/437198.html",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "60b201bf4d1ad9c122b86ae37bf6a51bf8ab49ad1d33bf889cc02a34935a64cc",
+      "url": "https://www.datacenterdynamics.com/en/news/nuclear-physics-research-lab-jefferson-lab-breaks-ground-on-30000-sq-ft-data-center/",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "8ad2b1d3c2a8e540f3275bcf19ce6e3b8d597d8281a491cf4b238908085dd916",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "037741ef2a7cae33a174c742dbc964686c2d6e23831c000e99f203aa972a7def",
+      "url": "https://www.qbitai.com/2026/06/437041.html",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "04f88980344ba563cd28482835d1e23e95cd73fcdc3d26fa7f512f911f394e73",
+      "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "450d5ccfb1602dc277cdfc7081592af9d5770b23e6395d73e1190a55a4b14872",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "a85478f81bd23b0e30fa6ab5f54c6f0b39745d1ed30f104f03617851a9e7778a",
+      "url": "https://www.datacenterdynamics.com/en/news/plans-filed-for-three-building-data-center-campus-in-northumberland-uk/",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "4e953be84229a8d4e5a4d2afd12f133a1c042bdbf645634bda851927e97191d2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "58b581b20ce32e7be40ebc18a719b42b939046c6c640fa43fd6b6415c69f68f2",
+      "url": "https://openai.com/index/notion",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "ece735789829f450d8d93241052b869ea89888a26435e222a82af48b67c91c69",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "660d18d7af61af42142419810a004b4c19301dc94041836d70aca1ab50d1b24e",
+      "url": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
+      "sent_at": "2026-06-21T12:14:43+00:00"
     }
   ]
 }
