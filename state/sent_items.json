@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-21T12:14:43+00:00",
+  "updated_at": "2026-06-21T23:06:17+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1341,6 +1341,71 @@
       "sig": "660d18d7af61af42142419810a004b4c19301dc94041836d70aca1ab50d1b24e",
       "url": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
       "sent_at": "2026-06-21T12:14:43+00:00"
+    },
+    {
+      "sig": "98916af90b99edbd7eeac9d4cb4069f00a556c1197763c8354117f901483ee90",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "4a975b89e4a0f0fb6925e33843acc09e8920ee722f71ed742aa2e645fcefb67b",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "b365d87dc83b3c59af9171005d5002cfe603a7fe10af2e429dc03b293b43501c",
+      "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "b0bd567083b16d6997733f5b0b3e08859a2379484cd9b43d8c37146ea9d78b74",
+      "url": "https://www.infoq.com/news/2026/06/anthropic-claude-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "a0065c4a2f8d55a519735aaccde0c0a5b3013c68f06c151740b588d84c306728",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "1fe57363b8ec524958f4abc945dae199c00546febb291356b46b76baf2593d99",
+      "url": "https://www.datacenterdynamics.com/en/news/dmg-signs-first-prefab-data-center-colocation-contract-at-christina-lake-site-in-canada/",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "924d0abb7b096e137767b7a6300a6329f31991fffe61205ae092fbae5c4ca789",
+      "url": "https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "5e36d49143980e719cdfa7ac3cbe3fb00bea4dc0c564259f22a4b75b0949cded",
+      "url": "https://www.qbitai.com/2026/06/436966.html",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "892ea269db41b4f510d9798e1d7f80baa35c4f7d34caea8c9da71040fc9c3330",
+      "url": "https://www.datacenterdynamics.com/en/news/aws-launches-local-zone-cloud-location-in-hanoi-vietnam/",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "270262b3426624723b51ff5760e91f4a55412e047aa006cb9ffdf1cdd31b5bc8",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "a0f2e46a672913f940ec67873b146ed2d0570b02efa9319dee4acaa9a40e979d",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/open-source-nvidia-vulkan-driver-nvk-gains-experimental-dlss-support-by-importing-pre-baked-cuda-binaries",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "2d3ae60485b1579f3aaea1fc5c1dff8db4e2fe7c71d111ee8300290512356414",
+      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
+      "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "0722e5e4cf4852a71880b133291c6d49fb045be04f18a28e70b9b5de4fd5d6d3",
+      "url": "https://36kr.com/newsflashes/3862675224777735?f=rss",
+      "sent_at": "2026-06-21T23:06:17+00:00"
     }
   ]
 }
