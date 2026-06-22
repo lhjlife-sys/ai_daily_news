@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-22T15:29:35+00:00",
+  "updated_at": "2026-06-22T23:18:03+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1481,6 +1481,76 @@
       "sig": "b82f33d045f1f98c9b6ca4010f04b31d87bcbff7f6619dd287256c485fb9d4d5",
       "url": "https://www.infoq.com/articles/understanding-ml-model-poisoning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "87c282464d6eaf839e2a16703df2c5c556e28cd1739deadde5f459fbb653c1b7",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "5bb24ad1420de8402fac8c18c302cdc2c3bc83e8cc1c662274631a5059c1927e",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "9a99f41188b7bc4812b305236da1564fb29add531dad038a66169ffe6720c8c2",
+      "url": "https://nvidianews.nvidia.com/news/europe-unveils-a-record-35-new-nvidia-ai-supercomputers",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "b63e5cb33bb0ec81fc69112856bd79cc3137bbdb6ac4f289eb0b32824e1d9589",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "765466db9161a00553465e38e8ee19101f820e507acaccdef3a8383cfeb8dfc3",
+      "url": "https://36kr.com/newsflashes/3864949184484611?f=rss",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "07ffd01c38a2f572518f6bfab2e8f6ee67b380b07a7c500b3f85cd67192fe6c1",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-plans-2gw-data-center-campus-in-pecos-texas/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "ee827c700d9b1282379b5fc6cf26eae6ff2ffc3a7264e28c923bf48692f2a8ab",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "b6fe1bf33a76d1f4adaf8937ee2c4c772c82c47d69882b6a0bcaf3120c4ccf12",
+      "url": "https://www.reuters.com/business/world-at-work/oracle-workforce-shrinks-by-about-13-2026-06-22/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "94dc83661e570d4f27c6cfcac6c2860e0646f25e879aeacf8521cb602b0a5072",
+      "url": "https://www.qbitai.com/2026/06/437235.html",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "e5de597cff36bf1465f5421c49976581c89f9aae1689144c06e89702bf317b44",
+      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "1b26c884bff24995a5930d00412270aacde8719168ea1b44ddcd7554af0ffdda",
+      "url": "https://www.huxiu.com/article/4869245.html?f=rss",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "e510d1d2f6f6e4777c2c86a2defd1e44e23fdbf8183c5893ddc832574e83b24c",
+      "url": "https://www.marketwatch.com/story/a-40-market-crash-is-lurking-in-the-ipo-pipeline-spacex-and-openai-could-trigger-it-64ae4026?mod=mw_rss_topstories",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "703e7f29441b7e7604fef0a2d8ab736590960b034e1ddedee25b903c99dddf62",
+      "url": "https://www.qbitai.com/2026/06/437308.html",
+      "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "71c2a6e641ecc9b449b39a816cc4db31db3fdda2ba65dca6a7c3f0f34b2c5f8f",
+      "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+      "sent_at": "2026-06-22T23:18:03+00:00"
     }
   ]
 }
