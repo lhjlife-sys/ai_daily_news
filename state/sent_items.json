@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-21T23:06:17+00:00",
+  "updated_at": "2026-06-22T15:29:35+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1406,6 +1406,81 @@
       "sig": "0722e5e4cf4852a71880b133291c6d49fb045be04f18a28e70b9b5de4fd5d6d3",
       "url": "https://36kr.com/newsflashes/3862675224777735?f=rss",
       "sent_at": "2026-06-21T23:06:17+00:00"
+    },
+    {
+      "sig": "8f9b5c847a3fb16b301338f2dd6ef7314b64cd1d351f357df796ab56afbdc467",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-delivers-world-class-supercomputers-for-science",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "1827c81865000e207db1c09e2f847c7e2df5f32bdabbd7ff8bc8e918e99203ae",
+      "url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "ccc990f8b0ef303cdafb47c097d3cadfe9028590cae20ed60066f071e42c0883",
+      "url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "3d85dbf37d5277cd017a2a3f4427f15330aeca459142c6b6902421cd570d900c",
+      "url": "https://www.tomshardware.com/pc-components/dram/ddr2-memory-prices-jump-up-to-60-percent",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "3e2b83e6bc8b543854b567b195a32024f7f2a6dbbd9d9376c479d581ac7716fc",
+      "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "95277d129cee5f29762a827df1d0905a668e972c9071b56a66b856e71485392e",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-plans-600mw-campus-in-kansas-acquires-investment-firm-columbia-capital/",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "95b709d6fe2f7d053a456284c99b58e5bf5360fafc23874db9e9ba9728812bba",
+      "url": "https://www.qbitai.com/2026/06/437317.html",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "b58a8aabb6223ec6308958fac94757c161477b7735ed539d22d3236960fb170f",
+      "url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "7f055dff129a6d7e9ac341a2da3d95ba1d06845e5d81680304f1d0662edd9eaa",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "5482914f144d0e71b8843603c75095ce576b75f57cd2deec807edda2e9acd47a",
+      "url": "https://www.qbitai.com/2026/06/437249.html",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "b497f30634e434d979d0bb26eb1376a6bc30cd8eecbf296d9b53e58514e985ea",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "5b802ccebc3cd95495dac3dcd4408eb83585f7cea2f3d766591a3279cb5731a9",
+      "url": "https://openai.com/index/nextdoor",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "dc7439051cc248a6dc4935887b3ccefc1f5bce7efbf5eb53a56ee3b433a0b9d5",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "c47909c526bb47721fc9aa7b86bc785acc38c1cfb906b7fc2bff060a33c346f5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+      "sent_at": "2026-06-22T15:29:35+00:00"
+    },
+    {
+      "sig": "b82f33d045f1f98c9b6ca4010f04b31d87bcbff7f6619dd287256c485fb9d4d5",
+      "url": "https://www.infoq.com/articles/understanding-ml-model-poisoning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-22T15:29:35+00:00"
     }
   ]
 }
