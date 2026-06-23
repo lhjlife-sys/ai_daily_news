@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-23T12:39:36+00:00",
+  "updated_at": "2026-06-23T23:04:01+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1631,6 +1631,76 @@
       "sig": "e2330fefe7e28987540075bb9c90a1d2f3b6e56ffdb1fa1a312ed40d8afaac13",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
       "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "ec80ae699e47988758b74d46748f706d5abc9507a4e13a55a2478b8f55157942",
+      "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-secures-41bn-ai-cloud-contract-with-unnamed-customer/",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "7e8bfc2ab33507dd831a960eb29f136cda11d67a6b97e8b509a5c6aa8aecd4dc",
+      "url": "https://www.qbitai.com/2026/06/437503.html",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "71f308253a322d410f0a078e155341cee1bed6aeb126a48ce87cc968f160bfb3",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "072c0c3973379946c848feb9ff14228d9d29fde8c83279e6df85b33a9830890e",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "989a7321d09c1910f8b232d6735e61c47793088a116429156c51e001e6f6f6c0",
+      "url": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "7fcbd548cbdc4fd50eb958bc954f66a0eee057d8dd430d83e02ec17d84d30182",
+      "url": "https://www.qbitai.com/2026/06/437694.html",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "1241382f570a410aa0a2d4222ea004a11326d65e4f6f4a912fe27b522699357a",
+      "url": "https://www.datacenterdynamics.com/en/news/alpsemi-raises-17m-for-development-of-wide-bandgap-power-switches-for-ai-data-centers/",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "3d5034a0c91173658484b7b3b9da7e663c4cb1eb3c545989077045f728ce3c0b",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "efc8a5b180736d42d58c83b6d0c24b73235a857efa69ccd36cda0e30b406da5f",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "4bb07558bb37c94285fedb2c712edb8f5944903c6f2d6891f32ddfaa96909cb8",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "a2046073422b2e625b5f43b3674f43c9c7067ad4bb4f5d0031ee4cbf5c1e05e0",
+      "url": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "0b690c5df303dfe7e095d5b343e487a8485c7d059bb9563ff4bd7fdd0f7dd056",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "31e1ee1e33f8f5e99da10ea10196d3447b9a3e2930ab31b89762b5ef8db3a1d4",
+      "url": "https://www.cnbc.com/2026/06/23/alphabet-verizon-dow-djia.html",
+      "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "639d73bfa373a4815c7833d14e7f9fe78c76c21dc32c88bb58e3fe534026db7e",
+      "url": "https://36kr.com/newsflashes/3866313441727744?f=rss",
+      "sent_at": "2026-06-23T23:04:01+00:00"
     }
   ]
 }
