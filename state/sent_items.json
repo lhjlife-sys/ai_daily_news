@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-22T23:18:03+00:00",
+  "updated_at": "2026-06-23T12:39:36+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1551,6 +1551,86 @@
       "sig": "71c2a6e641ecc9b449b39a816cc4db31db3fdda2ba65dca6a7c3f0f34b2c5f8f",
       "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
       "sent_at": "2026-06-22T23:18:03+00:00"
+    },
+    {
+      "sig": "d0d039c51d16613080df7f38d293d7bcd009597aad875d5e1d93c544b956afcf",
+      "url": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "639139c07d51b57bd5f27e0961af7067addc8e9ed7d00ef276e8c23fdf97d137",
+      "url": "https://www.datacenterdynamics.com/en/news/spacex-secures-63bn-compute-capacity-deal-from-ai-startup-reflection/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "9d1d47ec4b50ed0ae874225cee7fb9ead1ec80aa2deb5abb0ad032ee6236f526",
+      "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "2886eded3288410cfe0b40f05c2f55346f283936a200d129d0065dc31ecc7376",
+      "url": "https://www.marketwatch.com/story/investor-assumptions-about-the-ai-trade-are-starting-to-stretch-reality-goldman-sachs-says-0f39d408?mod=mw_rss_topstories",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "fdf649da5d364603b573a285b962134835a68c1f7fe7084a47d061f4b3a87a30",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/oracle-lays-off-21-000-employees-in-just-12-months-due-to-ai-adoption-and-costly-ai-infrastructure-ambitions-says-layoffs-will-continue-as-internal-ai-deployment-grows",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "706fd63bc19b59e37f3ecdd8b043e68e0890d9ee0263e0e96158c2d806bf3cbb",
+      "url": "https://www.huxiu.com/article/4869655.html?f=rss",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "e6d6744455b68415a7f7f249f778eb1e1b79af94ea0e1f69687b2dc91f1e54a7",
+      "url": "https://www.cnbc.com/2026/06/23/ai-memory-startup-focused-on-cutting-token-costs-raises-98-million.html",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "6cf0a0138d62bf4e5cdc6f2c7c436558401b3ec99506bbf5df047aed32e4afef",
+      "url": "https://www.datacenterdynamics.com/en/news/edgemode-plans-300mw-natural-gas-powered-data-center-campus-in-toledo-spain/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "5fcdb7cd21e353ff5ec1edf2e0f7458e8aad7cbfc459f39820e7e4564289c26a",
+      "url": "https://36kr.com/newsflashes/3865728142267654?f=rss",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "4cabfda6212bee225302842345d6a5ed478737476db53f03f9fe63e72b1cd7ee",
+      "url": "https://www.cnbc.com/2026/06/23/ai-groups-spend-20-million-in-new-york-race-pitting-bores-lasher-schlossberg.html",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "c62828064974d9f13f7058175afbe2f375336b52a6b1d019386b020a1b2a9cff",
+      "url": "https://www.theregister.com/devops/2026/06/23/aws-debuts-lambda-microvms-with-up-to-8-hours-runtime/5260035",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "f7194843813fb6dc07c94179c5fad8a1c927688526b996a62d60709d1152ca2b",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "03e0e0ace490669fba85b3f8678924bf4ac718377907062ce155c0662fdbf216",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "514f0c202af87988801f7950b64b9051d55c939a149070e5dcb4767e274906de",
+      "url": "https://arxiv.org/abs/2606.20599",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "480508a9ca16ad815100a8e84cf7acfa353c1ab146fa436ce0db7a8f237592c6",
+      "url": "https://openai.com/index/omio",
+      "sent_at": "2026-06-23T12:39:36+00:00"
+    },
+    {
+      "sig": "e2330fefe7e28987540075bb9c90a1d2f3b6e56ffdb1fa1a312ed40d8afaac13",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "sent_at": "2026-06-23T12:39:36+00:00"
     }
   ]
 }
