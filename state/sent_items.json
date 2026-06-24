@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-24T12:24:26+00:00",
+  "updated_at": "2026-06-24T23:02:42+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1776,6 +1776,76 @@
       "sig": "3696e67c2c9e8aaad24a172105b38fea5bb1e78435b3e32a3e5c5c1176320aa6",
       "url": "https://openai.com/index/patch-the-planet",
       "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "274cbff16b772950fdaa6e5c630f4ef02ef9e74bfc266f0cb28110a7bda6ce02",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "172fd12b4fe6c6e04c478dd20e07db1c5185fccb3f4ccc7969d97231e1e1592d",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "cb1ed83e174b6b50327c7a37c1c0c87e91f9614c0f6d60256410d0313d0b0b8e",
+      "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "f91f1b67beb11dad51a3b3f3dd8586b9dd4a7ed922cde3e685c29bd28a3e1073",
+      "url": "https://www.huxiu.com/article/4869561.html?f=rss",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "5555bfea46ea2ed60a3a1067a8948be923f73ab8d75e50d232d894d59cadc27c",
+      "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "714e8d2272ef6987616f8aebf4a2c796f890411741020d6be4a77be43738292c",
+      "url": "https://www.datacenterdynamics.com/en/news/first-street-79-percent-of-global-data-center-capacity-facing-acute-climate-hazards/",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "33d2de8d265943976eef0d6074c9ce02aea73b6a093d7b25a0adb661ac3d6051",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "f4eb267f72a097d2266f20135d68aa5cd8f10caace71514f9f42eb1c1e9b1b24",
+      "url": "https://www.qbitai.com/2026/06/437853.html",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "7743e62c81fc51aabd18ae6eeb18a20dc31aaba8d1536a1710399aa38849255c",
+      "url": "https://www.datacenterdynamics.com/en/news/sunrun-renew-home-and-tesla-to-aggregate-16gw-of-home-energy-resources-across-us-for-data-center-offtakers/",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "a4a7a34251b04000a83ab3d5e01cf3d5fb4b3c68d486fb773a7921c094d9788d",
+      "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "12190d98206490846bf15a9bf2c695aa613da4e032418d7024fca96745351e31",
+      "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "f9b877cfe25cecfddf290b098a61e28b6808e51a885b06c365514ca94d80d563",
+      "url": "https://www.infoq.com/news/2026/06/google-open-rl-fine-tuning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "c955e39d506dcc19a575bec4dd44ad305201a455830d9432a69953fdf0a7d71f",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "bb6dca4045d63cf1125428b6e13245c4a09112682ecfdeae4c995a3b51f8b48a",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "sent_at": "2026-06-24T23:02:42+00:00"
     }
   ]
 }
