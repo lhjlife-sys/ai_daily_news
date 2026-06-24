@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-23T23:04:01+00:00",
+  "updated_at": "2026-06-24T12:24:26+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1701,6 +1701,81 @@
       "sig": "639d73bfa373a4815c7833d14e7f9fe78c76c21dc32c88bb58e3fe534026db7e",
       "url": "https://36kr.com/newsflashes/3866313441727744?f=rss",
       "sent_at": "2026-06-23T23:04:01+00:00"
+    },
+    {
+      "sig": "5a4fccada27527ac83ab9c616d894e43c2e5562b9399d63e137f0351698da16e",
+      "url": "https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "fe524f2354be43f8f18246b104e7fc705555edcb5639e0c6db220cd11c4296b1",
+      "url": "https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "e7cad40fb53bcdfe30ce564531e395eae03c38c4525bedf77d8e86f1977a0ce8",
+      "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "5d12d3a18eeb3a2613a44574da8ec10e821a934cb5ff307b3c50e579a9450324",
+      "url": "https://www.marketwatch.com/story/tesla-and-waymo-are-chasing-the-robotaxi-dream-but-the-company-spending-the-most-to-win-builds-no-cars-at-all-0d8682b9?mod=mw_rss_topstories",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "ae7ea9327e013bc24f92b8ab6164e25c93e8de20a89fa20460a60cc66a4b98a3",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/five-year-old-nvidia-a100-servers-triple-in-price-in-china",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "06de39385978a8649526bce9916b17a9c5e73135ad28a63d594691c6008ed2b0",
+      "url": "https://www.cnbc.com/2026/06/24/morgan-stanley-china-humanoid-robot-market-forecast.html",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "e00e1315550ef62b3b4be767dc34c7343f6373cc4c63d4a578c9240d87ff5919",
+      "url": "https://www.datacenterdynamics.com/en/news/20mw-data-center-proposed-in-starbucks-seattle-hq-building-in-washington/",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "dbae5aaefdb70a36bf21ef91aa520c7297f75c3ba9f854773d8bebc46f8f9af4",
+      "url": "https://www.datacenterdynamics.com/en/news/cbre-global-data-center-demand-continues-to-outstrip-supply-driving-up-rental-rates-and-construction-costs/",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "c4b83b4a74b9817217032de796dfa0e2e764e0b4ef936a1fa7fd26ddc7c6d3d2",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "9789e0a1994c8c0119ca061a59650547411182abf4a1a7e83c21a1b854024d68",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-build-aks-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "54fe8bdd59c99c945c354a565ff98fe93172cd320318a639a6246e4c1ef3b4a9",
+      "url": "https://www.qbitai.com/2026/06/438174.html",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "fcf5750dd7cf15d202779b37dc679819ab400f617302dd658b8fa7821931a8ee",
+      "url": "https://arxiv.org/abs/2606.23927",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "ccbe4d356160d5143872776418c5c5382f45d6739dd8c952db7f3f64de1a68cf",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "53da9b0e7de8ae74a37076644d59c6c40252cb750d450e65ff83272ede3558c7",
+      "url": "https://www.qbitai.com/2026/06/438166.html",
+      "sent_at": "2026-06-24T12:24:26+00:00"
+    },
+    {
+      "sig": "3696e67c2c9e8aaad24a172105b38fea5bb1e78435b3e32a3e5c5c1176320aa6",
+      "url": "https://openai.com/index/patch-the-planet",
+      "sent_at": "2026-06-24T12:24:26+00:00"
     }
   ]
 }
