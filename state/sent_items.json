@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-24T23:02:42+00:00",
+  "updated_at": "2026-06-25T12:27:04+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1846,6 +1846,81 @@
       "sig": "bb6dca4045d63cf1125428b6e13245c4a09112682ecfdeae4c995a3b51f8b48a",
       "url": "https://huggingface.co/blog/ffasr-leaderboard",
       "sent_at": "2026-06-24T23:02:42+00:00"
+    },
+    {
+      "sig": "7ad4a18e26056533ac11f657cdc7eb2e6fcc336eaa78ca1db01b49987b05a0ed",
+      "url": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "4e2ef248849aa170287148e75649f1c21ae90a74c0ae5717e57cf2a971be62da",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "855db08b75f6ecdec51e99c29ae69891f728d628f1aaf51e27e6f4497ca596cf",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "922d781bb9442b12c9bf93e8b1c6bb9a3b3c9e0344bb8ad7c0981c114edc6a46",
+      "url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "3d99cf87d464b7af5461cdf1dc29e5bd6c5c008df9a0bfc30a0f3b0c56ddb179",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "74aaf8b2aca615391e32c798fd1d126aa91bfeddb6b17777db25f01193de0ddd",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-reveals-hbc-near-memory-ai-architecture-ai250-and-ai350-accelerators-touts-6x-higher-bandwidth-per-watt-compared-to-hbm-200x-capacity-compared-to-on-chip-sram",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "c12804b0baab8c09ebc560b5f5ae7e5fce7db4d0e67e5f8591cecab8a03143f4",
+      "url": "https://www.datacenterdynamics.com/en/news/ocasio-cortez-and-sanders-introduce-ai-data-center-moratorium-act/",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "3cb0afd9fd5224b0efd4b835f72c50402ab336b75f1cfa93376d4f29dc6fbeec",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "a095de40d1a288c5e901f62f898be46940e91bbe7e6106a974b31f78b324e865",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/25/zte-builds-a-tco-optimal-ai-factory-to-fuel-token-economy/5262082",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "75c7b56bd53e5c380ecf79a2ee1b35a50452abf56fe29b56a4f5209f92af6b9f",
+      "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "f94d0c26f132c9d7bc14bc653db52969497e43872137ba39a91f5348e832cef9",
+      "url": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "a0e0bceb6762313deab58299f8968b5c6d50ea4aa8cb9899a71ffc185f60a607",
+      "url": "https://www.infoq.com/news/2026/06/grab-ai-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "16d890dccaaf9874827456e992ea5165168dede9bb2ffadb8c23a8aa9a29d90e",
+      "url": "https://36kr.com/newsflashes/3868549148349700?f=rss",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "c548e3bab1c10d734eb05b664e619ca9781bc849012e5e78a859b71f1026e3f2",
+      "url": "https://www.theregister.com/databases/2026/06/25/elastic-stretches-workforce-7-thinner-as-ai-does-more-of-the-heavy-lifting/5261993",
+      "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "5df1e9b2136e51c89dd237490278bca0361cd36916cda2568e94ed0ff0882384",
+      "url": "https://www.qbitai.com/2026/06/438638.html",
+      "sent_at": "2026-06-25T12:27:04+00:00"
     }
   ]
 }
