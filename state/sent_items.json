@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-25T12:27:04+00:00",
+  "updated_at": "2026-06-25T23:13:13+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1921,6 +1921,71 @@
       "sig": "5df1e9b2136e51c89dd237490278bca0361cd36916cda2568e94ed0ff0882384",
       "url": "https://www.qbitai.com/2026/06/438638.html",
       "sent_at": "2026-06-25T12:27:04+00:00"
+    },
+    {
+      "sig": "fa5d208c98e0e452cf091b3bb3f93ad31b1fd57de45301d93ba23a75828a37ce",
+      "url": "https://www.datacenterdynamics.com/en/news/ibm-details-major-chip-breakthrough-with-new-sub-1nm-nanostack-3d-architecture/",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "d8d06740c33ad511f3c00e99cd374b2194a47671ae845dd3000aeb12ad7054bd",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "5b7c1ef2da2d4bf52eb7266be2de20391a3ce561b7eb8bd82bdea4d88075d51d",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/06/25/amazon-pours-another-13b-into-indias-ai-and-cloud-infrastructure/5262067",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "a9f871abc7374d611a15f28bf251031f0be79a697ae0684c1c5b5dcbcaaa7f8e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "1529b7c0a26a541b9ca9535afaac1f6ca512622053bb5e99492466ab6734fcfd",
+      "url": "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "166ac07639f3edab0a108c4c10b6cb10606e18964efcd132681ff72688bf782d",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "8e24f66d2e8f298e3f546c9d8c438019bdbba9a8f2cfa3633fe2e19d5c3f8091",
+      "url": "https://36kr.com/newsflashes/3868722221028610?f=rss",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "841cfede622dfd21425eb13f735f2280ede75d62953ca5e0ab913f1abc91b527",
+      "url": "https://www.qbitai.com/2026/06/438468.html",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "758be8880fac3e4e0d70231900954be560a06859a7d2ba82573d8995f6dc5fd2",
+      "url": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "49391a5625d540372778814a3713d19c15e413bf743ca38e71fda9d618ab379e",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/25/openai-says-employees-moving-beyond-chat-to-agents/5262499",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "d2a4420febdfbc6e0dbae8eff9d4a7bd55baa57d2de0b39ead03eb6492b54d50",
+      "url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "0acdbe015ce097c6c83e9745936db38ca3c30cbb4f6ad1048dca4dc135b5dc21",
+      "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "6a95b493803eeb3771bc5cf195efa0e3573371af17536d3b9098621ab16043c8",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "sent_at": "2026-06-25T23:13:13+00:00"
     }
   ]
 }
