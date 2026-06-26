@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-25T23:13:13+00:00",
+  "updated_at": "2026-06-26T12:17:15+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -1986,6 +1986,81 @@
       "sig": "6a95b493803eeb3771bc5cf195efa0e3573371af17536d3b9098621ab16043c8",
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
       "sent_at": "2026-06-25T23:13:13+00:00"
+    },
+    {
+      "sig": "3d73062a8920c1beceb4e5bd1fa014ee28baf0131ac4b43e63a32441d8ba338c",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "827d7031b61c68ff03c80644e52a1b783440a0d920b951bc666ab639bda44ed3",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ibm-goes-sub-1nm-develops-0-7nm-class-technology-offering-up-to-50-percent-higher-performance-and-70-percent-higher-energy-efficiency-compared-to-ibms-2nm-class-node",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "e24e12ef9468cee2711d14f70029f1de53c6118a921037a9d599a984382ed160",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "f541e4dc9503c8dc754b89846396ee5db87147543213ae3fa4a0cb75fbb4e0f7",
+      "url": "https://www.theregister.com/saas/2026/06/26/italy-probes-ai-fueled-price-hikes-in-microsoft-365/5262986",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "3757b32e2b17a3d641bee5b624099fa2bdd0d31a339f31d19e2e96fe5eb30914",
+      "url": "https://www.cnbc.com/2026/06/26/micron-stock-earnings-tech-selloff-ai.html",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "2f62c26fcb0868abbb7c52c5b7e81b1724f314d32ee922facf155c5a2d487c2b",
+      "url": "https://36kr.com/p/3869884559332356?f=rss",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "e1b092213890de8d270a0b47c537c06c61514e46ebb948f8e852194f555b8fa4",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "5bec11a68edc69356ac9d3637499f632ee06c0419209c5049266285b4d3b7879",
+      "url": "https://www.marketwatch.com/story/microns-stock-is-still-dirt-cheap-some-analysts-say-thats-about-to-change-5514e54f?mod=mw_rss_topstories",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "f86b1eafa88851c964e0f24aa4041ffe9e669d99dd0c39ca05ab9b8d759ba6f4",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-and-samsung-to-power-6g-ready-digital-twin-for-japan-telecom-giant/",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "1c4cc9adbfc0dc7768f8e2f73de38bfb8344468da5459b1764a28b5165f984e8",
+      "url": "https://www.infoq.com/news/2026/06/slack-multicloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "dcff10a047471c842799a6310754223538a75c99f35250fab2861e7a80fefd16",
+      "url": "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "2eddf99ccb71579feece1c4051f526d160fd1517b7b9e8d6442580bd8ae81170",
+      "url": "https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "e48898beb36798db5735dc5eea457e3eb1664ba0d9df54a14a1822bf81b086c8",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "69df757b99c985d1b0f3cb6e1963343cb439239351482250c30f12a6c54e4c0b",
+      "url": "https://www.datacenterdynamics.com/en/news/hive-secures-customer-to-lease-30mw-in-boden-sweden/",
+      "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "3c558945a6d9dd4f74a45a54f341a4a3092d4ee4cd4fbe9e9b1da5ef3f291211",
+      "url": "https://www.theregister.com/systems/2026/06/26/engineer-accused-of-insider-trading-tied-to-microsofts-reboot-of-three-mile-island-nuclear-plant/5262452",
+      "sent_at": "2026-06-26T12:17:15+00:00"
     }
   ]
 }
