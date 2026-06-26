@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-26T12:17:15+00:00",
+  "updated_at": "2026-06-26T23:03:30+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2061,6 +2061,66 @@
       "sig": "3c558945a6d9dd4f74a45a54f341a4a3092d4ee4cd4fbe9e9b1da5ef3f291211",
       "url": "https://www.theregister.com/systems/2026/06/26/engineer-accused-of-insider-trading-tied-to-microsofts-reboot-of-three-mile-island-nuclear-plant/5262452",
       "sent_at": "2026-06-26T12:17:15+00:00"
+    },
+    {
+      "sig": "7ec59b6a76d611d1753e0d740fd3320e9ead55cc13692543fd947720c1a301d6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "8faaa9465a22ed7f18c621bd72377afd9a25ac0ae3783eaaeb7109346cc22f41",
+      "url": "https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "2ed60cf88e99964fba613c6fb8fd6d9d9dbe766c5901046561b57ebeef1cffdf",
+      "url": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "22860fcb0315498ac60f93a9b492431e8d08b626298286891ed75e0910fdff7f",
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "1771398bf34f6af5a127e3dbee8e975fa9b05a25c3a6fca2696b69555a54280d",
+      "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "43b5f1e141d5bdf8f3dce2c89dc3c656e0d53e87fcd1e15a4bd7131d6292a22b",
+      "url": "https://www.qbitai.com/2026/06/438789.html",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "a89bd29179551819856b065ede4713b6852fdeba5902ee51553efe74e9cce3c0",
+      "url": "https://36kr.com/newsflashes/3869990301586434?f=rss",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "881b121bdeef8a11048de60ee595e60f4f4719396304914724253383e8662e07",
+      "url": "https://www.datacenterdynamics.com/en/news/vantage-tops-out-second-building-at-openais-lighthouse-campus-in-wisconsin/",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "1524fd9cc5703db0dfbfab4130b0a31e4e95300eb8362a2da624020513450ba3",
+      "url": "https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "2c1e1114d809cc7e339f40fe547505af9b268942e57937987684c97ea16399ce",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/26/notion-kills-its-gmail-client-after-ai-agents-keep-humans-from-troubling-inbox/5263024",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "2ac09b839a4d0e40d958c768f0ea89898d87bfacef92906784ae4ebebcd104eb",
+      "url": "https://36kr.com/newsflashes/3870003257971976?f=rss",
+      "sent_at": "2026-06-26T23:03:30+00:00"
+    },
+    {
+      "sig": "918ddc33ac362512393f217ea6e2635b44e5d2b4a5fd756a347c4653ef234d47",
+      "url": "https://www.datacenterdynamics.com/en/news/dogecoin-cryptominer-z-squared-acquires-site-in-arkansas-for-aihpc-data-center-development/",
+      "sent_at": "2026-06-26T23:03:30+00:00"
     }
   ]
 }
