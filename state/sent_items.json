@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-27T11:40:41+00:00",
+  "updated_at": "2026-06-27T22:59:14+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2186,6 +2186,66 @@
       "sig": "cf0d69b794720b68c87de2fc169478c35bed478a1030be132d4eab0bdd31b6d1",
       "url": "https://www.theregister.com/offbeat/2026/06/26/us-auto-regulators-want-to-kill-robotaxi-brake-pedals/5263228",
       "sent_at": "2026-06-27T11:40:41+00:00"
+    },
+    {
+      "sig": "c006c97baec64026c6e325c7359ea78eda90542d5b55f036b410d79f018b812c",
+      "url": "https://www.cnbc.com/2026/06/27/ge-vernova-gas-turbines-ai-data-centers.html",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "05f114551bbfad03dec622d6ef1e916e19c146c352538dff2ba2d9f02621dfa1",
+      "url": "https://www.cnbc.com/2026/06/27/alphabet-burnishes-one-of-its-best-weapons-in-the-battle-for-ai-supremacy.html",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "e6219a13550166c0708fa671202bc1e746f75c2ffea99e68cc5bb53e5ebcd517",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "d09b74fef3757f25306bea769624fcd1f762911eb3f0a35be1cf396b5322d8ce",
+      "url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "597505d762f31fd3ee837cbebeb1aaa89c6a285d2f427472e2632016933085a2",
+      "url": "https://www.tomshardware.com/tech-industry/apple-reportedly-lobbies-uncle-sam-for-access-to-chinese-memory-chips-tech-giant-allegedly-wants-to-buy-from-blacklisted-cxmt",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "443982bb7052dec150d81eadbc00c80962d14343500d65490a1a181ce876543d",
+      "url": "https://www.huxiu.com/article/4870953.html?f=rss",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "9cafba394397a09a1ec8f180c9709fb6e9346f9eb87ce6ed6fe8ed990afdcddd",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "025d491835e17ae11e5bb83c4be702781226e2d1f90daef4be8ed5cc859e8683",
+      "url": "https://www.qbitai.com/2026/06/439236.html",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "2e1f29b50d98a2b5df9308636c162a3c50d5eb0d1fbd3a76399333a5b101207e",
+      "url": "https://openai.com/index/endava-frontiers",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "76064db1665eacf10c17f8f012d5683e7d8f986430c2a35b5c6ef2b1ddcefa44",
+      "url": "https://www.datacenterdynamics.com/en/news/superx-launches-ai-inference-cloud-location-in-denver-colorado/",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "1ce2aa9bb46fb039d5b2ca43e43bd6949f4120b3146029cb340bf3d374f8d710",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "7c756297345c2d26e411b3ea4cc6e6e537ced94bb890bd9485f3b2c975530ac1",
+      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "sent_at": "2026-06-27T22:59:14+00:00"
     }
   ]
 }
