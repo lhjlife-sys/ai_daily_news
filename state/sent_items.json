@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-27T22:59:14+00:00",
+  "updated_at": "2026-06-28T11:51:10+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2246,6 +2246,76 @@
       "sig": "7c756297345c2d26e411b3ea4cc6e6e537ced94bb890bd9485f3b2c975530ac1",
       "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
       "sent_at": "2026-06-27T22:59:14+00:00"
+    },
+    {
+      "sig": "1834e136dc0ccb8ca9ac91aa1e51ecde5fe47c9d1b235bde35d3ca4f4f707232",
+      "url": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "15c1836b6661fb94c7768408375c7c7248940b65153e192a67551daaa45ed789",
+      "url": "https://www.cnbc.com/2026/06/27/the-ai-trade-cooled-and-oil-sank-a-closer-look-at-wall-streets-volatile-week.html",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "d004aa00cabc6690b2a66f1bbbb680816df7ad7f21b2d11fbb7f301be7bd1fad",
+      "url": "https://www.qbitai.com/2026/06/439548.html",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "ec821d526741819a9a54ab48b22a86d4d528e582a69119f96c3d4fb59581c5ea",
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-anthropic-mythos-cybersecurity-574b02c2",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "9411cf90fb9c3f4f6f62f4da07618d33d494328fbcec2f19552757bb57f4ab25",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "ec0ed2b3689ae183fd8f66c55565d508903999cdfb0ab21ce3ac891ae50f1018",
+      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "c2dc358768de4435e91c5131bbb6fb4abfd03c9c5e3ade6a3c3436321b91e032",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intels-next-gen-52-core-nova-lake-cpu-could-pull-up-to-474w-high-end-lga1954-motherboards-may-need-three-8-pin-power-connectors-to-feed-the-monster",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "f5132994aca5b494549156fb8eb8427b51cf7f53405d4770f9a58d321992911d",
+      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "bd27b18eda87ca56ecb2decf7653f0accecceee674c1f9d7561e0cf18b45cb6a",
+      "url": "https://www.qbitai.com/2026/06/439464.html",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "07239baf50043cf8e7bb0ceacbbdb0535e66aa065e770388011780aa212488db",
+      "url": "https://www.datacenterdynamics.com/en/news/aluminum-smelter-site-in-australia-targeted-for-540mw-data-center-development/",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "fea5c38abb8c5c5881055153ffe99109e4244f672e998663ae93ee21fa5c00b8",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "aec47bf765565a42d15632893022dd8dad49d3735db96380d92af7e90fffa2df",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "6f7dc4b5c40746e9ff0968ca916d46bb2625b62646dd022e3bb1c224a735f08d",
+      "url": "https://www.datacenterdynamics.com/en/news/indonesian-telco-xlsmart-migrates-to-tencent-cloud/",
+      "sent_at": "2026-06-28T11:51:10+00:00"
+    },
+    {
+      "sig": "3c6e42a66730f402d7b1632b7f43c2f64b253f7cbef5f44a98209bbb7b91489b",
+      "url": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
+      "sent_at": "2026-06-28T11:51:10+00:00"
     }
   ]
 }
