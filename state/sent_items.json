@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-28T22:59:07+00:00",
+  "updated_at": "2026-06-29T14:10:26+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2381,6 +2381,76 @@
       "sig": "b1af60a9cc8130b72627bf4861157cd03ffc74aeec998defbc47c4246c312209",
       "url": "https://www.tomshardware.com/pc-components/cpus/chinas-loongson-launches-homegrown-16-core-server-cpu-built-on-loongarch-architecture-40w-chip-with-ddr4-ecc-and-32-pcie-lanes-targets-cheap-smb-file-database-and-web-servers",
       "sent_at": "2026-06-28T22:59:07+00:00"
+    },
+    {
+      "sig": "c35120ca33e8182aafdb87721d291a8b35840d173cf30b73a45a8e0a8df6446b",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-to-deploy-170000-gpu-cluster-in-batam-indonesia/",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "ee65bf9837a6d709be5d00f1b79468571e32bf899bf33bc56045a94d25daf588",
+      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "c7cc10cac3fff6333bf1a931b2d6ef8a3808d189787e204c85815e28556ba2a8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "f366fbd15bd2601a2db658fd3ab799f2eab103a053e89f8b164705f5bfe0f95c",
+      "url": "https://www.tomshardware.com/tech-industry/samsung-sk-hynix-and-micron-sued-over-alleged-dram-price-fixing-amid-record-memory-costs",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "8bc150fde43e1055edf8628064c697072ade691e16d7f6b3480bc33eff3efb0c",
+      "url": "https://www.qbitai.com/2026/06/439863.html",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "800847a4ba8ac59b73055a0e0654daf35443fb5380d4cf18dc49f3cf5cd65e9c",
+      "url": "https://www.cnbc.com/2026/06/29/samsung-sk-hynix-reported-1point3-reported-trillion-spending-plans.html",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "41905b6e59d74cdc8033400a8004b649566d2a7e8219a178941d74b8435340ff",
+      "url": "https://www.qbitai.com/2026/06/439861.html",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "b1cc8f230329467af9c4aa5a25d86ded5af925fcc9a5ece8dbb3f17ec40a258d",
+      "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "cd5c0996dedcaf5147ed8258fec83679f8cfa4a04a79e23ceabbbdc804274837",
+      "url": "https://36kr.com/newsflashes/3874257198880005?f=rss",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "5f8ae94d3d52ae74dcc04545cabfb0442c0afe91eccec520674715a73dc917b9",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "44eb56d2b3c17c1aea41ed6a12df35d30db2610a890a20673770fab230b17dc2",
+      "url": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "ef9ac98c9d795aafa5d3618fc9a10d1a35da9127f1eebc77c6d5bb7161b9921b",
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "19ce55422ed394e3af82b30eeadf4dd16fb546b40a7c20a8bf2308a38c1b5c2e",
+      "url": "https://www.cnbc.com/2026/06/29/trump-axon-stock-ice-taser-immigration-enforcement.html",
+      "sent_at": "2026-06-29T14:10:26+00:00"
+    },
+    {
+      "sig": "fa251b506f76b3c38668a77b1da5d22b5e631911aed1ef00add78b721145e380",
+      "url": "https://36kr.com/newsflashes/3874256452228352?f=rss",
+      "sent_at": "2026-06-29T14:10:26+00:00"
     }
   ]
 }
