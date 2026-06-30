@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-30T12:14:21+00:00",
+  "updated_at": "2026-06-30T23:06:57+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2581,6 +2581,76 @@
       "sig": "9cc3b14e3b9c7b80270d1a4d66b00d65f8eaf10f3058efb10d6469165b0cdaf1",
       "url": "https://huggingface.co/blog/allenai/discoformer",
       "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "6ddee985930972fcd0aaad9bbbcc80b655dcf43d51ed4cbe4ce30e7f832011a3",
+      "url": "https://www.theregister.com/systems/2026/06/30/qualcomms-proposed-solution-to-catch-up-in-ai-infra-bury-the-compute-under-the-dram/5264071",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "319975cb5f1ba6294450946cfa2f641cdb88dff99cd3a261c17c1950a5e6b2c2",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "cb7711f4eea27d5d3cb44464934584bdb4e6f7e95f743aa9018b53253791c5db",
+      "url": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "f4d003c09134ab6213ecb696b577922972a127ef2b626ae2a28f49fd02789397",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "6530cb93d4199e4a5819af6186ff7339e9a22ad504fc6fcfbdc707d15e610492",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/30/changing-ai-math-could-reduce-the-hardware-burden-researchers-show/5264609",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "068c9bc43551fee5154c8fa53e2673adf3854265200e9d97577ed758458b2940",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "09d53a71739e788465706af730fbb73ea1b7bed9a6988a6310aac27aca8ddaf2",
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "d418aeee5f3933db21e35df466906539287387651c67a85ee456a5eadd07d8c0",
+      "url": "https://www.marketwatch.com/story/investors-piled-into-etfs-at-a-record-pace-in-the-first-half-of-2026-heres-where-their-money-is-flowing-92a50cf5?mod=mw_rss_topstories",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "270bf5aff18a95d12deb9cb75bd5d487163e79e71135998978191c04bd59f177",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "0b8dc2473cab870ca2495ea71e50026dae2531d9b8bf7afce176845dafa8ae95",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "b3cd947737d7421e1bbe16f87cf3b7cf1586dabb4e5d0e96c973d21b94fa2a7b",
+      "url": "https://www.qbitai.com/2026/06/440949.html",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "2aa2d69e143936ea1fd3786324bf4026e23c67371e9aac3b6b50aab9675bbd42",
+      "url": "https://www.qbitai.com/2026/06/440818.html",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "6ce8ca3ce4aab7a55d555cdd7df38717fef2540b226c2c16b5db4a10ba819c65",
+      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+      "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "826dd33d5ccb46796a392b47ee26b8b65927cab69950d1a70933718ff006cd93",
+      "url": "https://www.datacenterdynamics.com/en/analysis/shaking-off-the-rust-pennsylvanias-data-center-rise/",
+      "sent_at": "2026-06-30T23:06:57+00:00"
     }
   ]
 }
