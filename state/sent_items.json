@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-29T22:52:12+00:00",
+  "updated_at": "2026-06-30T12:14:21+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2521,6 +2521,66 @@
       "sig": "b82bce32bb4b2a31f42e3b902db4e4f814c8bcd29c6133ae6d303674af55f4c1",
       "url": "https://github.com/off-grid-ai",
       "sent_at": "2026-06-29T22:52:12+00:00"
+    },
+    {
+      "sig": "b4d8830a8d0a73636975837cadd63afe32bb2a6b51886d64f16c8f495b6ddc5a",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/z-ai-free-glm-5-2-tops-the-open-weight-ai-rankings-on-all-huawei-silicon",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "34dd0486a952b42e27b84da9b76fb1d3669b6431446b188da98a4902fa7a38b3",
+      "url": "https://36kr.com/p/3873626697470985?f=rss",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "e32b6bfc0436d5b84cf50381a4d754dd2557eb47384301ed180450bd32c79878",
+      "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "e818b0831496f069e430b13be565cbfb8fa5d27ea8542c7b93ad992428805a80",
+      "url": "https://www.cnbc.com/2026/06/30/magnificent-7-stocks-sell-off-investors-grow-jittery-on-ai-spending.html",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "b137087c88918ca486a7b20f284c29705e6e7d63e410ff3baf7b271c3e6f0816",
+      "url": "https://36kr.com/newsflashes/3875626486526214?f=rss",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "6fd2433bd54541e6b253b375da03b8d01be56ffa8e8c0ff603f1bd5225d2f63e",
+      "url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "cc63086df6dcdf6f870ecdaf573c3cefaefd208101264b21c46b699c3694b1d7",
+      "url": "https://www.cnbc.com/2026/06/30/digital-realty-blackstone-virginia-data-center-35-billion-stake.html",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "3155c4ece1f6618ec7e14e03b54f07c3e617c2e0b32bf4462d8b5d48447a684f",
+      "url": "https://www.datacenterdynamics.com/en/news/jetcool-debuts-liquid-cooled-dell-poweredge-server/",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "976ddbe58431f0b91cb84f6ac6b39e86a0b540512a7907661dc0399e7286da39",
+      "url": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "e8846aa4d39dcfac5c5d893c88fe3983e16d974980b57d95543f553229aff520",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "e54c66070c2fc93fa11928fcb823aaa40dbd140b0d4a6761ee6bd8b16f89e0c0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "sent_at": "2026-06-30T12:14:21+00:00"
+    },
+    {
+      "sig": "9cc3b14e3b9c7b80270d1a4d66b00d65f8eaf10f3058efb10d6469165b0cdaf1",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "sent_at": "2026-06-30T12:14:21+00:00"
     }
   ]
 }
