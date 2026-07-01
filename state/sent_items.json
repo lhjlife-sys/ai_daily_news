@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-30T23:06:57+00:00",
+  "updated_at": "2026-07-01T12:39:16+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2651,6 +2651,71 @@
       "sig": "826dd33d5ccb46796a392b47ee26b8b65927cab69950d1a70933718ff006cd93",
       "url": "https://www.datacenterdynamics.com/en/analysis/shaking-off-the-rust-pennsylvanias-data-center-rise/",
       "sent_at": "2026-06-30T23:06:57+00:00"
+    },
+    {
+      "sig": "559940ad8a7aa8333f8bd01cbb0949cf89f001099e02d7ecc07ac283dac1890c",
+      "url": "https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "e576ec37123baf4659e9fb852523e64b0c204e53df4e4b0d55472ee9ead66987",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "833458423e1f4875677f7fa126b74e0eb125128da70920a1979c8562c879a78e",
+      "url": "https://www.datacenterdynamics.com/en/news/schneider-electric-to-acquire-industrial-ai-business-cognite-for-31bn/",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "04f4a1dc7fc68d1e90675f5c40862ebcecee745091c7db7f541d363ae371ce2c",
+      "url": "https://www.qbitai.com/2026/07/441396.html",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "ab8148b6cd638303527213cfcb1830539c2513109fd65d6cec11aafa82a8ba51",
+      "url": "https://www.marketwatch.com/story/why-its-too-early-to-call-a-top-on-semiconductor-stocks-according-to-these-highly-regarded-analysts-bb1139d4?mod=mw_rss_topstories",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "1d5abdcff129f3dc8d021fa3882bd8a78363bd13a943e713ffa18f9f6d41b0c2",
+      "url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "6ec44da544892c015185e02cdb34c08530e4d379e64cc77491a15157e5f25666",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/japan-wants-10-million-more-robots-by-2040-some-providing-medical-care/5264813",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "ef51c8cf54bebe4a8b0309cd94c8c9d5e0a61501bfdb6386f015a4afb571e1fb",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "f1f7d4f8001b4288ac8c42bb6a97b81382ec638bd4f67fcb73232167c1282993",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "8bb5339e56542b9c093ba3a92abd99a114fe467ef62c4d3b80a55414a377f91e",
+      "url": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "e305d7ffe41aca998d755bbb1d354bc9a1c0cb5000f81f1f1e37529825999738",
+      "url": "https://arxiv.org/abs/2606.30774",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "d2b47e5ca2b10e4d38ddb26f782d9fb30163ac0b076dcf56cbcff33b5e4a5298",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "326b5d51b877e9cf2d481fdbe02584feef040ed2c5348fa57cc39057109a5061",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "sent_at": "2026-07-01T12:39:16+00:00"
     }
   ]
 }
