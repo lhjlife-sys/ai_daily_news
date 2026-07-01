@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-01T12:39:16+00:00",
+  "updated_at": "2026-07-01T23:09:00+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2716,6 +2716,81 @@
       "sig": "326b5d51b877e9cf2d481fdbe02584feef040ed2c5348fa57cc39057109a5061",
       "url": "https://huggingface.co/blog/eee-community-evals",
       "sent_at": "2026-07-01T12:39:16+00:00"
+    },
+    {
+      "sig": "e91b9a496305c1cee346e19fc695c5128b485c1173c9eb9b12b90e9b1ac59dd3",
+      "url": "https://36kr.com/newsflashes/3877684640428034?f=rss",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "c8d498370989101dcc07b0931634d7ebc8af00809f10056e16c19c16f17ecfcf",
+      "url": "https://www.cnbc.com/2026/07/01/chip-stocks-notched-record-rallies-in-second-quarter-start-q3-with-dud.html",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "ccac2dfb4ac81bcd65828984090de7c9fdaac5b815e57e0eef47b3b8f5527916",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tesla-hires-17-year-intel-veteran-responsible-for-billion-dollar-fab-startups-gary-jiang-likely-chosen-to-oversee-fab-efforts-for-terafabs-licensing-of-14a",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "a454e09182645021548d04dad86f51b47d44dc53404a25c5e9c0ffd4cb27adc3",
+      "url": "https://www.datacenterdynamics.com/en/news/cloud-capital-and-realty-income-partner-for-6bn-data-center-joint-venture-fund/",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "4a82b750b56143115e75af7efe2f32e57a9858531ea2bcf01d459c3ebd90d36a",
+      "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "2a6e5ea0049daa7cb1570a5c1712d3eb471278b8a4a958ed2fe7618a52f0a7e9",
+      "url": "https://www.marketwatch.com/story/coreweave-nebius-shares-tumble-as-meta-stands-to-become-a-fresh-threat-in-the-cloud-a47c3616?mod=mw_rss_topstories",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "e4a022908747a5579fcd12053df2b7d8b0286a3559e5495ec186494b8f9829d2",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "64c077247d125954a53d34bd84e3a0e271239ca1f1256b7cd99cc57c9e560c31",
+      "url": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "474f7328326cc8461dfe5c4824010f420287103a868f930946b70a00285a76da",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "f1b1af2379f935afc277de2f12b0926e98e50b7e90fae2aef0a19b5565185077",
+      "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "1d209c558179535948fb2fe6ae2781bf5803b7970f15cdae2afe188a39771137",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "6a1201b4f6deac963d8782f568e967339bf571a45de26d2609c58947f3832dcb",
+      "url": "https://www.qbitai.com/2026/07/441386.html",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "7a7de962dcd63de0cbc438cadd39106be2017e2f1c3f1bf907e985cdde361425",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "617f45738c65d6baaf10b9cf1e236f3c65b852b2bfcb9c1fc405aff51e76af1d",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "3846c59276e8fff1cc61ecfafcec3794173735cbaee4e1d287cd9ca7879c8149",
+      "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+      "sent_at": "2026-07-01T23:09:00+00:00"
     }
   ]
 }
