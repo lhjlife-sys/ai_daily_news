@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-02T12:12:47+00:00",
+  "updated_at": "2026-07-02T23:02:56+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2841,6 +2841,81 @@
       "sig": "122379e5267c11ca0a74c04b24188e2d9bb74ec755b003686f184479a616c503",
       "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
       "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "e1fb61d0e4307f216c2ed90b0545bc91ed9b9da8b94edd46643a1a0d35bf6809",
+      "url": "https://36kr.com/newsflashes/3878648324845831?f=rss",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "f456a6901d64e018d43f1efd2ca3433db16008cde434cc0fe9e22d295b5f7664",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "347e208fedcb53707ac2fc827dbe386f703499368a9536fd0d8ba89b470df090",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "d8e9c9c95d6db7224c12b8390204f51523563999d4fbb4bb98d2597430b96096",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-establishes-sb-neo-to-operate-us-neocloud-business/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "71ffe3967dc6c6a4823dc11e58d20f53da1be9b5c22015967a0d56d73caab74e",
+      "url": "https://www.datacenterdynamics.com/en/news/kuok-group-plans-53bn-milan-data-campus-investment/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "b6eaabd227348bac2dc2d5fc540895881770ab7faf21b46261b8154c861b2e40",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "3854aeddaa3f31de00cf2816406426f9f4dca3c14f426786bae668a016c13e97",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "1396bfda01d4c2aea667dde41a1078bf7ed720822d148a57750c6e8d424cf5be",
+      "url": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "6f731bce8ea1de9d2cad9cda0970c4f7ea382d43c3354240460fe5ca60216a72",
+      "url": "https://www.qbitai.com/2026/07/442030.html",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "0f832d219b3435bc4be08ccffae3ed23b4789afa704c11b051ac1d12d438428d",
+      "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "9e304e93e12be9b9cc35414861b00852bc05deabee41514b0c40aff99add84eb",
+      "url": "https://www.infoq.com/presentations/ai-development/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "df6ee14882ccbac4cf22dbb57e92ea37c02d062c5aeada56d4f815ebaa4c5292",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "dd070b5aeaf870de837990908c51202a76740e38c352b8cfa8b518c4a0aeaf94",
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "16551d451e1991a0f48202eb652ac2b7f3a3eab28fed6b1819413c1030409a9f",
+      "url": "https://www.qbitai.com/2026/07/442048.html",
+      "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "4e067ac4eae1853b6108f937432a781e04ead55ddb2c212631d31e2516051bf8",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "sent_at": "2026-07-02T23:02:56+00:00"
     }
   ]
 }
