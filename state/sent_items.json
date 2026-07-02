@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-01T23:09:00+00:00",
+  "updated_at": "2026-07-02T12:12:47+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2791,6 +2791,56 @@
       "sig": "3846c59276e8fff1cc61ecfafcec3794173735cbaee4e1d287cd9ca7879c8149",
       "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
       "sent_at": "2026-07-01T23:09:00+00:00"
+    },
+    {
+      "sig": "4f2226d872abe8712b24d41f9687d277e2a64bcb78e7bdb8553a1483610af3d0",
+      "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "70dffedf7035c053cc3b9eef220c3b15c4cf2385090a40cc8748ace29ad3bcef",
+      "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "9dbe7f5ac65f1c83f11c7995402a9450dd5f49778ab47a6f731758a4a9b2f4ff",
+      "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "e8706446e157ddf4caa0098e6df5dcbbb8e26ee1b92bd4d6562dcc9eef80da10",
+      "url": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "caef0226a43979bc99c8c76e605b51b1dbb30730feba10a67aeed485e97f4685",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "f9f64318d3ce58025b2f54ad9a4f1205f89c91833ea10a50d6a6d617c3c3de0d",
+      "url": "https://www.qbitai.com/2026/07/442047.html",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "0a7ef5b46f0256da97caa1350d0745e64c7cef068a20c02480ee704a2e6f09e5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "f9391c7e278f7efe6445a5f7e010fc96991c9742ad4ffb28d26eedfa58448ce0",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "803405008712a7ab70f1e757fa8a7976ccb92c665b724b521a07b1433d0b1d64",
+      "url": "https://www.qbitai.com/2026/07/442134.html",
+      "sent_at": "2026-07-02T12:12:47+00:00"
+    },
+    {
+      "sig": "122379e5267c11ca0a74c04b24188e2d9bb74ec755b003686f184479a616c503",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "sent_at": "2026-07-02T12:12:47+00:00"
     }
   ]
 }
