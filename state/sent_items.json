@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-02T23:02:56+00:00",
+  "updated_at": "2026-07-03T12:12:55+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2916,6 +2916,71 @@
       "sig": "4e067ac4eae1853b6108f937432a781e04ead55ddb2c212631d31e2516051bf8",
       "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
       "sent_at": "2026-07-02T23:02:56+00:00"
+    },
+    {
+      "sig": "8aafbde5522c666aa06935b6b2b3a0e5735eff39e565f72996cb2afc743a6bcd",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "d5905aa4e0792ac5539c2847b2dff8cafa697e1474ac383006514275deba251a",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "6258a1e9ce2d8a3823089a54b08759c046d06ab8098789ca7a511a7d4dccf580",
+      "url": "https://www.marketwatch.com/story/a-week-of-wild-volatility-for-korean-stocks-brought-to-a-rousing-finale-by-reports-of-anthropic-samsung-deal-b69f32c5?mod=mw_rss_topstories",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "c3176fbf378ddca61c002b78a5c0f1efda4ffd0ae672660d6ffad9a1f2e50474",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "2e4ee6481b6f4bc176d5767e3bff01746388d966c7bcebce9ee56c8e181f1692",
+      "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "1f5598d9eb013c69eafb38302b2f835df50f8d4c259b309be1a83751ba5b89f8",
+      "url": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=/pdfs/insights/goldman-sachs-research/an-ai-job-apocalypse/report.pdf&originalQuery=&referrer=",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "61846c84fd14a26341e8092a47efcfa7d8e840665b7178e4d1fee5b9c9c8281b",
+      "url": "https://www.huxiu.com/article/4872493.html?f=rss",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "b2a7c7e636fba2e29fe8b3ce0b2c2e82d2a6b47ed3bd3b51fe72c0a039f05bff",
+      "url": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "1f24ae9f06e0599f423b6713e7a3b6e5f77d8946437043b1c51784d2a00da0d3",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-expands-partnership-with-bloom-energy-to-support-fuel-cell-deployment-across-ai-data-centers/",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "ba562226725de1d8218dfe8343e78a80afb3ae2ef1fc7a504ae09b9e8bd11e50",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "503750873fec3dc6a38fa5715d07ee6f4e20d3dd3b0ffaa0aeffa42fc4d4e85d",
+      "url": "https://www.datacenterdynamics.com/en/news/esds-launches-sovereign-ai-cloud-in-india/",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "f1ac77d1751b25bcd20a8ac8cadb18c7bbdbc5bee104974830c8b1281e9d8e3c",
+      "url": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "7ea4a1bdb90409974c254431684e541f4ecca55166794724ba0c69ee695f23d3",
+      "url": "https://arxiv.org/abs/2607.01394",
+      "sent_at": "2026-07-03T12:12:55+00:00"
     }
   ]
 }
