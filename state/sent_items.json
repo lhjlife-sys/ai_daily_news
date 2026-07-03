@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-03T12:12:55+00:00",
+  "updated_at": "2026-07-03T22:58:53+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -2981,6 +2981,66 @@
       "sig": "7ea4a1bdb90409974c254431684e541f4ecca55166794724ba0c69ee695f23d3",
       "url": "https://arxiv.org/abs/2607.01394",
       "sent_at": "2026-07-03T12:12:55+00:00"
+    },
+    {
+      "sig": "4fed5c24b7ea8998444a507f048f75d16b5ec0fe9319201962b60c17de40eb43",
+      "url": "https://www.datacenterdynamics.com/en/news/cpp-investments-to-pump-175-billion-into-eqt-and-edgeconnexs-ai-data-center-build-out/",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "e1eaa68bad5a6ab6e3428097446ae20b5359c2cf2fa80f8c95d7678282c3d1d2",
+      "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "9db0e8dc1d64e02ae2075a546d598db0d40114072979c4e1e8d567697b41909c",
+      "url": "https://www.theregister.com/systems/2026/07/03/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module/5266480",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "88ecdef43c05f6e509a226809d026d8b1a199e5a02d86ca6f47162a800d63bb0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "a7f06526be6256f063b8ef53e3833ad85bda1bfd467aa966582ce1451bb1d8b4",
+      "url": "https://www.cnbc.com/2026/07/03/the-hunt-for-ais-next-winners-defined-the-stock-markets-holiday-shortened-week.html",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "67bc9e7390a8a2c9a26dd5a3fc89c1c9b70d1deb2963436786525df01914e166",
+      "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable/",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "032a72a6e2127c3b4bf2ef9c754267fa79a52048bb23d86e92e01b45030ac5b7",
+      "url": "https://openai.com/index/wasmer",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "d18b81f5cea538e3634dfdff337be347866111be32443497498fd70654a77748",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "62a838cfd03241d4e55bfbdd64c5ff2eec5e69abff84708fc656342a25793938",
+      "url": "https://www.cnbc.com/2026/07/03/the-tech-download-amazon-devices-chief-panos-panay.html",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "f3d5cb415ea599afb969c9883d3e430b511033d9cd8999725ddba1720be66469",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-price-hikes-on-select-consumer-and-server-cpus-citing-supply-costs-and-demand-select-xeon-processors-now-over-usd1-000-more-expensive",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "22b7694194445ab270bec5269337a91686d1ea4ac1a2ec546c4b76423e6e3fc2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "d0d8da7d73835e719d915b9207194331bcb9c3ce6040d3078293e7702650e99a",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "sent_at": "2026-07-03T22:58:53+00:00"
     }
   ]
 }
