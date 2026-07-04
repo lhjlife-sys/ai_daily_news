@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-04T11:36:29+00:00",
+  "updated_at": "2026-07-04T22:54:02+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3041,6 +3041,71 @@
       "sig": "d0d8da7d73835e719d915b9207194331bcb9c3ce6040d3078293e7702650e99a",
       "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
       "sent_at": "2026-07-03T22:58:53+00:00"
+    },
+    {
+      "sig": "c14309ca7cb20110c3d811ae4d02be33329991ddc1a8b399f9c205b4bc5b3b88",
+      "url": "https://www.datacenterdynamics.com/en/news/national-grid-ventures-invests-175bn-in-joulent-for-35-stake-to-develop-large-load-power-solutions-national-grid-ventures-ngv-the-commercial-arm-of-national-grid-has-agreed-to-invest-175-billion-for-a-35-stake-in-us-power-infrastructure-develope/",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "e0653a72418acf9dd36b62c5e17904a7b0d10ae0b6575eaefad48f014ea422da",
+      "url": "https://www.datacenterdynamics.com/en/news/300mw-data-center-campus-proposed-in-kent-uk/",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "a0ba9185c95b5aa3480b34baeb0a9822b50020ce286e162665419a0f76e826f8",
+      "url": "https://www.qbitai.com/2026/07/442958.html",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "0872bee570ee0c9742a154dca48ce51ec2c82091d52a882c7eae2057361e0d4e",
+      "url": "https://www.infoq.com/presentations/rft-openai-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "01d7e2887d73243eae1186be4aada01f361b80f94b23e53d29c0dfa86759763a",
+      "url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "7807ac29869253ae5e01d6e1863ad1a2f066cf241492b7ee4a66233748fb5c3c",
+      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "33b2ec2de2758e747fd1d120b590f602ce163320542a3c40427dbdcbac846b61",
+      "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "a4f16ee0c4efb1365da47f38b2dc40951841b83e50f0d1cd221316be8415d561",
+      "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "9e59ffd42db156f819ee54490ce5e302a518b11c9c229a5c717d7e90731bf13e",
+      "url": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "c49d6345ead17345b14fe7ec8d967a1f56ae59d598fddcd417056a1b167deffe",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "be0061778b7858d67835354b7f516501b701332b75487fab8aa01e4d0bbb9998",
+      "url": "https://www.tomshardware.com/pc-components/ssds/chinese-ymtc-ssds-make-their-way-into-retail-lenovo-laptops-media-outlet-slams-ymtc-pcie-4-0-drive-for-below-average-for-an-ssd-in-an-office-laptop-in-review",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "da51b3ff6580d673c640b4c99bf2cb3e4feac762c43defe046c0522d6b925e4f",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "ad312ce435987076fb9f67d2e3f08bb8e7669fa7c7575e47764d9336c89dafa9",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "sent_at": "2026-07-04T22:54:02+00:00"
     }
   ]
 }
