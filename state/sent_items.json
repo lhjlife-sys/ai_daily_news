@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-05T11:38:56+00:00",
+  "updated_at": "2026-07-05T22:58:26+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3166,6 +3166,91 @@
       "sig": "337eef6fefd0426d791888b8d93ef857b820bb4917e6f605e8dfdb04de23c755",
       "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
       "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "bb2db71ddcc0ac3d56d7e9deedad06360c1cb9fadff598e5e9b2bd8b27dda83d",
+      "url": "https://www.qbitai.com/2026/07/443339.html",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "d8f98cb750cba9283ff1ec28c2063ce138a8f40eff653480c8df706d37c81cb2",
+      "url": "https://www.qbitai.com/2026/07/443186.html",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "9013c9ce631457378f00d0bf09f12ec662601aaee5af9671663912d8ab9c558c",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "df8fcba5ee806bd8b8c1e3458b96d2980fba6dca3d8e37f312f6fcec255916db",
+      "url": "https://www.datacenterdynamics.com/en/news/marvell-boosts-custom-silicon-push-with-amd-engineering-lead-hire/",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "407dd838ca69391e7b3fc354a2f156779bcaa89eaf5e53fea5ab72cab3b667d2",
+      "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "1c8f3fa51238191add91690a54661b203bb8cd0a82d75db63ec5c0d768f40930",
+      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "149ad3e19fbda246268c37a60b6909d5f6ef5c14244e6ace9d35c377af0ddaca",
+      "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "bfa27ca5fe53549fdd0b2ddfac7d3f2133e14952f1c0955b6693fbc87a51eee5",
+      "url": "https://www.datacenterdynamics.com/en/opinions/the-20-percent-problem-why-data-center-sites-fail-before-theyre-built/",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "d1a423c6491023229a5cdc0c1a02fe118694cb1cfe4efe526025cfeecdaa23a5",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "94774199133f24c3d2c4a2558086976bdc66043d32fe89bccad415727df7814a",
+      "url": "https://www.huxiu.com/article/4872798.html?f=rss",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "5d2de9152522b89c1ce0edc076a4c866512058bfa9da70df6b579b2db8df6dcd",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "3ad5dcc135cfff09bae1c9fbdb49d7ad7c98dbacb827616e09b2b16ab8941e64",
+      "url": "https://www.infoq.com/minibooks/agentic-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "e2f617323609390225e1ae1456d310c811c791712ff8650ea086a8259347d03e",
+      "url": "https://www.huxiu.com/article/4872804.html?f=rss",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "d5de2ca1efefe7bee37a7ec4887936cb791509a7460f8e22d83d3d22f98c789a",
+      "url": "https://www.infoq.com/news/2026/07/cycle-eu-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "9f340727232d898a6ead94d0d9b36cc11221be190f17bbdaf2fbe89bfc9de7ec",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "4a2e945e587872d02543e0f451fe43c1dc15c222ecc443984676b854c9e8a634",
+      "url": "https://www.marketwatch.com/story/why-the-stock-markets-red-hot-momentum-trade-might-be-headed-for-a-violent-unwind-this-month-78a45397?mod=mw_rss_topstories",
+      "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "bf279a2503a2874b737c2d100cef48dbb7f6a450e2a08e6a23bb1403afacc1ba",
+      "url": "https://36kr.com/newsflashes/3882472808787977?f=rss",
+      "sent_at": "2026-07-05T22:58:26+00:00"
     }
   ]
 }
