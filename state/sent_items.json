@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-04T22:54:02+00:00",
+  "updated_at": "2026-07-05T11:38:56+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3106,6 +3106,66 @@
       "sig": "ad312ce435987076fb9f67d2e3f08bb8e7669fa7c7575e47764d9336c89dafa9",
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "sent_at": "2026-07-04T22:54:02+00:00"
+    },
+    {
+      "sig": "f15fae9f2fe930a4ba86a9a8fd508c9a06e41ad8bb3eb33373ac7f8888d1a371",
+      "url": "https://www.huxiu.com/article/4872764.html?f=rss",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "9df1db5b8f4fd142e0830272b5dd6186da3e0fbfe2923bc462fe76caca5fa675",
+      "url": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "c6453614bee5b5546a8f1567910b6ce6c4f682ff4e43f2dc106156af0ecc3aec",
+      "url": "https://www.bbc.com/news/articles/cgrkd41n2v9o",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "e9221bb9580e14608f23d448baed8c60a0be8be1eda1213bafc0ff118059a5cc",
+      "url": "https://www.huxiu.com/article/4872763.html?f=rss",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "eb9f505987176340e81194294621f25b9a534e1b2719d590dc56fcc921d566ef",
+      "url": "https://www.qbitai.com/2026/07/443066.html",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "0a7bf94eee45b6ece49a78d1535b576f3289b4d71335afd37a196c30b677483c",
+      "url": "https://www.qbitai.com/2026/07/442964.html",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "61ea53bace4a816852a654bbd8870a152ce496055e50d581419e86edafba76ae",
+      "url": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "079b6eb163b43b04b43155fd76da2f2f9677b0a32f93c35fb638d10b37ec1061",
+      "url": "https://openai.com/index/travelers",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "e9f49d0f5a9d4b40692b3ddf87af00bdf67853a2b8533b2e289ca033b124db7a",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "a5ac4346ca76b8140c44a1ad542e5ac8ca52a99624802922c6b347307a23c0e7",
+      "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "f0c8b88dc5e001619c11ea99d4dc38c18881258fd987be1770401318a13a4aee",
+      "url": "https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-05T11:38:56+00:00"
+    },
+    {
+      "sig": "337eef6fefd0426d791888b8d93ef857b820bb4917e6f605e8dfdb04de23c755",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "sent_at": "2026-07-05T11:38:56+00:00"
     }
   ]
 }
