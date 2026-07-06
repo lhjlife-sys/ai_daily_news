@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-06T13:51:36+00:00",
+  "updated_at": "2026-07-06T23:03:13+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3306,6 +3306,76 @@
       "sig": "adc9037f42488ad6f19dd7ae208b7fad68adf893486688c5571fec42f3167866",
       "url": "https://36kr.com/newsflashes/3884160924643336?f=rss",
       "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "5f5bc6c84f601bee9e7b238317e23b8b042bfd10d851300a39572d6b7f05a097",
+      "url": "https://www.huxiu.com/article/4873007.html?f=rss",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "552f8c2bdfd080555d592587a9bab88194d1bd9a355aec96357cc10c587b9635",
+      "url": "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "656d0246c92afc74a51adc2e987eafdd05cb8fbcf0c179ebd84a80688a724fc2",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "f053bd3f71eb49e28165073ad166fd3c66d66715be537ab90456d318a469e782",
+      "url": "https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "2c17dc194cd476fa6638110e611e51aa0c18387a6ab79b182f6dea57fb9f91c1",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-rebuilds-its-ai-storage-stack-from-the-ground-up-to-stop-gpus-sitting-idle/",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "99b1170ac1453321ac6fe530e4ee4ac1d7f33d5b18c3ec53a11299e2166ba1bf",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "694472a06710e7dd5b47d93b81a044554a5f07577d61a3e94d284de7db27ee14",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "394931127984d96d5e535af3895bb31a2f407f4f11c8251b8c2fd7e02c1693ec",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "55a6a125da398cda38aeefd5717b7a2400693ddbe755374c15e30d8bd57e8cac",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "1f9230759e287a6c5b72ec9bbc0cb6e3fed8119ed98a89a707258e3db0d6df55",
+      "url": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "bf55a61637b6dda9b083ebf2d4dade85aebb634090c07419d1e6dcf093c736ee",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "3b35e07d1ddd6387bba10c975c1b4d7c59936b94f3da1fe81aa26f10c6b502a7",
+      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "0438588050838f84d20f8cb15c28a5d8ce91b236d87ced1cbc9dff3bed9dcc82",
+      "url": "https://www.huxiu.com/article/4873107.html?f=rss",
+      "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "bd07c65c45dc3d95e99456854469f62778f8aa7f67a6332fbaa6a22a9e91f421",
+      "url": "https://www.theregister.com/security/2026/07/06/brit-supermarket-giant-triples-down-on-facial-recog-to-nab-shoplifters/5266935",
+      "sent_at": "2026-07-06T23:03:13+00:00"
     }
   ]
 }
