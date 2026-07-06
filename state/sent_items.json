@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-05T22:58:26+00:00",
+  "updated_at": "2026-07-06T13:51:36+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3251,6 +3251,61 @@
       "sig": "bf279a2503a2874b737c2d100cef48dbb7f6a450e2a08e6a23bb1403afacc1ba",
       "url": "https://36kr.com/newsflashes/3882472808787977?f=rss",
       "sent_at": "2026-07-05T22:58:26+00:00"
+    },
+    {
+      "sig": "5614c47e10e035b3746e2233d1890a868a07a0da226d0af620f3e4b1225064e6",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinas-huawei-to-enter-south-korean-ai-chip-market-with-new-atlas-superpods-clusters-pack-8-192-ascend-950-accelerators-per-deployment-reportedly-challenges-nvidia-dominance-with-tripled-inference-performance-of-h20-at-one-quarter-the-cost",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "cfe28f58e3a5e86980a34c1756e92ddfbe403cef7d798f98f000cb0388d8036a",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "664dbbd849df08fb3a24281398403fc01d0620b37303912ee4bf4cce4d6cdb4c",
+      "url": "https://www.qbitai.com/2026/07/444721.html",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "52f9b74e7373e505d30d5c18cb71796031c25fb4582abfb458e18e2cc0a6d10e",
+      "url": "https://www.huxiu.com/article/4873061.html?f=rss",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "ff20f1578f69c29a68dd6f8a92c78cb178f7a3f4781c165c07df0ca881f953aa",
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "d561d84e174d1300faf45ebb269cb491a74d1f73aa5dd3302bb543abcbfa084e",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "7e5ac8ea84afdab341d2f0f2b023103bf496083fdbb207031c1d33292258a1ca",
+      "url": "https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "f4cea560420b1b40da47b106ff90e8b4975f1aaa8517de621a646a5276660559",
+      "url": "https://www.datacenterdynamics.com/en/news/data-center-housing-uks-dawn-supercomputer-suffers-heatwave-related-outage-report/",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "473eced4d0d7fe183ce0eb9ded7f576202038baf3f24ed44ea33f7ee01e6da02",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "383ea356194a1847c8f8de47a59a3105507faa0e4307909407177a03a731a6ec",
+      "url": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html",
+      "sent_at": "2026-07-06T13:51:36+00:00"
+    },
+    {
+      "sig": "adc9037f42488ad6f19dd7ae208b7fad68adf893486688c5571fec42f3167866",
+      "url": "https://36kr.com/newsflashes/3884160924643336?f=rss",
+      "sent_at": "2026-07-06T13:51:36+00:00"
     }
   ]
 }
