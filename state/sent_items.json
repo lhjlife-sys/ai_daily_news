@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-06T23:03:13+00:00",
+  "updated_at": "2026-07-07T12:32:27+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3376,6 +3376,76 @@
       "sig": "bd07c65c45dc3d95e99456854469f62778f8aa7f67a6332fbaa6a22a9e91f421",
       "url": "https://www.theregister.com/security/2026/07/06/brit-supermarket-giant-triples-down-on-facial-recog-to-nab-shoplifters/5266935",
       "sent_at": "2026-07-06T23:03:13+00:00"
+    },
+    {
+      "sig": "e8c72eb3abc33e0959955debcac093cfc086ee603c51091b93bb348593e34f0c",
+      "url": "https://www.huxiu.com/article/4873340.html?f=rss",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "2916d7bb3066304e1b07459330e059708149bfed8720e69ae3926ae10efe8d52",
+      "url": "https://www.datacenterdynamics.com/en/news/nscale-closes-900m-revolving-credit-facility/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "cc19d0d6a04c77851560ccfe924b5c495865f787682b55653c8aa307dc89b59e",
+      "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "07903dfa4f041db59e9cd8c950050144a351b3ef51d29e9b22ccf1eff10dc560",
+      "url": "https://www.cnbc.com/2026/07/07/google-proxima-fusion-funding.html",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "1e8e07f37467128a1b5911df8a930bd1b5173821402b77597104c4d024d33b63",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "25ff898649c56b010f589ade61714bd6ea31913f1699683a15b38d170cd9f252",
+      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "7297867d3ab4e45f0735e1fb9aaf3084b312f56314a7e72df4f138fee07e3d41",
+      "url": "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "41e7d4e5172a707adde369c57dbefff2c6eae771f8fa798435c44cb07e7cb41b",
+      "url": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "8e62fb1cf1617ed7d7ee8c6ad0ccd46de796662277b96874728114464a74a77e",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "0a111fb481302020c692674e6fca07f58da974c1129678c828380391436defb3",
+      "url": "https://www.datacenterdynamics.com/en/news/chinese-mobile-services-firm-fingermotion-pivots-to-ai-data-centers-in-alberta-canada/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "65f527a36efca1510f9a0b48de8fe39d29bc9b33898a4028390742460f81edbf",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "c5492767b38ade4f746a17191e55ca27f28f00bcf18a00184f636f4383f8ab26",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/07/mps-tell-brit-government-sort-out-your-tech-sovereignty-or-get-left-out-in-the-cold/5267076",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "19c7cd5c4fe4af3c5e8efc9c69a4c0603ae47c29605c11b7afd441d456823364",
+      "url": "https://arxiv.org/abs/2607.02686",
+      "sent_at": "2026-07-07T12:32:27+00:00"
+    },
+    {
+      "sig": "e998906a376bd21c7b9f17ea03ca30f46e757971e471785dc50550682e956ebd",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "sent_at": "2026-07-07T12:32:27+00:00"
     }
   ]
 }
