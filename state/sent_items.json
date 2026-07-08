@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-07T22:55:36+00:00",
+  "updated_at": "2026-07-08T11:51:23+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3501,6 +3501,61 @@
       "sig": "13c713ca03e6e34993d9e2cffb6035fe2473d18c6dc31323a37440c671f0481b",
       "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
       "sent_at": "2026-07-07T22:55:36+00:00"
+    },
+    {
+      "sig": "20eeb36396489121784ae2b42187c0131ed3a4a3756880c9659e0ec909a78213",
+      "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "dbf8259066547c8ef50c91da66a755859bd33de8493f6b8c0dbeae0f01219a40",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "5a6f280cb1e584d764e13d32b7af4989b0d0b03504bae4543dbfb20e5290e695",
+      "url": "https://www.datacenterdynamics.com/en/news/deepseek-to-develop-its-own-custom-ai-chip-report/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "d98d89d609ef10a8cdaaf6f48e430ae885b9786a264aa289e79f829a952d8e81",
+      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "c6eeac31d79017ff12f44cafbf9156a3f13c398f34e0de3da4935294546e4625",
+      "url": "https://www.huxiu.com/article/4873670.html?f=rss",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "6c01ea07a610cdf30aa1449af3d41761c6d4a1538f10817402c9c925312ab389",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "8e92a17d294e4f4faa7aa17abfb1f0d83186b4ec5e20c8a77693e005a53cbc5c",
+      "url": "https://www.datacenterdynamics.com/en/news/aws-files-for-12bn-data-center-campus-outside-houston-texas/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "c6520adc872d1aa7fa578e51d0b77382269f3153928fda58a6ca2505523af504",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "9e0759be5802ddf316b8b2c03ebd66af8457118c30da6ab1fdcf0864449d67df",
+      "url": "https://www.cnbc.com/2026/07/08/openai-gets-us-regulatory-approval-for-gpt-5point6-rollout-axios-report.html",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "49ed7b7d4c29dc00409305c8fba46793fb971a896e6ede74538f3d2f673dc729",
+      "url": "https://www.qbitai.com/2026/07/446075.html",
+      "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "f6b3f809726c47bb24c0f087563bf4849a49202aa18bc8302b26c0d6103eac8b",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "sent_at": "2026-07-08T11:51:23+00:00"
     }
   ]
 }
