@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-08T11:51:23+00:00",
+  "updated_at": "2026-07-08T23:00:24+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3556,6 +3556,61 @@
       "sig": "f6b3f809726c47bb24c0f087563bf4849a49202aa18bc8302b26c0d6103eac8b",
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "sent_at": "2026-07-08T11:51:23+00:00"
+    },
+    {
+      "sig": "4c96c4840c046a845009effde10d697075320d0421ec963258a3e909fa807f18",
+      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "1614f0886db2101a833a24d87554defbcce621c01067c4a4a437fe28cc9bc113",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-fab-roadmap-examined",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "0fd48caf21126e1cbaf0e96844655d3a63e0211cf6a7c1e2ea1b83a2aea42df0",
+      "url": "https://www.huxiu.com/article/4873333.html?f=rss",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "3eecd465ff79d36da8effdedcaa19fc75c82b3faa4ad63f659187e34863ba6fb",
+      "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "b2ff1fae25f82fd3111134de9226343e4aa058e30618e4e0e0e57715767f2cc4",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/08/intel-backed-ai-chip-startup-sambanova-breathes-new-life-into-aging-nvidia-gpus-in-latest-benchmarks/5268721",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "f2a88ed8a71182b87f7defdeb62574277c92cd5283e07131828e069850989610",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "a80e2bd08eacaebb289ac432c168d4bee3598f0acb7628721776790be9c2adb4",
+      "url": "https://www.qbitai.com/2026/07/446411.html",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "931096cd3b4a2be2581508f53273453c40bc0900809e0573eeb91df78484ce4c",
+      "url": "https://www.datacenterdynamics.com/en/news/edged-eyes-725mw-data-center-campus-in-pennsylvania/",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "f5f511f5967481fe8e983ea29ee0eb26c24a28e0348587beaf043dd96b27a958",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "261fb78180f241e5b169f4a9943bbe4cf1d1479980a108b28cd29f5f3f6644a7",
+      "url": "https://36kr.com/newsflashes/3886981972113921?f=rss",
+      "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "6065cdfde6ae9962999b6a906c7c55dbeb54fe5cc9ddfe6429f9cc53702f14f8",
+      "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+      "sent_at": "2026-07-08T23:00:24+00:00"
     }
   ]
 }
