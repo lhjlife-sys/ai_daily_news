@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-08T23:00:24+00:00",
+  "updated_at": "2026-07-09T23:06:49+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3611,6 +3611,71 @@
       "sig": "6065cdfde6ae9962999b6a906c7c55dbeb54fe5cc9ddfe6429f9cc53702f14f8",
       "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
       "sent_at": "2026-07-08T23:00:24+00:00"
+    },
+    {
+      "sig": "40c4cf9177d51c7651342e28f393b510ff5f3f99e7cb5277e74b5a21654bf395",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "c5eec3a9829875a704b3ce28b3a54e0dabb58f5b4473deb7ed1b0ca3e9addb0d",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "07610e55de6cc86b2b508b1da5d8b4849ba003922509d7070bf08776fa314e54",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "8f28981d61e4d3237fcbfe25866c65983bc30ed8b3f1ea66f2297aa8c138ddf5",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "4a9d473d790f124c39e9b0633f6b3a1b76bc32aa6602ecd68db6c091b96d02b6",
+      "url": "https://www.qbitai.com/2026/07/447508.html",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "4bc8997592a8ee5257b2e2ead128d5f9bf02d55cbe71b16034c99eb2105de252",
+      "url": "https://www.cnbc.com/2026/07/09/micron-stock-us-chipmaking.html",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "ec98219d6cef7f3f49305a513e68645291f759be9c48b835142c678be88e25f6",
+      "url": "https://www.marketwatch.com/story/sk-hynix-is-about-to-hit-the-u-s-market-heres-what-to-know-about-the-deal-1c873fa4?mod=mw_rss_topstories",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "7825a3f06fd9a84d367d976c2f14b13cb2d2d57397c3ded8fd06253d686dc837",
+      "url": "https://www.datacenterdynamics.com/en/news/prologis-files-to-build-99mw-data-center-in-san-jose-california/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "93a94e28a69bafa823b0ebddc81aff6e78c740c77169bdf19bc677095bf775e3",
+      "url": "https://www.datacenterdynamics.com/en/news/deepinfra-deploys-ai-inference-cloud-in-toronto-canada-data-center/",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "3797858648271acecb932284d6904831bd53702366400217ce81be9092a027bd",
+      "url": "https://www.qbitai.com/2026/07/446778.html",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "358e853e82d346aadc5f891089a65e0a468e7958b09388f988c304e1dba8748b",
+      "url": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "e6b8352aa8d6a36a8285d49c63cbc1f26f53a3979099be84da517bde6b0adfa0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "430f86c0084d2fbefeb3f7272f46749a391ffbb9eb635c845fe8bc1a4825b2a4",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "sent_at": "2026-07-09T23:06:49+00:00"
     }
   ]
 }
