@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-10T12:30:05+00:00",
+  "updated_at": "2026-07-10T22:56:50+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3736,6 +3736,76 @@
       "sig": "016689945ca060c946781cf1d768db1ba5d35c5ac14384af49d9d98afd8e8c39",
       "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
       "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "f97e96f6d3db5c80ce0f55ec59106ea93be6e405dd6fedcfa1cdc2f8d032f042",
+      "url": "https://www.datacenterdynamics.com/en/news/sk-hynix-raises-265bn-in-blockbuster-us-ipo/",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "c9dbdeee8d087f6c7f1e75db428623951362d55d1b089bb4760ac3466aa11655",
+      "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "b98a594ec40e8f26c7968fe75d31a1da2a33461d93d0f1d2ad6179c4ae9b048b",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "e19fbb75eb44457e4dbe61ac0c57dd698fc70ccefdd1c171e2f4db8584de6c3d",
+      "url": "https://openai.com/index/gpt-5-6",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "297b5e8a868dde978a549914ad0fdc61e43bb895d49373115803a54260332534",
+      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "c06b19987a401e7ad874bd12fe2ebc2baa405fcf176012a13470f456845f49a3",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "b9d1e982c843e2baeafdb5f725182c5165f609634b5a920c736e4aa300dd2fc2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "24ea45ff106508fbc5c2d0904eef6d6c636c96291b065165483419593164388a",
+      "url": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "92fba975bc90814c228329ea7d3507fc23b4f6eed2384bd895e539ca2b339a81",
+      "url": "https://www.cnbc.com/2026/07/10/trump-uae-mgx-crypto-export-commerce-warren.html",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "80680bdb66aba36a8bc521a82f971d5f2ecb0296fe229a8ff50a6236bd3517e0",
+      "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "18037215b7cb6c7b9ecab6cdc9838899cd13e35d86f8ef1449165e06ad43ff84",
+      "url": "https://www.qbitai.com/2026/07/447832.html",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "f4c4965d8f7ae3dae351fad314c5656c7ca4e065749664f48cca996c6f9a9938",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "d9ca37d1d6ac4cc8cf6b8f9ff23269dfc2d74a20d66d67c9ec4883da45e6e7df",
+      "url": "https://www.infoq.com/news/2026/07/wordpress-7-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "e52e7a22c645fc084db459f7659f0779b9a9bf84e58ccb328ee1f4b43d1a872d",
+      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+      "sent_at": "2026-07-10T22:56:50+00:00"
     }
   ]
 }
