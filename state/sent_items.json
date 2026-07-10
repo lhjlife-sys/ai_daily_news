@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-09T23:06:49+00:00",
+  "updated_at": "2026-07-10T12:30:05+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3676,6 +3676,66 @@
       "sig": "430f86c0084d2fbefeb3f7272f46749a391ffbb9eb635c845fe8bc1a4825b2a4",
       "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
       "sent_at": "2026-07-09T23:06:49+00:00"
+    },
+    {
+      "sig": "15a9c8e08f602a4b4b684d5a2298685901cf464743fd4ca35d67a2f834f6e4a3",
+      "url": "https://36kr.com/newsflashes/3889768614492931?f=rss",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "7f9c34c23b2369630e9bfefc40f7c847f45cc4ad424e5b0d15bb3ccad58df299",
+      "url": "https://www.datacenterdynamics.com/en/news/terawulf-seeks-35bn-in-funding-for-construction-of-data-center-for-anthropic/",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "5390181be54fda4bfabc4cfaa80b0a818f9fda46aaa58d18e28f0ca8a490c9e3",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "c358abba5a70ac500cfd99e7f20320271806140443c2f7f6b08582615855a8fe",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "d2e5e07c94c583cfb7b9c1a047a5f7f70b57a86ed13714468b63c6fa1aefdc31",
+      "url": "https://36kr.com/newsflashes/3889784854870537?f=rss",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "7c72cfe98840606ae144a40768c2c4db2156348a8c583e649c22decc37de9e26",
+      "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "521cb8f5727237af1c44feb4444334a2faf7dfcc9e7d53764a3e5fae7e59bce7",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "1ac9b5c58d715b18e44ec9dfe5b7be6ef31d568fd9914ccaa51f0e8e93b7420d",
+      "url": "https://www.marketwatch.com/story/as-sk-hynix-lands-in-the-u-s-heres-why-investors-should-be-wary-of-the-chip-sectors-bubble-like-volatility-3db579c6?mod=mw_rss_topstories",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "12becd26729c5f1738d5e1ed3253807e7934a661826a240151c23f58b3d84a92",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "6830d9658c85312deabac27bb63d9e46c135f46e88451fe27c0aaca324ffc41a",
+      "url": "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "79a4d1bd17ab595369cd84b8b26088070acb7c934488c80ae8c1343dcd6ceeeb",
+      "url": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-10T12:30:05+00:00"
+    },
+    {
+      "sig": "016689945ca060c946781cf1d768db1ba5d35c5ac14384af49d9d98afd8e8c39",
+      "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
+      "sent_at": "2026-07-10T12:30:05+00:00"
     }
   ]
 }
