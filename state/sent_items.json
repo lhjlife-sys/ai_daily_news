@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T11:10:35+00:00",
+  "updated_at": "2026-07-11T22:42:59+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3861,6 +3861,71 @@
       "sig": "fcf01fb04b011971dc25667831c1ba9043fd88aecb63432b9457b94b6dd310c6",
       "url": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "d411d4c705c793e28e4ec88d721b89c7445ce18b8900f181b8d250ea27f2f3fd",
+      "url": "https://www.qbitai.com/2026/07/447891.html",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "5f512b6fb0e34ea626b076d5ae888efac3f021a9e552b6f7976f1c04c32ae1c0",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "4ba08b916a6ad138f06cda22b108bc52b3737bf3af35e8635352f62bffb77de5",
+      "url": "https://www.qbitai.com/2026/07/447873.html",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "5a913592dd449ea02038e1a578f10729b897d1d4c8d785c27646822f73f48cd0",
+      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "7231fadcded6e901984f46a62a2820a813d15afb55e4c1688b94bd8e9005df27",
+      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "ee03c4ffea9682c781dbac9e7ce624d52e270c9f90901643da25d5785ffe8654",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "e66909d57283a9c975c69399f75c6ce3a93fc090fdaabc7f722242fb309e063c",
+      "url": "https://www.wsj.com/tech/ai/alex-karp-is-saying-what-every-angry-ceo-is-thinking-about-ai-7f5f7c0c",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "0b99ebd534248e7730f7b55044e15d3b6d53bb9054f6db549018ff9aac38d3f8",
+      "url": "https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "f2e33067866bea505fa3ab8ff2364aae18447e8761bf0c948836f3cb221914fb",
+      "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "bb9d624822dd38965bee9662fd37dbd0f5e2f5db9f51cac7143b2bd456f09b49",
+      "url": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "1b34ab0eb60f0a91787d09d3d023fa83b119f952b79e4a0d47fbff9abb0d594f",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "f3845f235d8107add910c9f74e67cee839e9b69e6f242dcb99d9eb0ed9f05918",
+      "url": "https://www.infoq.com/news/2026/07/akrites-open-source-ai-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "e00d55023af7c16fccc854fab5876b188ef56b5bc6412d9fb55c6ac3b7e3ed7f",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "sent_at": "2026-07-11T22:42:59+00:00"
     }
   ]
 }
