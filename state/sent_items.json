@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-10T22:56:50+00:00",
+  "updated_at": "2026-07-11T11:10:35+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3806,6 +3806,61 @@
       "sig": "e52e7a22c645fc084db459f7659f0779b9a9bf84e58ccb328ee1f4b43d1a872d",
       "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
       "sent_at": "2026-07-10T22:56:50+00:00"
+    },
+    {
+      "sig": "215c84d847ed745900deebd3e619a4c2fc826ad9dbcbb52335ebe38f38475f99",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "2015b07b78a1afecfd58b7e1d65d0291ceaa973b0db5939711b8104e58957b13",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "cad321884f17b459682a50fbf819c1fde1c5e6dd826cc689edc173b2981c3ed4",
+      "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "38bd9e1acb17cc4315e3575cc6fb57f46b4ef15bd57625c7897bc91869812ffb",
+      "url": "https://www.qbitai.com/2026/07/447902.html",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "1f6bc14dbb6b59ec0ae21a29a62d2f79692153b70f930528fdf6b165c17f4f3c",
+      "url": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "bc5998f183b60ecb484176b34038f52fd5be5f9563c965bf1612e2736ebd4b1f",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "2afc63a95403edda0063582374055f14cd48050f720329f91b148a72ffbe7a90",
+      "url": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "d99b62f6a76b9c004bab5984bf6704162e1f98954d98c21bad3a60744db09cb5",
+      "url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "f160185a29252abba5a9976e3efaf3a434f243f877fb2750109a113acce222db",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-hynix-and-tetramem-collaborate-on-experimental-chip-to-bolster-energy-efficiency-for-edge-ai-devices-memristor-based-in-memory-soc-research-leaves-performance-questions-up-in-the-air",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "357a84ed99f5f4c5086e12643326d51e41e3ff1dacd63b2dabfe66361130e468",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant",
+      "sent_at": "2026-07-11T11:10:35+00:00"
+    },
+    {
+      "sig": "fcf01fb04b011971dc25667831c1ba9043fd88aecb63432b9457b94b6dd310c6",
+      "url": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-11T11:10:35+00:00"
     }
   ]
 }
