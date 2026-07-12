@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-11T22:42:59+00:00",
+  "updated_at": "2026-07-12T11:16:43+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3926,6 +3926,66 @@
       "sig": "e00d55023af7c16fccc854fab5876b188ef56b5bc6412d9fb55c6ac3b7e3ed7f",
       "url": "https://openai.com/index/government-national-security-partnerships",
       "sent_at": "2026-07-11T22:42:59+00:00"
+    },
+    {
+      "sig": "3ff2821d78b73167e916d9951870723cf94ae6edcd9a73ad9655fb35620dede5",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "07aa5a8a45a2217e5772972678fa56c02f77d49321e968f0a655c7418e20c696",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "7088891e2089c8dfaf20de3496854216894e507bf1a3ebe34d1d0ab52a51e29f",
+      "url": "https://www.qbitai.com/2026/07/447981.html",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "2690c2130b22a6ec8c69ec8c8353d489a86be3a9155dd9a03dc118cb42a9b2ff",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "10322aed425ae6bbded24e26d8ee3441bb139e2a4da8f340a5de694d4f217a6a",
+      "url": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "b56cebd2630efd622da0d2f8a785f004b8c4412e28715e91c8c557157c805992",
+      "url": "https://www.datacenterdynamics.com/en/news/openais-sam-altman-accuses-musk-of-selling-public-market-investors-on-short-term-space-data-centers/",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "9b877db4a283ceb5fef5f50ca6074d89fbb0bcf9d7477909e7125a85493d2a1d",
+      "url": "https://www.huxiu.com/article/4874633.html?f=rss",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "d9c0928caed89f4009a3e36c6e55be332a0cf6f200ac632c6fdc755cf37df0d9",
+      "url": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "51fed5c26af1a9238ae9d775351e7eb088b64166b5277c823a03dcfa0709511c",
+      "url": "https://www.qbitai.com/2026/07/447914.html",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "015c66f9892c3cd08d0cac928d95174245d174259b501c12f846e9f272f8b222",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "9b8cfa35d8f55e7f8ba9d7b5d0c2da94c05df4a623b88d4f84fda081a78bd11a",
+      "url": "https://36kr.com/newsflashes/3892413575559941?f=rss",
+      "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "a9b507c37a919260f97afb6f830736c4898dc32f8b795ec02e1ba2d9dd51dde8",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "sent_at": "2026-07-12T11:16:43+00:00"
     }
   ]
 }
