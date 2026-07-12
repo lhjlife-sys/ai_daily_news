@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T11:16:43+00:00",
+  "updated_at": "2026-07-12T22:42:13+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -3986,6 +3986,66 @@
       "sig": "a9b507c37a919260f97afb6f830736c4898dc32f8b795ec02e1ba2d9dd51dde8",
       "url": "https://deepmind.google/blog/decoupled-diloco/",
       "sent_at": "2026-07-12T11:16:43+00:00"
+    },
+    {
+      "sig": "9951be9ad653ea636baff56301e6f36820f7052fb0218420ca02c2fb503943c3",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "27c4834508b4178b6d7fd978246b5a807cb24bc2e8bbdf1982416295749eaa21",
+      "url": "https://36kr.com/newsflashes/3892556678543880?f=rss",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "6340c21e25cd51fb54cace9c1a7781a782762cbeb7b9038577436c618c01faff",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "3fb14968493dc68260e4892ed338c85e26c34d1f5bd0189f7fdc8ddef48ad531",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "3daaf068f42c7ccb454ed671c663ec887d5f609fd33a3b2f459c85f1ac2ebab7",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "8b32daa86337d052c216add6547c128dd9b5fa9673616cef5df654c656a17eec",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "e9167e656930e3f1b73261c9a788f5db63117cf4ab761db67ca77af9283c2f81",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "e4fead0befa6c618efd652bdae83f294331f33f7b4f8b1f76c69f245349bc321",
+      "url": "https://www.qbitai.com/2026/07/448034.html",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "84f5117c6de11e51a3380c46a0f88c0e7437a7b28d3788a6d2186645d26c17e6",
+      "url": "https://www.huxiu.com/article/4874669.html?f=rss",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "04599c0bd8878965818354c8cc6f7dc545479a8041bb3482882c81d34173cbb9",
+      "url": "https://www.cnbc.com/2026/07/12/majority-of-us-workers-support-ai-fund-amid-tech-layoffs-survey.html",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "320d836ddec69dceef309d16967228e9fbb8990c188b0301f3e67ee12caab4aa",
+      "url": "https://www.cnbc.com/2026/07/12/elon-musk-and-sam-altman-spar-.html",
+      "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "f027697805a345029ea31098fde95a7fe65f98181b76c00ed55af35cdb7051c6",
+      "url": "https://www.tomshardware.com/laptops/lenovos-legion-7a-gaming-laptop-now-comes-with-an-rtx-5070-12gb-gpu-option-but-it-costs-usd3-375-paired-with-a-ryzen-ai-9-cpu-sku-was-previously-limited-to-rtx-5060",
+      "sent_at": "2026-07-12T22:42:13+00:00"
     }
   ]
 }
