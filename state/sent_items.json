@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T12:36:19+00:00",
+  "updated_at": "2026-07-13T22:51:18+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4096,6 +4096,66 @@
       "sig": "95700e46481e052fc4392858ae8b343f05e5557a74390ea1c2e65420896f2bd9",
       "url": "https://www.qbitai.com/2026/07/449156.html",
       "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "0c4f5217216fc39ec60edd24a53f4f16e983cd92df7b4102b198128eb27606e6",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "7f85f5e7154fca4af93cf8768c9e80df3976ea1611b8c69e3398bf6279df87e2",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/meta-expands-colossal-hyperion-ai-supercluster-plans-to-5gw-pushes-louisiana-investment-past-usd50-billion-as-ai-race-accelerates-says-it-plans-to-invest-over-usd1-billion-in-local-infrastructure-improvements",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "f592c0937ac2cca576bdaee98ec2500e79372d76842bf9859fd30a7b02de1de2",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/teslas-ai5-with-2nm-class-node-tapes-out-at-samsung-foundry-production-starts-months-after-tsmc-tape-out",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "7cd881ac8889c164b533b995f4ff08c9d134b22c7e53b9884c22139723701086",
+      "url": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "2257f57ebd38fc212f217be35eec51b5f27616e5f25694c363b886dddb2897ad",
+      "url": "https://www.qbitai.com/2026/07/449311.html",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "80bf5f05fb615929bde1c0e9c628e8aa313564687bed93bc95fd4257b1f5e906",
+      "url": "https://www.infoq.com/presentations/chaos-engineering-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "083560c542d97e23589a335749f15060643f0a2cff5eb8d8f2f9a0c2016c47c8",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "ab9ea62ec59ebe1add5fc5fdabc1f339aaf99db0f34b323b87c6c39d0c4ca049",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "77da2ee3c6683e353260594f13a7545c588c69a873a92fa994a2c6661eb3d92c",
+      "url": "https://www.datacenterdynamics.com/en/news/575-acre-data-center-could-be-built-near-calgary-canada/",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "fdf0a55e24475c84e07fb1e9dcadd20c32d085a056dc5dff7788fb95df8611ff",
+      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "41ed70cc9fed418d90dba7bbf57423ea045a7538734b431b1ea7f9bc971f3f08",
+      "url": "https://36kr.com/newsflashes/3894065940839427?f=rss",
+      "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "41fe2eee9d6534ebe5fd6a3a3e22c8f9cfd1174a65cbfac4cee957f504beff70",
+      "url": "https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee",
+      "sent_at": "2026-07-13T22:51:18+00:00"
     }
   ]
 }
