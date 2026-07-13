@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T22:42:13+00:00",
+  "updated_at": "2026-07-13T12:36:19+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4046,6 +4046,56 @@
       "sig": "f027697805a345029ea31098fde95a7fe65f98181b76c00ed55af35cdb7051c6",
       "url": "https://www.tomshardware.com/laptops/lenovos-legion-7a-gaming-laptop-now-comes-with-an-rtx-5070-12gb-gpu-option-but-it-costs-usd3-375-paired-with-a-ryzen-ai-9-cpu-sku-was-previously-limited-to-rtx-5060",
       "sent_at": "2026-07-12T22:42:13+00:00"
+    },
+    {
+      "sig": "4938acc77ce98fa9975aa1a0c5f230223bac7f62cb6f2bd9de4197686535da31",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "ec9856af6715e2f7f9d825b3f4bbb6f67ad735b97369f880e756b7d0a9deaa6c",
+      "url": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "9dcf2f16552076574f4f5459666270beaef971d136d4059a86db4cfe1aad420a",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "c6e583da6a0fd865afd50053b5571805fffcbd0dc86837005640a57d2c6ed6fb",
+      "url": "https://www.huxiu.com/article/4874930.html?f=rss",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "cf980a9dfc71c2aeba2051e2618268372d9892b60c83327a89d9cf23331ac4b1",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "44f4270e46e33b3904c96de089c3205a63c48db548fc4594e6eb403da2207d61",
+      "url": "https://www.datacenterdynamics.com/en/news/mara-acquires-1200-acre-texas-site-from-hif-usa-for-up-to-2gw-data-center-campus/",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "519af78e3b7d195e6322d420ba16a02e0ba9b9704c1b147fcd77b041eb73d79e",
+      "url": "https://arxiv.org/abs/2607.08894",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "b7195bbec0581aa4f92ada0dd09674535fb070400751141f7e4df598b418145c",
+      "url": "https://openai.com/index/mufg",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "49e268ec4efd02cbe2f2d5298c83af774d7ec734e1fdc8e281aaf16b3880fbe2",
+      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+      "sent_at": "2026-07-13T12:36:19+00:00"
+    },
+    {
+      "sig": "95700e46481e052fc4392858ae8b343f05e5557a74390ea1c2e65420896f2bd9",
+      "url": "https://www.qbitai.com/2026/07/449156.html",
+      "sent_at": "2026-07-13T12:36:19+00:00"
     }
   ]
 }
