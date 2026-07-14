@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T22:51:18+00:00",
+  "updated_at": "2026-07-14T11:29:49+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4156,6 +4156,66 @@
       "sig": "41fe2eee9d6534ebe5fd6a3a3e22c8f9cfd1174a65cbfac4cee957f504beff70",
       "url": "https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee",
       "sent_at": "2026-07-13T22:51:18+00:00"
+    },
+    {
+      "sig": "8e99f406a484eff44a0ce06fe7a42341b6d85ecb0b88a4ebc009f49fce6c9466",
+      "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "2a41a34c16f5280b624481fb3df0641cd16159c11424c8f40e1529b507eaa9e5",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-slashes-list-of-authorized-customers-in-asia-in-a-bid-to-reduce-ai-chip-smuggling-report-claims-company-sent-field-inspectors-called-customers-to-check-if-business-is-genuine-after-pressure-from-washington",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "4efd27519b8173ae2b0b52f322ebd89a6d17bb80e8b42946f6fa1bf9d558ccdf",
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "5ff11aca353498070a6e1a31c2869cf186b8d938aa91c06fccb3ee6e4ebe19ce",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "e728bcb43cae880116da1d01b47400284caed0de80db2eb76038ae2b2d0c0197",
+      "url": "https://www.cnbc.com/2026/07/14/umc-starts-mass-production-in-singapore-citi-sees-improving-outlook.html",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "2abf80555f68bf3528e1c42a9a4bca2e69db5556825e65c2483027dd2ed118f6",
+      "url": "https://www.huxiu.com/article/4875216.html?f=rss",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "ea2d6b94333102d07c8dc4918ed8c3d9b55ed1964c6d2b6203640ba5d9873dc5",
+      "url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "4bf0e96e2a8dc9a741e491085e6fb025991b9e6fa8800e32853b5f65d8fc6b9b",
+      "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "578b3bdf5cbf1347ed534ff365f939bb7a31c354b068847f1423cc4e4796657a",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "68f87cdaec466de1ae5305910b58a303f9f6e910c990b53acfa2abea0cca1231",
+      "url": "https://www.qbitai.com/2026/07/449842.html",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "333b53f3cc5a9fe2eee54927671de92d91f5f029046ead8b3feda830263eb76b",
+      "url": "https://www.tomshardware.com/tech-industry/manufacturing/researchers-create-programmable-material-that-can-steer-heat-and-remember-its-state-without-power-breakthrough-could-eventually-aid-ai-chip-cooling-and-silicon-photonics",
+      "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "71354a24244e4194afb9e2e0d5645565e8c272513386fc2625b504958da7fb2f",
+      "url": "https://www.cnbc.com/2026/07/13/jim-cramer-tech-best-place-find-big-winners.html",
+      "sent_at": "2026-07-14T11:29:49+00:00"
     }
   ]
 }
