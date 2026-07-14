@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-14T11:29:49+00:00",
+  "updated_at": "2026-07-14T22:53:21+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4216,6 +4216,71 @@
       "sig": "71354a24244e4194afb9e2e0d5645565e8c272513386fc2625b504958da7fb2f",
       "url": "https://www.cnbc.com/2026/07/13/jim-cramer-tech-best-place-find-big-winners.html",
       "sent_at": "2026-07-14T11:29:49+00:00"
+    },
+    {
+      "sig": "7a69c55043b912896981bde6414109ce3fdb1cbaafefbaa45bad7effc53b2d85",
+      "url": "https://www.tomshardware.com/tech-industry/china-claims-chip-exports-nearly-doubled-to-177-billion-in-the-first-half-of-2026",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "3221eba2826b001b12b8277045dad3155b01e14a6c0ab90abc66f110906eb0ab",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-allows-chinese-telecom-giant-zte-to-purchase-nvidia-h200-ai-chips-firm-joins-alibaba-tencent-and-bytedance-in-access-to-hopper-tech",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "bd9eb14ebd28f3cf260be2e98c7f48af6240bac902842e021599f08f2bc37912",
+      "url": "https://www.bis.org/publ/bisbull120.pdf",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "4d46eeec6ebd17991054ca18811628504d4e3b387cf727b4ca112e9f7aa00420",
+      "url": "https://www.datacenterdynamics.com/en/news/cleanspark-secures-tenant-with-20-year-lease-for-data-center-in-sandersville-georgia/",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "ce791ec1c8b78d8bc97dcd6dfabc9f9b271bb4f465056b6fa7554da3714cb3a9",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "6196648d7fd82402f802a43fc4d6483aa916da0b0d8ce1d99027e61e2f9c85f6",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "63db51b1687ec6c2bde1164c33f2355085e104bcaabc4ea3dba2c2d8f0c934c5",
+      "url": "https://www.datacenterdynamics.com/en/news/valfortec-plans-300m-data-center-campus-in-alicante-spain/",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "32a94fd8082894a89d2f6cce09718302dc6687f3f6d55726fd2f85e83510bdc9",
+      "url": "https://www.qbitai.com/2026/07/448475.html",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "0a5ca4c5b5238e08c45b818d5135ff075ac35b68528c7905c2a7a4bb897743f6",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "8b81d16d13c771e16b53498272ab1d845dbd8eb23d3909f3b7a567e45bcee83d",
+      "url": "https://www.qbitai.com/2026/07/449906.html",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "74df64772eca59185bba70a171f8bf2e7c9bd1383828de9cba119fa08f941026",
+      "url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "fb97a2f2bd0cdb6a6c06dbe566a2eebd64e051c8b4ffac159c63ef925d53ba94",
+      "url": "https://www.cnbc.com/2026/07/14/zipline-drone-delivery-tesla-uber-waymo-executives.html",
+      "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "0ca5ec08ef1a044d7696e1eab839a9f9702cc9b5ab58499e00ce7f7eac183b64",
+      "url": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-14T22:53:21+00:00"
     }
   ]
 }
