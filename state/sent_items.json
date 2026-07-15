@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-14T22:53:21+00:00",
+  "updated_at": "2026-07-15T11:40:20+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4281,6 +4281,66 @@
       "sig": "0ca5ec08ef1a044d7696e1eab839a9f9702cc9b5ab58499e00ce7f7eac183b64",
       "url": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-07-14T22:53:21+00:00"
+    },
+    {
+      "sig": "8a6a436bc58eda2e9af591e14ba0dd9114524575123cb344f927214a1cef6e41",
+      "url": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "d33ff95ade462b3a961a0e5cd8dd2ffa13196617743e9d2923c74b934e737477",
+      "url": "https://www.tomshardware.com/tech-industry/intel-commits-5-7-billion-to-ireland-one-year-after-cancelling-its-german-and-polish-fab-projects",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "06f6d22989a125be12ce0ceb169032383762ceae8f48fa5960beb78c1f83aebf",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "22b67f33d38857dd63812a471769a74331f80d5039d2b6c6f7f56433d2405d6f",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-startup-reflection-signs-1bn-capacity-agreement-with-nebius/",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "9e2dcb2c8d1a945962a2bf754c790f9305c3e49a1b47556192d1ea5386833d4f",
+      "url": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "f81b536591e57b54da6338575fd88d39cec63ccf9babe687ac9a0b67cbb01723",
+      "url": "https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "3eba09a7db12d039783ef5977ee875485cb5b20edfaaaa31bf5513792b65368e",
+      "url": "https://www.datacenterdynamics.com/en/news/gmi-cloud-seeks-635m-loan-supported-by-customer-contracts-for-gpu-capacity-report/",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "86eea85a9252565e9b750cdb20a116a4cdd00727dbb8eb2c9bdc05d0f421d73e",
+      "url": "https://36kr.com/newsflashes/3896822215722631?f=rss",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "299bc3d1cdce6c01cba82bec83b9d3a61765a82308c0367c62b01e0f6c77f23e",
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "07637df8cbed9afb6ae30e397b444d5f8e37c665500d4d3ca34cde26c9e5dfc8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "3a7019f83c18096db8b7e26a4ecfaf39be4eae432ad3e0fc76442e8812bffadb",
+      "url": "https://agnost.ai",
+      "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "13f77bbb5cb944085e2405a5f03839b187b63fab47fbb1f4f210a51013d2f1d1",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "sent_at": "2026-07-15T11:40:20+00:00"
     }
   ]
 }
