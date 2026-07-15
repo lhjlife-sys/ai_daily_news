@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T11:40:20+00:00",
+  "updated_at": "2026-07-15T22:55:24+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4341,6 +4341,76 @@
       "sig": "13f77bbb5cb944085e2405a5f03839b187b63fab47fbb1f4f210a51013d2f1d1",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "sent_at": "2026-07-15T11:40:20+00:00"
+    },
+    {
+      "sig": "847e23a05118c1ba4cf02e94f2b10c1ca4e33ddcd2e5142c1f0930c1764eea6f",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-huang-vows-to-deliver-giant-amounts-of-vera-rubin-company-says-that-our-roadmap-is-intact",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "dba38c1924d6fe74d0bcc15c3231ec70a8710d47007f7d5ece755ee9b8585d4a",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "d34350173270b18a6c94840da882f6a01edb7c77af6110856743462191b0e6cb",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-becomes-the-first-company-to-ship-high-volume-logic-chips-made-with-asmls-high-na-euv-select-panther-lake-layers-on-18a-are-now-dual-qualified-for-0-55-na-scanners",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "fa8ad793673d4734f527aa29488e9aff68771ec5fd3bd71ae6322cbe7aafb05f",
+      "url": "https://www.datacenterdynamics.com/en/news/us-govt-eases-ai-chip-export-controls-on-uae-following-countrys-support-in-iran-war/",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "85f8a4225238fcad9d76c8ae8a4a6ba37c865c1b5aec495f1cee1cda881181cb",
+      "url": "https://www.cnbc.com/2026/07/15/trump-blasts-new-york-gov-hochul-over-ai-data-center-moratorium.html",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "23b1197c74335456a9552d5a5661cf050c548ca7ee725da5e63d6be172adcf52",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "017f1761bd90fb87dee55067634bef0eac79c9c1bdd948544a563160f6efd366",
+      "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "ec2b50b366205fd789418464a499fb61287c9af450ad7cdd2da7098f26f96d89",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "c20f8533b5fe83ecc898335473966c402917a7b27d4afc5b2cf0d6e822b0603c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "969cdff003616d877728734c0df8eb69cbcac3e36aeedc2eef49af940b3cc6b5",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "54577002577d92ce7ccc2e6dc247e27899e0b9035b382bdba0184c7f30fe4f98",
+      "url": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "05bc1c3464cd5652f22420639941edcb74f9bea16724ba755412815f5a7b54db",
+      "url": "https://www.cnbc.com/2026/07/15/why-jim-cramer-is-shocked-by-citis-against-the-grain-praise-of-microsofts-copilot.html",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "11253d0d7f13833897b2558e138cdafc151b50ff83dec5fe56513f88b9a33b56",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "efc35500dad20a9a3a009d7ee282f6e756027398feefbe7ea672f94e840a4d8e",
+      "url": "https://www.qbitai.com/2026/07/450709.html",
+      "sent_at": "2026-07-15T22:55:24+00:00"
     }
   ]
 }
