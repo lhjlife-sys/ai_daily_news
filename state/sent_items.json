@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T22:55:24+00:00",
+  "updated_at": "2026-07-16T11:45:49+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4411,6 +4411,81 @@
       "sig": "efc35500dad20a9a3a009d7ee282f6e756027398feefbe7ea672f94e840a4d8e",
       "url": "https://www.qbitai.com/2026/07/450709.html",
       "sent_at": "2026-07-15T22:55:24+00:00"
+    },
+    {
+      "sig": "3f1f3a1353d98dbd7b8d92c6fb289f19af631ed3e49cd7f489b5c425d3859b74",
+      "url": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "da38d88caac3d7a79a07d0e5552d4c2379c4d4442099f1e52d0634c02245e1c9",
+      "url": "https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "f8df3e0d3cc81402169fbdee61bfd5fe093e09e8ae9a90ce6327c888ac618438",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "800837725a8f3cdc2be5d32d076ffd45850fba1c462b98e61dae7c07b2414311",
+      "url": "https://www.huxiu.com/article/4875895.html?f=rss",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "5110b659b64030f99c4b11bed59c5160993b8e5bb671e432a6660e7f474d738d",
+      "url": "https://www.marketwatch.com/story/turbo-charged-sk-hynix-volatility-shows-no-sign-of-abating-as-ai-euphoria-swings-to-fatigue-f5a5b95b?mod=mw_rss_topstories",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "4785ba2545bbae37c97c5e31f296f35e84a434cdb3cea76145bc30ca504b458b",
+      "url": "https://www.datacenterdynamics.com/en/news/australias-macquarie-dc-acquires-34200-sqm-site-in-sydney-for-200mw-data-center-campus/",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "53ad893ddb18c2e18d2eccad268706ed25e43595571809837a01f7cae22eef52",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "faf51a22877b31f6d3b3d2bbf47a16a7ae77f4b42666cf3fe9518acf25332390",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "aab66658f9152e2e148620e84bc5e17802a8f5255ba224a3ba05583693afde38",
+      "url": "https://www.datacenterdynamics.com/en/news/i-squared-capital-to-invest-1bn-in-digital-infrastructure-with-saudi-arabias-pif/",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "b8090209822af963b0fe30d7a101cccc68470b4064bc3534f7e33c75350fa121",
+      "url": "https://www.qbitai.com/2026/07/451379.html",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "3d1474811d079ee63803055989ec3c74ad9e4e8a9979f6f32c71009eae4012ad",
+      "url": "https://36kr.com/newsflashes/3898239763908480?f=rss",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "37f705eb850792ffee1de29bf363bb183c1a8e8f6d015a50b228ccf4068d531f",
+      "url": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "82fd1b486f32873f320ecbd3b024a795ab17bb459d7b43bea8eccdfac6cd2f26",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "508bcec38cc5ad68800eab393c11d95167cda9449d7949242c797f9c731bfcae",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "b554a0fb62dc3fecfe9308f652d8ad60ecc1d905a5e038ac6339be730ebb0bc6",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/scientists-synchronize-105-000-nano-oscillators-in-just-45-nanoseconds-paving-the-way-for-a-highly-efficient-and-fast-alternative-to-transistors",
+      "sent_at": "2026-07-16T11:45:49+00:00"
     }
   ]
 }
