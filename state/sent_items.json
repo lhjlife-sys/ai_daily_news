@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-16T11:45:49+00:00",
+  "updated_at": "2026-07-16T22:54:32+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4486,6 +4486,76 @@
       "sig": "b554a0fb62dc3fecfe9308f652d8ad60ecc1d905a5e038ac6339be730ebb0bc6",
       "url": "https://www.tomshardware.com/tech-industry/big-tech/scientists-synchronize-105-000-nano-oscillators-in-just-45-nanoseconds-paving-the-way-for-a-highly-efficient-and-fast-alternative-to-transistors",
       "sent_at": "2026-07-16T11:45:49+00:00"
+    },
+    {
+      "sig": "4cf92ff695f51dbbb675399a4f8df5e9603e51d5663208fedab2444ca387b0df",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-and-japans-noetra-consortium-to-build-140mw-rubin-ai-factory-with-27500-gpus",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "67051c42c7678e5abca3f71c20f775b820a8d90ffad918f2f66a723c309c81f7",
+      "url": "https://www.huxiu.com/article/4875963.html?f=rss",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "c351645a41a7a154af75fe8effcd5150073bd04edbaf065f0c3c67e24da1f22e",
+      "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "74f761deaa2bb65fa6f2bbbaec8549fef12e3def1ba1dc9a7921b55bccdf361d",
+      "url": "https://www.theregister.com/systems/2026/07/16/tsmcs-265b-us-fab-pledge-is-the-outline-of-a-concept-of-a-plan/5273903",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "82dece2fdd9b2363f506136ab3f9d8fe4642a11ea69f4046ed05d30edb3433e8",
+      "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "f641396dab960cd1c49bf0ab9916f29c6bd05846126d7643829b5f9fff6e69be",
+      "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "8442861e925f4ebfdb2e895458a2a1e45ddf47e3b070749389003a37da2b90ca",
+      "url": "https://www.cnbc.com/2026/07/16/elon-musk-memphis-ai-colossus-data-center.html",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "fab7a1bf2a790a152b889dcdee51dda5a0d84f9fb0f7ae01dd6a9d12e2ae8a7e",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "bf2f5d5231913972e2faab5730e8f0e0b2f21982429034d51616413e86835e0a",
+      "url": "https://www.infoq.com/news/2026/07/aws-continuum-code-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "f47e8f0dcf67a37eae93618a0a25f51216c505f634e7722ae5be0eba4f7ac180",
+      "url": "https://openai.com/index/cars24",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "af91bbfb9922d7fcd39a76e66b4d85bfdf37d4fd30341d934b2157ff7aaba18a",
+      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "e73c0bbc64e9a639b3c9f37ad39570d61e292afdf1b03893544c16dca287b44d",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "4637797107572aace44544de27e54a6145ccfb6d993b963b7d97b7766b81d16d",
+      "url": "https://www.qbitai.com/2026/07/451371.html",
+      "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "5f7650f97d0c70301223167d250c3c255cbd8e6c50e95cc03e433163d13dfaa0",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "sent_at": "2026-07-16T22:54:32+00:00"
     }
   ]
 }
