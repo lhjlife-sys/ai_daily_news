@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-16T22:54:32+00:00",
+  "updated_at": "2026-07-17T11:26:03+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4556,6 +4556,66 @@
       "sig": "5f7650f97d0c70301223167d250c3c255cbd8e6c50e95cc03e433163d13dfaa0",
       "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
       "sent_at": "2026-07-16T22:54:32+00:00"
+    },
+    {
+      "sig": "b85f4d65740c4f881878a1f5954716032bc78cca91167379759cf36923562750",
+      "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "9cbb9bfffecc2c1f3cb8ead59552285cb5c09e7f30bbd9ac914ff26ba7dd61d2",
+      "url": "https://www.datacenterdynamics.com/en/news/sharon-ai-signs-132bn-cloud-computing-service-agreement-with-unnamed-ai-lab/",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "f42a2fd21fae46d39607de18d7b82f09a1c8d83d57a6763af697b60f267f3b8a",
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "0406398b1587329b3b3d98703a13bfe1fc037233b3bce1cfdcfb6393d43dc868",
+      "url": "https://www.huxiu.com/article/4876199.html?f=rss",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "b630ec38479e4383534c9d3fce098456cf5ce58cdf8c429b09cc040fec88480c",
+      "url": "https://www.cnbc.com/2026/07/17/us-china-ai-feud-asml-tightrope-sales-geopolitics.html",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "9d5e2f1f485688d543a241a2fadc68ca262e3770a8fec6a04ee7bab32d004d86",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-looks-to-increase-prices-of-its-low-na-euv-tools-beyond-existing-productivity-based-model-company-wants-to-capture-the-value-of-all-the-advantages-its-tools-offer-not-just-wafer-throughput-improvements",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "e074f52e171c69aa6f5fa38c77eaf848e6ed325a254ff571ffd39bb4579ae01b",
+      "url": "https://www.qbitai.com/2026/07/452942.html",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "f7c83a02953c5dff01d8dc8649553d8c650312ef5a993319fe0288928194ef82",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "684bd9dc002de2007c129464227c0d54196e9b4efc377112cbc33cf43ccd5b04",
+      "url": "https://www.infoq.com/news/2026/07/production-ai-platforms-evals/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "ed9d1cb696fe3faf7a7c807bc7f2e1282386fdac821419b85ca0af21ee5ea344",
+      "url": "https://www.qbitai.com/2026/07/452961.html",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "d22745a3d790599a2285d545ca7a5deb66fbc293154bfc26a080a6e1d2337159",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "f40f21a3f6d4232b13f0647fad3ae16662e154b92cf035dd5c2eaf0b2ce85e2c",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "sent_at": "2026-07-17T11:26:03+00:00"
     }
   ]
 }
