@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-17T11:26:03+00:00",
+  "updated_at": "2026-07-17T22:43:51+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4616,6 +4616,71 @@
       "sig": "f40f21a3f6d4232b13f0647fad3ae16662e154b92cf035dd5c2eaf0b2ce85e2c",
       "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
       "sent_at": "2026-07-17T11:26:03+00:00"
+    },
+    {
+      "sig": "96ae61dffd1c9aeb106ec60de85b6b6c915e4fd6309fcef1083abe7ef6a23017",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "f8c2867bec7adf0e6eca84ced91ded689a9a77d40cc649a6b8ed77f152531117",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-considers-leasing-compute-from-meta-in-10bn-deal/",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "f69c09639a2925b8970e6a1e04d213d89b1f43411a0fe42c008e460b418f872f",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "3d34a562b2eba6cc89535e4e9a10f8e2903d30e0957eab77af0270ea9d302ee3",
+      "url": "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "a43a118b99413b32bfff837fee9bf191a591a278b3de6e2a6148f0fd46f91fb0",
+      "url": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "3cbba401c1cc29cd6f557cfec46e238834a58f6e45420e9ff85c794cb5d6008b",
+      "url": "https://www.cnbc.com/2026/07/17/white-house-ai-access-anthropic-openai.html",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "c96da0c277b129d7b1e6427f9b6c7642408b5052a6f9f6ff4d037acd6aefceea",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "c5c5248230951857dae9664d8976aabb3764bf6936706cfde3b2931f62916be6",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "b8f8e31e9d284d047b7b89909d0e7737b6f5d7dbebebc255f109e7f7470c3715",
+      "url": "https://www.datacenterdynamics.com/en/news/duos-edge-ai-to-provide-10mw-of-capacity-for-five-years-to-investment-grade-hyperscaler/",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "a604e07edacff5d5a7e69bad0cd2226d68fcc1ca86b794a619c05d095e561607",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "a78307ce6d9497b6bed86e9e791c4abb3a5bf8c1cfd6fd909d07fd51e367e151",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/07/17/europes-chip-ambitions-wont-break-dependence-on-us-cloud-and-software-says-forrester/5274086",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "e6d8931d930795aa8d37e90b5effc488c85f36ab81b5ce49368d2ce963fb48c5",
+      "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "d30b6d865f3184a83eda583f6a9474ab3bf86cc286454c1a27d1cdcce9582157",
+      "url": "https://www.qbitai.com/2026/07/453245.html",
+      "sent_at": "2026-07-17T22:43:51+00:00"
     }
   ]
 }
