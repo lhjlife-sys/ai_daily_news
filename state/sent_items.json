@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18T11:10:45+00:00",
+  "updated_at": "2026-07-18T22:44:18+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4746,6 +4746,76 @@
       "sig": "259753f865c21679cc961f27fecb05d339a7960e73d0489a1438759ef6d954a9",
       "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
       "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "95300e42c15814650a6c93b4ea5ca4aac284b307899a4cd78d9e716c45f4c340",
+      "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "8a4a321f85e4c3dff4dea0809eda1ccc637b0fa3d095c4fa8d5d9cd0f7a0874b",
+      "url": "https://www.datacenterdynamics.com/en/opinions/how-ai-demand-is-redefining-risk-for-us-data-center-developers/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "c92bddbeb7290aefc4732e8eb28f3a1383c4c1b590bb3ecb139d79fe301db366",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "9cf9c17d4846c0056b6fe5de9324bb84d6bde1fdb3a720cc3c245cc91ce3ee7a",
+      "url": "https://www.cnbc.com/2026/07/18/the-ai-rotation-stole-the-spotlight-from-a-strong-start-to-earnings-season-.html",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "925b83250aebdef8e45abb00245e216568909fc507913926478b8ea4c4aaf293",
+      "url": "https://36kr.com/newsflashes/3900807486293892?f=rss",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "7e1a43c42e9ee7822ff58b04e23c9bce0886e92c5f1e5372866542e44db4a330",
+      "url": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "fbce0469dbb5b33e2c34a0f5e66de0dded6aae0c384b50c6bf29eae25d739dec",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "7fb9272d9d4cc818a8b2f2b965103ff3bd9ccdf1a94712b5a2c7af2b9ca81ff3",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "db199ea3b752d746e14bd3cd633bf6988c694b772891d254844b862853e0f3e9",
+      "url": "https://www.datacenterdynamics.com/en/news/bosch-receives-225m-in-funding-from-us-chips-program-office-to-support-development-of-sic-fab-in-roseville-california/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "e56daf32acd5649c277ad546025138910b6cc0c4ae3bc5eed87d729b02fcb527",
+      "url": "https://36kr.com/newsflashes/3900906468984713?f=rss",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "c63f170a29952c223a0b4ff9be28b1909137268a761c2ef706c2504a33a9b980",
+      "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "676c823b6899d3ae0dd341dfa9f116d10efe1a05b021b622a94475be5192f009",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "871571fc2a47758cb3f49622bc4ac838fa0cb448ff356e433f766880407f4287",
+      "url": "https://www.cnbc.com/2026/07/17/amazon-zoox-recalls-robotaxi-smoke.html",
+      "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "bba1604f0b8ec04b873d4e9850ce128908272c2970e240d61699c77e10587825",
+      "url": "https://www.huxiu.com/article/4876414.html?f=rss",
+      "sent_at": "2026-07-18T22:44:18+00:00"
     }
   ]
 }
