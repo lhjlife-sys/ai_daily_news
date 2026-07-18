@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-17T22:43:51+00:00",
+  "updated_at": "2026-07-18T11:10:45+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4681,6 +4681,71 @@
       "sig": "d30b6d865f3184a83eda583f6a9474ab3bf86cc286454c1a27d1cdcce9582157",
       "url": "https://www.qbitai.com/2026/07/453245.html",
       "sent_at": "2026-07-17T22:43:51+00:00"
+    },
+    {
+      "sig": "260f280164f729242debcb8f2e5a1ee86b8101dbbf55a9f2dbf439d7bcdcce64",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "0367a6da573e8583bd7752d27053384a7374af80010df7e21b0d1ddff17c47c4",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc-lithography-machine-maker-comes-knocking-to-make-bank-on-tsmcs-profitable-fabs-potentially-costing-the-taiwanese-chipmaker-billions",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "46e9dc79670bc499eab4efe5ae78a67118a5b85e8498745d505ac783b0d48218",
+      "url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "bb03a4a11004816e3a6200bec2810b356d8addb766f8efcdb2dc4e44010f23cf",
+      "url": "https://36kr.com/newsflashes/3900908700436103?f=rss",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "feb006e62e81dd8c53e674e0676e12a72769b492093058395e88780933322688",
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "ea978b8e079835fc1a5c1802dc98d26d85f9b9a6fd825fc19a9129479d72af89",
+      "url": "https://www.infoq.com/presentations/otel-slm-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "6dae1ac749b9f887ec22e020ea32b1447703e6370fa19050bf6d75c5d3499647",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "92ada9b23e7dcbf6b06a711056cc2d9719b86234e76430cd3ec902712bcbd39a",
+      "url": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "8949d14e0125a8ebb60be6f516d1fed515a12db2f76073225c84d111e2b9c601",
+      "url": "https://www.datacenterdynamics.com/en/news/coalition-of-environmental-action-groups-petition-fcc-to-halt-orbital-data-center-applications/",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "87690b456ed55553ba57a18970eb59fe858b45c9713eb76e25f760385b0914f9",
+      "url": "https://www.cnbc.com/2026/07/17/we-remain-bullish-on-this-chip-stock-despite-a-30percent-pullback-this-month.html",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "0090139282200a1d4cfac34ab586cc18df96a0ee157d791444ae330f7c6dab83",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "dd62d442a6ebde80fdfebf34b21be3fabb5cf6d6c2013c7a6b41ad9893f9c9c4",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "sent_at": "2026-07-18T11:10:45+00:00"
+    },
+    {
+      "sig": "259753f865c21679cc961f27fecb05d339a7960e73d0489a1438759ef6d954a9",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "sent_at": "2026-07-18T11:10:45+00:00"
     }
   ]
 }
