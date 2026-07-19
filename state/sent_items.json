@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18T22:44:18+00:00",
+  "updated_at": "2026-07-19T11:13:01+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4816,6 +4816,76 @@
       "sig": "bba1604f0b8ec04b873d4e9850ce128908272c2970e240d61699c77e10587825",
       "url": "https://www.huxiu.com/article/4876414.html?f=rss",
       "sent_at": "2026-07-18T22:44:18+00:00"
+    },
+    {
+      "sig": "889d78c9ecf14ff5a6229ea7054919f1ffe3cd6dbb5d6dea7a90bfd02862507d",
+      "url": "https://www.qbitai.com/2026/07/454592.html",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "a145bb30defc2589b515bc81909858bc2c1f7ed326469ea191465c1a65958cab",
+      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "751dd90684b2b52297e96172543830a21558dda00ba3a6e945f25f41bc516289",
+      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "7a8fe15df43d4c0ec33ce354e3d31fb1deba0a4740c48c3875c96f957bf63d43",
+      "url": "https://www.cnbc.com/2026/07/17/5-things-to-know-before-the-stock-market-opens.html",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "9cf21b8cc9d27befe1479d8a753c1ae8e969e7a8e83fdc65ecb20acc5b0501c1",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "97e574e0beea9ec17a80fdbc07eaafce83fe7c4f283a2b8b938814b25162687d",
+      "url": "https://www.qbitai.com/2026/07/454771.html",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "099f9582ba24fbd2c8cfc699790d503f867fa29aec8494c6fb34aac48583ca7b",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "f5b621e3ec89e25f84abda3d8c40ed58cae42c6329170538afe54f4779e6c5ee",
+      "url": "https://36kr.com/p/3902428274427525?f=rss",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "3774ae9fb188efb680d25294925befd336cc443f9f65eaf4cc1feb7771412476",
+      "url": "https://www.datacenterdynamics.com/en/news/equinix-tops-out-munich-data-center-in-germany/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "a3e7db222bbb2b9cd0d8b24c87449b5e40748d04040b44b6465ea38b76330c23",
+      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "881a1e33f261111bba6c3a9b97ce9c117aab21d2dd340f6ec75b18552233052e",
+      "url": "https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "ffb8706fe77d03cd775bc75edfaef3045cf6ad46c1b6de87396b3256875d9a43",
+      "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "c5c3971a8972616617d38b775feccbc8460effc513d5eaeba9c7e1e9e64c1a6f",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "6dba27575008eae0a12132fc01bbbb5033b195eb9a04bcf13e57c6f6f37d8a3b",
+      "url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
+      "sent_at": "2026-07-19T11:13:01+00:00"
     }
   ]
 }
