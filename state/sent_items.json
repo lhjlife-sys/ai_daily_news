@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-19T11:13:01+00:00",
+  "updated_at": "2026-07-19T22:45:15+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4886,6 +4886,61 @@
       "sig": "6dba27575008eae0a12132fc01bbbb5033b195eb9a04bcf13e57c6f6f37d8a3b",
       "url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
       "sent_at": "2026-07-19T11:13:01+00:00"
+    },
+    {
+      "sig": "0da1e554669f3dbb9f42d36e6e563a8f7b3bc5c554fe6133583f92e1aa7a1e51",
+      "url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "88d1139971f75245af7dd7ff4daa859b3a35f99266a50dd5ab43b49c3e7014ce",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "f26afcf21c3f7e18b90c8099067fdfdf3b18b8a0f31ea9ffbc82ca741a55eb0d",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "8f83b16648773b330094a8f326f9c983a63334b94bc33262edac6c4d93395866",
+      "url": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "b044355fa1151457c91c1e701e6e14ed26560a0f3c4da5a050b77010f429feb3",
+      "url": "https://www.datacenterdynamics.com/en/news/elon-musk-quietly-acquires-mobile-gas-generation-firm-apr-energy-report/",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "c628c281b40efa3900b9557e9a8eca14e39d4bef96dbc34eb5914aeb4bef021a",
+      "url": "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "9da8fb3e629b8216ec45a7448e8e7dab0723d6dae1d66bfbde262f4c6dceb470",
+      "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "94b7f12cc05babfef7688c2aae81921a3fb128dd6c22af31b02c7f1bfa390f5d",
+      "url": "https://www.datacenterdynamics.com/en/news/data-center-project-in-hesse-germany-canceled/",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "0aba2be743cd52af62c1b2f4b58dba3e69abdac01acc89da74c7626653346a61",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "281297e7c5b7ddafdcbc398c4d1f3f27f7776d2cc6e519f5c517bf198768176f",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "f443de946cf38955186f067e0c1346f0585aa3faabf63f8b3df50f3c7d243563",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "sent_at": "2026-07-19T22:45:15+00:00"
     }
   ]
 }
