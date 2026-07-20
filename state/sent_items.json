@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T12:21:16+00:00",
+  "updated_at": "2026-07-20T22:52:34+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5006,6 +5006,61 @@
       "sig": "58a08541d57d0a1848e32299b29a59a75c38fe785c56660a5108c3a65138670f",
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "c40f97dfdbde4701f9dfe95a816f24b69f957fe968d3751233734bbb09235009",
+      "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "b99f27b207fa070ef72f9bdbf7a932a21985e131ed8c2c651683180af0c5bf48",
+      "url": "https://www.tomshardware.com/tech-industry/taiwan-inducts-ex-tsmc-manager-for-allegedly-stealing-chip-secrets-for-china",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "8be5752a7fada5711163eef5017b0a2c40054bdcd708596915acb0c03ec6fc00",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "42077d041c37862df5f5a57aaa21a1cefe5f328cd3376e105759daa61eb87021",
+      "url": "https://www.datacenterdynamics.com/en/news/neocloud-iren-signs-28bn-in-customer-contracts-raises-2026-annual-run-rate-to-4bn/",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "145a97f6f3d1818c0a9bc5efc8016f82ea34dfcd33e954ca353eb630a4f86245",
+      "url": "https://twitter.com/marsxiang_/status/2079276968047153337",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "11ebbb0b9be34bb76d164aca979d7dd9cd2da93a6892dcb879945368f12e52a9",
+      "url": "https://www.huxiu.com/article/4876870.html?f=rss",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "81b28a57f69da93f4832101bd16ccca6e1409b3069a622ddfb7b3e42c9950ddd",
+      "url": "https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "a5ab872c216c2f944ec77d4d072f84e82e060aae4903cb3932963f9bd7c8bda4",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "5532551ba215cb93507ed37e98acb1c07f32dbf6512fe89ce59ee57e0a7f1196",
+      "url": "https://www.theregister.com/cyber-crime/2026/07/20/frontier-llms-couldnt-help-hugging-face-fight-off-evil-agents/5275168",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "1cab74957ed3235f112fb68d1baf67aed9e83e03c3a7ec3d360abbc8aea07bef",
+      "url": "https://www.datacenterdynamics.com/en/news/hut-8-signs-352mw-lease-with-unnamed-hyperscaler-in-texas/",
+      "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "46d88c24f24cd938f71246ab3b6dd64d3af7f061ec72483ac64e443c137b9fa2",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "sent_at": "2026-07-20T22:52:34+00:00"
     }
   ]
 }
