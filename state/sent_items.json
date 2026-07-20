@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-19T22:45:15+00:00",
+  "updated_at": "2026-07-20T12:21:16+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -4941,6 +4941,71 @@
       "sig": "f443de946cf38955186f067e0c1346f0585aa3faabf63f8b3df50f3c7d243563",
       "url": "https://huggingface.co/blog/security-incident-july-2026",
       "sent_at": "2026-07-19T22:45:15+00:00"
+    },
+    {
+      "sig": "92e1cb1672f61c6b7d66bda63e34e35ccd65d9d18a110a825a64d3931c5c13dc",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "28429de772d3a99fdfef26ef3ef6478f220b81cf8fcd5b80f729fb60b63f1924",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "496c169d392e3b4f49dfe93030888efe13c37b1e16d8cb56c18cdf38b98eb8d4",
+      "url": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "78ee4c22f4d771eb7fe49c4a118c0c25b9085e9d0cebd3969e123ac4b3687338",
+      "url": "https://www.huxiu.com/article/4876814.html?f=rss",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "261070987c27b66ab1e0e89715bc2b1fd0e96bf22da1ffd64c439390f7dca583",
+      "url": "https://www.cnbc.com/2026/07/20/-chinas-zhongji-innolight-sees-shares-surge-after-hong-kong-listing-approval-.html",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "2eb064c3735c161e8dbd78887dff3de4c88ac1317291bd675d982f1f5b560faf",
+      "url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "7928f19a1ecb93cf4bdfd796d420cf61075b835b8b1a42f5d67f2910c13d59da",
+      "url": "https://www.qbitai.com/2026/07/455791.html",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "dbedd71ad94fd07e384a4ff7c99b87a410285c324c11232759e365a105aca28a",
+      "url": "https://www.huxiu.com/article/4876812.html?f=rss",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "6d77f538e9c67e81bee00bbd765f840be49e437bf908163aae2c0ef9bdf60b38",
+      "url": "https://arxiv.org/abs/2607.15314",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "1e007d3646e33e2c135d688786b9895f86b6399cd9f3f75bb264296cf916c6a7",
+      "url": "https://www.datacenterdynamics.com/en/news/agentic-grid-planning-platform-piq-raises-5m-in-seed-funding/",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "990fa243b146f3dd83528d757d02f677fe59309babe8e196ea426f93bd14ad37",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "5c9d2d848642a5c777b148542aacdf2003f54c7b232f03cebd45996f81970cac",
+      "url": "https://www.datacenterdynamics.com/en/news/damac-data-center-in-edgerton-kansas-to-go-ahead-despite-planning-commission-denial/",
+      "sent_at": "2026-07-20T12:21:16+00:00"
+    },
+    {
+      "sig": "58a08541d57d0a1848e32299b29a59a75c38fe785c56660a5108c3a65138670f",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "sent_at": "2026-07-20T12:21:16+00:00"
     }
   ]
 }
