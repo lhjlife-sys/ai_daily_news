@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T22:52:34+00:00",
+  "updated_at": "2026-07-21T11:51:47+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5061,6 +5061,71 @@
       "sig": "46d88c24f24cd938f71246ab3b6dd64d3af7f061ec72483ac64e443c137b9fa2",
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "sent_at": "2026-07-20T22:52:34+00:00"
+    },
+    {
+      "sig": "584f0cd2f02f3bac51104c5cbc7811337f05fc72ddb280d86817c34e68cf52c6",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "6dd00ca6612c915dfddd8068b308430ab2be58d3d93bac36df2a54f608f913db",
+      "url": "https://www.tomshardware.com/tech-industry/google-reportedly-developing-frozen-v2-chip-with-geminis-architecture-etched-into-the-silicon",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "6f587fe95d6b5fb38de62e885cb44e4a124fe59526e7309a17aa0157c6bfca89",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "4e0754625ee0a1c333ae678c87625574ef7cbeb3f28a7f1e99bc63de7fab7af1",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "f2b6bb45a4bf81a585ce5c30698090eaf1e97f35907f01fc3c9f0feb57c2e887",
+      "url": "https://www.marketwatch.com/story/the-co-founder-of-stocktwits-dumped-chip-stocks-before-a-20-slide-where-hes-putting-his-money-now-07e8724f?mod=mw_rss_topstories",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "756cfefe3dc19fd423422d40d079403ede849b5299cc4bf1c92b2658fb3a1092",
+      "url": "https://www.qbitai.com/2026/07/456052.html",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "5be001603d1ce7b347a7b1def87e5685fc203cae58d51d059b56ec63986f727f",
+      "url": "https://www.theregister.com/systems/2026/07/21/scalding-hot-ai-accelerators-have-put-datacenters-in-hot-water-two-phase-cooling-could-chill-them-out/5275293",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "267ee18d9a849d684a91ee8e8b9ba99669df3195d4d5ee178f870f19581678e2",
+      "url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "7ee30c155f3df3320724095ab53c5bebf97d68bcc2b5ec025ea796709e126e17",
+      "url": "https://36kr.com/newsflashes/3905328029308294?f=rss",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "31ffb892e191320e3a1c63e9d20649345dc1f09b58c9512e616bde739744b5a6",
+      "url": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "e13bded187613dcfcad00d9f7ea533aa119ef7650e66fa4c61ba43d0034891de",
+      "url": "https://www.datacenterdynamics.com/en/news/aon-adds-5bn-in-capacity-to-data-center-insurance-offering-expands-integrated-risk-solutions/",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "8549f9ed22c455abd8a6172cb18ed725b52ff4d462da930d922da84d534ed2f9",
+      "url": "https://huggingface.co/blog/grabette",
+      "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "d8893f7bb4db22db476e13917a46ff30fa9b1dc2cbb6759bbe8334eee90ba23c",
+      "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "sent_at": "2026-07-21T11:51:47+00:00"
     }
   ]
 }
