@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-21T11:51:47+00:00",
+  "updated_at": "2026-07-21T22:51:05+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5126,6 +5126,86 @@
       "sig": "d8893f7bb4db22db476e13917a46ff30fa9b1dc2cbb6759bbe8334eee90ba23c",
       "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
       "sent_at": "2026-07-21T11:51:47+00:00"
+    },
+    {
+      "sig": "f18a7d4e228511c79384059b8bdb8443ee24d009d09d269138c26ad6f6bbf610",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-is-considering-export-controls-on-ai-technologies-including-banning-local-companies-from-using-tsmc-report-claims-restrictions-would-also-advanced-ai-models-training-data-and-overseas-acquisitions",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "a0e6ca4ba7a2bbdd5602f2a948f5273a25170440e2d9234a4b244d148bd1b3bb",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "321e13ce7cbdbe3681924c5a2edba8ac4eda5d5f2b2843a4197219b00d44ef75",
+      "url": "https://www.datacenterdynamics.com/en/news/ground-broken-on-300mw-data-center-in-pohang-south-korea/",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "e16a6a31aff5e708f3359ad7c6f6015d816e2d76ff1810a5f1ae2c08c011f5df",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "a9044d63de90cb98a4c5a49dfed1100220eb3a98589e104f28ae7834ada57026",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "a438e46f42e0af32f84e200b0ff6b539fc59163136bc53a993cadf056581f835",
+      "url": "https://thenextweb.com/news/tech-giants-hidden-off-balance-sheet-debt-ai",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "3c227f58a021e18487e3d1bf3ab4766eab4c84fabcec4f7cfd3106776f2019c5",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "6eaf6bf9fa5a0b2f4a6ad98f1671fe70a260b79401034104cf19a3b056b7381b",
+      "url": "https://www.datacenterdynamics.com/en/news/us-boosts-ai-ran-with-53bn-funding-opportunity/",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "d925d8c91f460a44f07089c2f27b36a626fbcac0f80dde4b561ae3114c0febb2",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "ee425b838458f50cd54ba373eb7a983e8aad3dca1a9918710128d3091fa710de",
+      "url": "https://www.huxiu.com/article/4877155.html?f=rss",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "0a3e10cc03dafaaa6ade047f0942f2894e92c8a2984ebbbea62882d3c8d4b1d4",
+      "url": "https://www.theregister.com/security/2026/07/21/ciscos-open-weight-bug-busters-take-on-google-and-openai/5275817",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "3064e426d18ccd85acab9b00d8511c97976c1d62bf25b663ad46f55f6cae1deb",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "1ee1bb7d0c3d7b5f57a47cad09ed7442c8c7545fd56e50d593d23ae82fc718d9",
+      "url": "https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "0ce1ac0a72762f6346388c0b98db9c2db828a029ed32539b4e547c252c3bd37e",
+      "url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "59fe28898c870925911bf47ffd7fb8928cc59d2c738e91940a970ee545c06646",
+      "url": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
+      "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "4c872da988e7adc777d3e0fede767a7bc05f426183b2c552b554f29c747cf296",
+      "url": "https://36kr.com/newsflashes/3905401649566856?f=rss",
+      "sent_at": "2026-07-21T22:51:05+00:00"
     }
   ]
 }
