@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-21T22:51:05+00:00",
+  "updated_at": "2026-07-22T11:52:01+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5206,6 +5206,71 @@
       "sig": "4c872da988e7adc777d3e0fede767a7bc05f426183b2c552b554f29c747cf296",
       "url": "https://36kr.com/newsflashes/3905401649566856?f=rss",
       "sent_at": "2026-07-21T22:51:05+00:00"
+    },
+    {
+      "sig": "4c5ae88ee2a66235f1fcda284415ca2f39158871d3e70c558b70522fcc46f131",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "330d5436cf0054c5aa30f324d4a7adaa9a65fe1037ea260bc1d52fc8d16994bd",
+      "url": "https://www.france24.com/en/france/20260721-microsoft-strikes-multi-billion-dollar-deal-to-expand-france-ai-firm-mistral",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "68f01cf2e705cf4d57d38f212bed93b71181a419df9d3f703f3a73d2c0e25f72",
+      "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "d91e7ce81e6ec86cf8fe269060cab91436d1a72ab3c424192b84cb9750e2be4e",
+      "url": "https://www.datacenterdynamics.com/en/news/chinas-zai-partially-operating-1gw-data-center-using-chinese-made-chips-report/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "b9de44936d70c73ab79e41770b845c00cfc4eaf273da52f537b1d407fcc5ff3e",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-to-use-custom-amd-instinct-mi400-accelerators-with-144gb-of-hbm4-for-select-workloads-report-claims-could-dramatically-reduce-cost-at-the-expense-of-versatility",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "b5de177ccc831b459c55321b1521710561108e81cf6c30faa74f946daeba4508",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "5ed91eb7c32ba1baf0ba59da36dc299c18932efd477ddaaa1c9e750aabe9b945",
+      "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "1f58fe112a28cd097f17e5007c0727357bd0a0c967725f27252406c3cfecb992",
+      "url": "https://arxiv.org/abs/2607.18239",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "db4ffaf921c8c2419d28ca994fa093921d886f72d91ad4d4f40ab40067d7b1af",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/speed-to-power-becomes-policy/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "36a01ef92e39475b3bc8dbc568547a5bcc8ad2a77e5fac419283705386eff64d",
+      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "fa01b4e545701e7583d88095528595b54d7bf42d4606ea741c637fc947c9888f",
+      "url": "https://www.cnbc.com/2026/07/22/japanese-ai-winners-toilets-fiberglass-and-seasoning.html",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "fbac5fedc055886b32541e32f2eab9d898ea9bc8fa64c93408df742198de776d",
+      "url": "https://www.qbitai.com/2026/07/457049.html",
+      "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "c5b88ff1cb16edca7307f336e346a95b97a3eb9a96cc4af81263e1fe2492e49a",
+      "url": "https://36kr.com/newsflashes/3906726758929792?f=rss",
+      "sent_at": "2026-07-22T11:52:01+00:00"
     }
   ]
 }
