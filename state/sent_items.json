@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22T11:52:01+00:00",
+  "updated_at": "2026-07-22T22:58:07+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5271,6 +5271,76 @@
       "sig": "c5b88ff1cb16edca7307f336e346a95b97a3eb9a96cc4af81263e1fe2492e49a",
       "url": "https://36kr.com/newsflashes/3906726758929792?f=rss",
       "sent_at": "2026-07-22T11:52:01+00:00"
+    },
+    {
+      "sig": "4b0c06e1f28fbc8a3f5344867901b2eab6c2a94a7e86a2d53ab715f99e0353b3",
+      "url": "https://www.datacenterdynamics.com/en/news/google-increases-2026-capex-195-205bn-as-it-accelerates-ai-data-center-buildout/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "884e71912a74cc45a41d3fcead8ebdaac6a1fde44140f7630b9ae948134ac1e2",
+      "url": "https://www.tomshardware.com/tech-industry/amd-to-supply-anthropic-with-2-gigawatts-of-instinct-mi450-gpus",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "0a05da24b71964090dd168bfba8bcc612d308cd4ab2a2caad2f45b4686100362",
+      "url": "https://www.datacenterdynamics.com/en/news/mgx-aip-and-blackrocks-gip-complete-40bn-acquisition-of-aligned-data-centers/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "a342f849430873cb69083f0f66dc17806af161193d1e7d332f608cb6b2e45717",
+      "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "0f95fa90b7a83e354101cb56b7bf9fe728e38cd13aaf1baac1ab3b4fe95c4ecf",
+      "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "2cf6a7ead62301c98d55711b7a619b82f3582c92a125cd93c28a916972e28427",
+      "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "b344ecb246ecb54d169e1311209ae0104c5b4e7cb06b24594dd63650ce17eea3",
+      "url": "https://www.infoq.com/news/2026/07/anthropic-claude-containment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "a821810ee2b72f1657951f98e0d3d3c7550a9b1a8fbce48196b12e56fa85a9cc",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "577ddf6b90e6d70b43383fc6b5bf29af9051645ec6ba8ce542b298223ecbfa62",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "f12ef5b269d875b333403e8da49d73dbe088e3af9f9377175ebee0932ef4859f",
+      "url": "https://www.qbitai.com/2026/07/457054.html",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "438a36fc4b645322a1eca48444fbce10fe306c95535ed70a30f0d130c5eecb02",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/22/fresh-off-ai-layoffs-block-now-wants-to-whack-slack-with-agent-human-collab-tool/5276529",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "082c4173c70b04519142ea2a756f2c82885c05f2267804c9d63123d0bb7bfe20",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "80f052b8ec0ba0e6b203df3fc4a6753fae3fe6f8c3dd5cb6cc198b2afa85ff52",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
+      "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "42fc837e19d1f9988e1938a97fa7724d071878c9d602664ba7610fb5225ca98f",
+      "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
+      "sent_at": "2026-07-22T22:58:07+00:00"
     }
   ]
 }
