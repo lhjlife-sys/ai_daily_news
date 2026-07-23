@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-23T11:54:08+00:00",
+  "updated_at": "2026-07-23T22:52:36+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5386,6 +5386,66 @@
       "sig": "839f7a51d7b587ae6fb6fad7749706514391475c0a696dde71fbacdaca270ce7",
       "url": "https://openai.com/index/introducing-openai-presence",
       "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "e0645b645df7c7cafbdfca24e594d68f412020cb6280959fedce49d4d7b6e9e9",
+      "url": "https://www.tomshardware.com/pc-components/gpus/amd-takes-the-wraps-off-its-instinct-mi455x-ai-accelerator-cdna-5-and-helios-rack-scale-architecture-combine-to-take-the-fight-to-nvidia-in-the-data-center",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "f80f4445f9a49f0eb3fc8392c29265e53f64923379f7b61dee2a746682b6c469",
+      "url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "bf70d809f9542eeef4af8727140322b50521173b898dd368bf4dae652a9efd17",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "224af4ee7d39bf4de18aa08f2d1b3fc894240189b4d95b37d0236a2e1521298b",
+      "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "35ea86fa821f0a7895cac0fe6d0fa29a9969676a326a2ea6a4260afceb5e7944",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-to-deploy-custom-amd-instinct-mi450-based-gpu-is-lead-customer-for-venice-epyc-cpu/",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "18c39f687fe04ddaa56f01d5e8fd66f7a2399ec02113d3f2581bd7f043d4d0fe",
+      "url": "https://www.infowq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "d0c41b4dc46000aa25876675afd20368588e878c59ed21d91e24cf611f0877d4",
+      "url": "https://www.qbitai.com/2026/07/457694.html",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "5a65b2a3a794faa024280d9b842ac412cd780747e422388ac43b5880a2eec5d7",
+      "url": "https://www.qbitai.com/2026/07/457537.html",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "046009295c648fc7d9bc60d3f983c76cb3b0198262700b353f4346cf788f1ccb",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "3c5fbcf9f913a131852dd3a37b4e7f7a9204cf875f32d69e73329753d722604d",
+      "url": "https://www.huxiu.com/article/4877786.html?f=rss",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "68e99a0f12e18210d06d92e197f764cb4f5a6a4b01a83c9bfeaaa609c7078e21",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "sent_at": "2026-07-23T22:52:36+00:00"
+    },
+    {
+      "sig": "7a2e33bd2177a4c70cc3bf437f1a1525d353059db1caed4386d98dc9780789d4",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "sent_at": "2026-07-23T22:52:36+00:00"
     }
   ]
 }
