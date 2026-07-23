@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22T22:58:07+00:00",
+  "updated_at": "2026-07-23T11:54:08+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5341,6 +5341,51 @@
       "sig": "42fc837e19d1f9988e1938a97fa7724d071878c9d602664ba7610fb5225ca98f",
       "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
       "sent_at": "2026-07-22T22:58:07+00:00"
+    },
+    {
+      "sig": "f34bf557d91a10e9c6bf389620d412ca182dc080aab959bee8ae8b0d59f908c2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "6c89a6e1b9e3647098945b70cbd5d94c2a660c65556da14d2920c8e9ac25ec99",
+      "url": "https://www.tomshardware.com/tech-industry/policy/142-ai-data-center-protests-staged-in-42-states-as-public-opposition-increases-organizers-brand-unaccountable-buildouts-as-an-unacceptable-infringement-on-our-liberty",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "63e4930039f12099d0321c5af487748815636159a343630283ac2e220a4b7ba8",
+      "url": "https://www.infoq.com/articles/multi-agent-security-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "260d8b6d175ec07e47052f082f94759631969dfb00307352bfd25b9fa1bdbd3f",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/23/senior-white-house-official-claims-chinas-k3-model-stolen-from-anthropic/5276804",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "af4560cf6a7ce28d6136fb714ab2e15bd37c4bf304f69d2d297c43545cf2f9aa",
+      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "982001cc2d7c58f0b43ce4f38fe2eb8b1b22dbbf6cfc6bd9e4e500e309db14c3",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "602f5e06460866526a6988d6b07c3091df6ace8e555a3043c0529aa309452cc5",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-scored-an-own-goal-with-huggingface-attack-showing-how-open-chinese-models-are-winning/5276699",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "2675ad9f2444d7b4dc0e068310374d61759b560233547bd2a28f3dad150fee1a",
+      "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+      "sent_at": "2026-07-23T11:54:08+00:00"
+    },
+    {
+      "sig": "839f7a51d7b587ae6fb6fad7749706514391475c0a696dde71fbacdaca270ce7",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "sent_at": "2026-07-23T11:54:08+00:00"
     }
   ]
 }
