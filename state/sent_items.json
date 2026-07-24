@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-24T11:47:42+00:00",
+  "updated_at": "2026-07-24T22:58:11+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5511,6 +5511,71 @@
       "sig": "9ca3604790621f36066f4533590e408ec9bf7e4367131503050581f1afc5b357",
       "url": "https://www.theregister.com/off-prem/2026/07/24/microsoft-fiber-foul-up-cut-off-azure-california-for-almost-five-hours/5277945",
       "sent_at": "2026-07-24T11:47:42+00:00"
+    },
+    {
+      "sig": "310f57a4b47f8cf6d44142abc01de032648c870f9d52297d4e5c2c75531d9f21",
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "1c996666128eea30baf384f9e6c5e783b902c6ba1c092c26f47d39767cb164a0",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/24/veterans-affairs-signs-16b-deal-for-an-army-of-salesforce-ai-agents/5278302",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "92c6e44a4fba945a95474f1e989ddd226c45a4622e14f3e02d8647d329439c2a",
+      "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "1c0e36a26f75e6207d3993ebabaaed4ffd57f55df7d67cde5378f97c95876a15",
+      "url": "https://www.cnbc.com/2026/07/24/1-hyperscaler-megacap-down-3-to-go-alphabet-raises-the-stakes-on-ai-spending.html",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "3ad720f05a97741d0997655d2d2d56af5b341ab381a96daef0ecd60506d94827",
+      "url": "https://fortune.com/2026/07/23/dead-internet-theory-bots-agents-majority-web-traffic/",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "f34324e392a333c0c296e79c62c775e49fbc6804d1d6ff0d6c38d23b3ab7a014",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-chip-startup-etched-closes-300m-funding-round-doubles-its-valuation-to-103bn/",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "354d3e2df6560900c24fc343667940d4b2e78b3726169cd2127730fe07ff5ad9",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-commits-to-14a-mass-production-in-2028-as-its-sales-rise-25-percent-year-over-year",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "494fd73b87ba32568cc8a7948c322992bdb448276be0e3bc74834e88c8dacc7b",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "9c765b6ecb037898a40862b1628bfc234c6b2363d31c56a1a73d261ed28abb61",
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-marc-pincus-in-talks-to-raise-100m/",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "389ebd02d2834f48054db326e779179584d07821b4cc86483479843fc8aba7d7",
+      "url": "https://openai.com/index/ntt-data",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "bf5c5b579dd326ef214902503d6f18d2e8590908c53525d8788a0edbcaba2acd",
+      "url": "https://www.huxiu.com/article/4878067.html?f=rss",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "511b467a0a2470d82df053a0bd8adff8350c4a46af4e89c2761374f2e43c64ce",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
+      "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "91a5b7c5572d91400af0f148dd4ada09d540d9182de314aa20cab2c6f5334d9f",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "sent_at": "2026-07-24T22:58:11+00:00"
     }
   ]
 }
