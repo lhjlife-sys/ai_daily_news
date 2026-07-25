@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-25T11:15:26+00:00",
+  "updated_at": "2026-07-25T22:47:30+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5631,6 +5631,71 @@
       "sig": "3e5020dbed5b94d0162c84b7542eb5a57f7f0af79dac757d3dd3f19b47aa051c",
       "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "835001071afec93f8bae86328f19f7d729e2b1462b6d2e4bc99f46ffd29e014a",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/25/anthropic-debuts-opus-5-at-half-the-price-of-its-fable-sibling/5278630",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "7cfba917f3742f912269c14800abb1d143f9059a389aa1bacf6b05d08c525b84",
+      "url": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "54a8803ad58373855c474ad8c6c699d73f72219e2bff9925e0125d7acfdf329e",
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "eb64b3849d076001167ba46a41293d867e8113ae6bbebf3d7019ee393a697697",
+      "url": "https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "90533ac3fb5b0b37b518380c00c592facca13d651c2d892b7375b49bd9ae6231",
+      "url": "https://www.datacenterdynamics.com/en/news/empery-digital-invests-20m-in-cardinal-data-power/",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "cf2f8df7da9c057a63b81abfc72d0ea091666978bd540d2fbf41351aa67ab5ab",
+      "url": "https://www.qbitai.com/2026/07/460892.html",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "31e62424f11d6bde1903954590907c26a0715693eb44577a7aae809f064b4cfd",
+      "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "cd69125d9969d45dc79aee6fe67e81989f117f9704b6934a8d58cb96390733f9",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "2edc92678f638dcc36eb59ec392e5f925b5d14941f4413836e56a9409969343b",
+      "url": "https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "a3081b2a41959334d967b12241a1c6185a7e0f1618453d30210d8efb52e5094b",
+      "url": "https://36kr.com/p/3910880823202948?f=rss",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "264ec888baff15520028bdebe72959f43c32778b75705e83c65eabc4dfc69bfe",
+      "url": "https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "932591afba7f1cf55372f3f455c6c008f9ff2b3d6f73c68ab2f0a4a130897d6d",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "535a182fb10536ae8ba9841a0f1db84248d68006836968a464558409a67953d9",
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "sent_at": "2026-07-25T22:47:30+00:00"
     }
   ]
 }
