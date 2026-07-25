@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-24T22:58:11+00:00",
+  "updated_at": "2026-07-25T11:15:26+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5576,6 +5576,61 @@
       "sig": "91a5b7c5572d91400af0f148dd4ada09d540d9182de314aa20cab2c6f5334d9f",
       "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
       "sent_at": "2026-07-24T22:58:11+00:00"
+    },
+    {
+      "sig": "6a851c0d9e2beb329ee27add2404139dab1d84a0e89d471b126422e1b61af896",
+      "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "24e986a8ed3daf1f65a9afae49fa072621943eee87a7779e70a4b97a83469a63",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "73ad88bbe15b4741a8bbc340c115a192e5812adeb1a02a413dfba0c0f4db6505",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "f1492912a0632c7b7938516f00215b3eb5958c822d14e7bc908eec0096fe16e0",
+      "url": "https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "dd31a430c3b6bf463e4d9c1f9632433085867db856ecb9990280d92154c6574d",
+      "url": "https://www.datacenterdynamics.com/en/news/pantheon-atlas-secures-grid-approval-for-1gw-croatia-data-center/",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "0504eafae426adce21b89b9fc543f6b85e91add1ecb67e50948e8320c90f0996",
+      "url": "https://www.qbitai.com/2026/07/460154.html",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "9174730f3f9241a962fde379fcf14b5296f1bc1bd09efc9336f66a63a8eb6011",
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "695cc9934c12d51e8c44a991cc40227502e520942bcce98d0b92bc9585382cbd",
+      "url": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "69e481323262afa1b5216cbe98dd7c3d5122fa06b483d2f7f01243ab98947b44",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "9cec34381fb0e9ea62f96b8226b5283483ed5e4407ea99a7444a1ea9688444ad",
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "sent_at": "2026-07-25T11:15:26+00:00"
+    },
+    {
+      "sig": "3e5020dbed5b94d0162c84b7542eb5a57f7f0af79dac757d3dd3f19b47aa051c",
+      "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-25T11:15:26+00:00"
     }
   ]
 }
