@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-25T22:47:30+00:00",
+  "updated_at": "2026-07-26T11:23:52+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5696,6 +5696,56 @@
       "sig": "535a182fb10536ae8ba9841a0f1db84248d68006836968a464558409a67953d9",
       "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
       "sent_at": "2026-07-25T22:47:30+00:00"
+    },
+    {
+      "sig": "9f3be46aa89de2e2b5a353adf68639eed0928ff76c97403d1f7ef86f4750cc38",
+      "url": "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "de72e6fcf4d06c4052e01be072642e8c97da13fa8505e03d695f17b35663ed70",
+      "url": "https://www.qbitai.com/2026/07/460253.html",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "32e0e2e6095633c0b6595a336799625f11e01088292b14c57f7327249791de92",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "849e4753b2e33a11d3b1ba4a7bdbd220db01ce0045401222853934afec797b1e",
+      "url": "https://www.cnbc.com/2026/07/24/tesla-tsla-spacex-spcx-stock-starship-test-flight-musk-bad-week.html",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "6b8543cbe538c7203e6d8073a4267cc5eb767a0346acdf8b3a1796e5164d44e5",
+      "url": "https://www.qbitai.com/2026/07/460962.html",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "fe97eee23786b810e4202ff5d66d53a3fea369071f17bd309063deeb34293a3d",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "1cd53c40ebbafb629e85ca4c875adc3573696592aa7b78159db8a0284968d02e",
+      "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "f43f80ace439c94bda7ecbeb859b636143badcdd5673b39eaf77a77d9c498336",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/24/tech-leaders-issue-letter-to-train-uncle-sam-about-value-of-open-weight-ai/5278533",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "cfea8a8384b7b2a259820d79af89488b2694220215de3d81c1ce8829e8ababef",
+      "url": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
+      "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "8ebabbd54d777b0251697f302e06019b8d68d5caa946262293f0df766ec06f59",
+      "url": "https://www.datacenterdynamics.com/en/news/eurus-energy-toyota-break-ground-on-wind-powered-data-center-in-hokkaido-japan/",
+      "sent_at": "2026-07-26T11:23:52+00:00"
     }
   ]
 }
