@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T11:23:52+00:00",
+  "updated_at": "2026-07-26T22:55:24+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5746,6 +5746,66 @@
       "sig": "8ebabbd54d777b0251697f302e06019b8d68d5caa946262293f0df766ec06f59",
       "url": "https://www.datacenterdynamics.com/en/news/eurus-energy-toyota-break-ground-on-wind-powered-data-center-in-hokkaido-japan/",
       "sent_at": "2026-07-26T11:23:52+00:00"
+    },
+    {
+      "sig": "922a0f977e61a75f5907c0f25a74466123f03895979ef5bf6c8ed59debc5beaa",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "446a8454722be8bb7fd050642d606bce12e7e1ed2ab9b10dc361433da38b8bc8",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "f34cdff744c937a179c8435ff543196fe06855f822b84c57c97929ea3075de9e",
+      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "ebe0320d2087254e97e6a348a24268a0b9ba4792394cc3319a005fa47ef49cda",
+      "url": "https://www.tomshardware.com/tech-industry/zeiss-expands-german-site-that-caps-asmls-euv-scanner-output",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "fce845b0b591f80b7d97f815565bc633dccc7c3ef584cca6206755903e5806db",
+      "url": "https://www.datacenterdynamics.com/en/news/vantage-voltagrid-face-lawsuit-concerning-natural-gas-powered-off-grid-data-centers-in-san-antonio-texas/",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "13ff5d80c32ba03769e6a6934ae99d0e2bdb6e58ef405e2e405a4fe2a7ece299",
+      "url": "https://www.cnbc.com/2026/07/24/uber-and-waymo-to-end-exclusivity-arrangement-in-atlanta-and-austin.html",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "7f36308856b0311fcff4f4439bf2df1cf5d0ade39f366d71c47364dd13170cfe",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "2061fb39b316d2435f51f20679db8d683fe18da8ec450d195c426f3aaa38659b",
+      "url": "https://www.datacenterdynamics.com/en/news/pjm-grid-hit-by-voltage-disturbance-after-data-center-load-abruptly-drops-offline-report/",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "4604a6219c848c0f8aa2c60bcdab75cf2c9e3462ee6b0491b1d79cb00ae7ae25",
+      "url": "https://www.qbitai.com/2026/07/460234.html",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "169c612890cf3ecec7b254cf570bf29f4ea547f1fc414d4e00a29cf31fae9953",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "42660223ffb8991c0684f2f591a0dbb76a22f18913344f0964a7a4f1afbad4da",
+      "url": "https://www.infoq.com/presentations/ai-framework-data-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "49857bbbb2f8af4d05865cdcc952a457647c1a69bfbf2811e642c9f583ca523d",
+      "url": "https://openai.com/index/codex-collaborator-creative-team",
+      "sent_at": "2026-07-26T22:55:24+00:00"
     }
   ]
 }
