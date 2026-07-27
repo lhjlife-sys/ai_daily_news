@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-27T12:58:12+00:00",
+  "updated_at": "2026-07-27T22:56:27+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5861,6 +5861,61 @@
       "sig": "1b1599569c42fc6498ad20464e3f74629236284f206a2386417c1a1e5934be6f",
       "url": "https://36kr.com/newsflashes/3913888329782406?f=rss",
       "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "741183590c40b968080290f97c42835b73a2232b6c1373964db1875aa8998fac",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "d89809e68c7515a322f4036d003a603c27ecd5f44f1f37232132f85a2b77e7dc",
+      "url": "https://www.huxiu.com/article/4878601.html?f=rss",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "a63a55ed346fafa774eb7cb5bf53eb7539b4c8a6a6405c823b7a8fe43c261587",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "0ab5d29e1d0a9f018ebb09125742555859d843eaf4ef179b298b2c4acf8dacad",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-details-plans-for-12gw-data-center-campus-in-pennsylvania/",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "6c204c425234342b8e0fa9423bc995b8ff55ceca1063ee752ebe45015f5bad3d",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "511cf38ddcf3e54ea2762319a82f53048d0b1dace9358a2539cb4d75733b9789",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "79cfa96755675de3740fb8eabe88bbd9665c86219daecedbe64aaec0f5b08868",
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "dd98f963f3b250f71b3827334aee06f7651772283123c41721144cb5fddcce42",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "937d56a9e033ec56b63c9f2866ec5ef6fcac17f62d946f66dcdd8e33dce4295c",
+      "url": "https://36kr.com/newsflashes/3913893079651457?f=rss",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "3c8c8405ca3b76e282bb42f576c2310f1e52d643bf9ece210a486cd3cb21e754",
+      "url": "https://www.cnbc.com/2026/07/27/jim-cramer-warns-ai-circular-financing-echoes-dot-com-bubble.html",
+      "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "fd72f1dc953a0ec631a06fe8bb8ab716b77634d7d4fc5e82f39ebd6467a6ef7e",
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-27T22:56:27+00:00"
     }
   ]
 }
