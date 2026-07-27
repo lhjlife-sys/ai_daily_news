@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-26T22:55:24+00:00",
+  "updated_at": "2026-07-27T12:58:12+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5806,6 +5806,61 @@
       "sig": "49857bbbb2f8af4d05865cdcc952a457647c1a69bfbf2811e642c9f583ca523d",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
       "sent_at": "2026-07-26T22:55:24+00:00"
+    },
+    {
+      "sig": "3c1af295bcc311fa20176cd168a3f15ec7298b661da3c163a08d65f2bd2ab7ab",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-and-sk-group-announce-500bn-ai-agreement-includes-2gw-of-data-center-capacity/",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "e38a2bc2474832f28ea96744f936ffe09e3b623c23aa44a3d421e0d042d45258",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "1e26abec030583de18e03dcd526fe5cec1cdb385468a94795b3c7f493f0a2f17",
+      "url": "https://www.datacenterdynamics.com/en/news/pge-data-center-pipeline-more-than-doubles-to-127gw-compared-to-last-quarter/",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "1f3be8dbc2acdac32b0886319cfa2eca38ee92518a626c78402f51aca34f8690",
+      "url": "https://www.tomshardware.com/tech-industry/cxmt-closes-up-466-percent-in-shanghai-debut-with-no-hbm-project-in-its-ipo-prospectus",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "64eeef18cd78cd1700bd30fcdf8a80dad0e801344928abb3d5d95ffdde169c82",
+      "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "db9d0913513df69e6eee2103c352167bdc6b0fd41d292f61fb456bed2e3c7061",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "82b9eebf7f012d0bbf0a5396054ad4167ed983fe69bc2926e4228f48c3c4d811",
+      "url": "https://www.infoq.com/news/2026/07/netflix-llm-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "9bd2c45f97a55554a36c073a0bb19c926ebc10b5192cace2532b8d2532189bec",
+      "url": "https://www.qbitai.com/2026/07/461444.html",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "e9e3f92c9d89fe03ba8d742fb2e26893782157266d714a2cf1ee8d2febea358c",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "3bb8adb55bc1de7eeac8c552048245af17dd8fe3a0076e8f0072da0a01a8bf4c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+      "sent_at": "2026-07-27T12:58:12+00:00"
+    },
+    {
+      "sig": "1b1599569c42fc6498ad20464e3f74629236284f206a2386417c1a1e5934be6f",
+      "url": "https://36kr.com/newsflashes/3913888329782406?f=rss",
+      "sent_at": "2026-07-27T12:58:12+00:00"
     }
   ]
 }
