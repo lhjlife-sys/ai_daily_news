@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-27T22:56:27+00:00",
+  "updated_at": "2026-07-28T12:02:29+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -5916,6 +5916,71 @@
       "sig": "fd72f1dc953a0ec631a06fe8bb8ab716b77634d7d4fc5e82f39ebd6467a6ef7e",
       "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "sent_at": "2026-07-27T22:56:27+00:00"
+    },
+    {
+      "sig": "45e94d4a7e6f79f18f5f35f64e1794fc60186a61fe5f87d4235547a2d3f483a5",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "d2e381229b5beb8cfbbef4de5af3a0c9272477a3789f01c9f19f26cbf4d0bddd",
+      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "24ce725b330da552fb77c2d29968ca2db19a8bb406cb93ad67608c3ec09682b9",
+      "url": "https://www.cnbc.com/2026/07/28/china-chipmaking-duv-tool-asml-explained.html",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "d7e65424863dae2643c759062fd0dd3c95f896f35a3a3d9528019ca7ad49f579",
+      "url": "https://www.qbitai.com/2026/07/461949.html",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "a5257ad014e6a9befd7bd21faaaf0fc47d80e19c93bf3fdba14cce764d352149",
+      "url": "https://www.datacenterdynamics.com/en/news/israeli-electrical-authority-freezes-grid-processing-of-new-data-centers-for-140-days/",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "2f83a626a7958a2610fffede3384b68c8c999d3ed400bf361da0cd66f565836b",
+      "url": "https://arxiv.org/abs/2607.21596",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "c25a72080997bc85f12eeefdc6cb1e8edcdbe85c47a298dec177b0f6bf651d9e",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "e22923011e3eed030c94e3b31ef8777ddb92f27ef5892a9238bde9b4a1cc3280",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "a45f6367d0873c47f91652dafaed44b06be27b02743bb03be80282d644a7e940",
+      "url": "https://www.huxiu.com/article/4878856.html?f=rss",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "4980a957b19150ecfb100dba84eaa5254a59cb7bae959c39a3c1a32ca37dfe1b",
+      "url": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "81e027808fb5bea26e68c7e1d4cf3436e242ac2b359735a68ac5b903cabd0437",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "21eb37ab78ecd2593f908cb546277c54a0bc13cca2a8ff712e4de7e94a7a3def",
+      "url": "https://36kr.com/newsflashes/3915231922197632?f=rss",
+      "sent_at": "2026-07-28T12:02:29+00:00"
+    },
+    {
+      "sig": "91076c338506eb4e414fb16152efcf77dbcdb083f9c8a2d19e2f70d3e630b471",
+      "url": "https://www.infoq.com/news/2026/07/efficient-ai-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sent_at": "2026-07-28T12:02:29+00:00"
     }
   ]
 }
