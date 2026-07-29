@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-29T12:05:16+00:00",
+  "updated_at": "2026-07-29T22:55:47+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -6046,6 +6046,61 @@
       "sig": "a5bc54280bf29efc8ba4026101ad5cf8b064542a06824bd9a96bcd6a316715e4",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
       "sent_at": "2026-07-28T22:54:52+00:00"
+    },
+    {
+      "sig": "64819d4faa6f458ee1d0996156defc9ca2749217b3215a8ef770ff3439489f74",
+      "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "eb71f165025c2507b7b7067abfaf7b4dd62559816723e433f19a86477a150965",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "59e2011ae48ca7a76c73170087f620f3cd97bd91ba94d5bcc89357e03b3299bd",
+      "url": "https://www.theregister.com/hpc/2026/07/29/noaa-ditches-weather-predicting-supercomputers-for-google-cloud/5280697",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "95d6f987332250f4c681c5ed55eb1299c9ca90ded5eeaf35990a7df392bd4627",
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "b4e8921630d2a0640a3fe9ff4ed038e519b0f5096850452e48d0c3fda1969b57",
+      "url": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "d9e9d21ec106cf8148fa46f950fc04b844006847cf8b889d40f5bfc909f2ea1a",
+      "url": "https://www.theregister.com/public-sector/2026/07/29/uncle-sam-sees-the-light-offers-globalfoundries-300m-to-pursue-silicon-photonics-while-taking-1-stake/5280620",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "c43f03e2a9a93700069bd350af28c3e0823217e1320dc1b8d1cf5811736ec162",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "40a9f933c8df8060885fe2218ead823204771b3fd97dbfe578918b07665cdfed",
+      "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "1c37ea6df0d7e62a7dea5fd8f5fbd490756e48b168db1bc56d43f7f2205674c7",
+      "url": "https://arxiv.org/abs/2607.24758",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "4095f61d03c5a5a829846dbd1abd9891b33b371c7d1a82e782121f77a86e521d",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "sent_at": "2026-07-29T22:55:47+00:00"
+    },
+    {
+      "sig": "8088c1dfd69d52169d26c3ad98d416ee06b8c8b567835bffc63d0babec849503",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "sent_at": "2026-07-29T22:55:47+00:00"
     }
   ]
 }
