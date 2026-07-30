@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-30T11:56:07+00:00",
+  "updated_at": "2026-07-30T23:00:25+00:00",
   "items": [
     {
       "sig": "009f70280ebcc29e7c90367cc5d038491a50c88b819173ad7ca2bdc392c0ba44",
@@ -6166,6 +6166,76 @@
       "sig": "285af763024318afcaad0919801b5c05894d2348fe121d47c841bd46f9d4e007",
       "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
       "sent_at": "2026-07-30T11:56:07+00:00"
+    },
+    {
+      "sig": "d2708a71248a25d9f0961e0841c1b92cb5b9c94b98674f3396ce4a40e238d34f",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/shanghai-aishengna-named-as-the-maker-of-chinas-first-domestic-immersion-duv-scanners",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "614d79e4a866af7d0adf46312cd71f220e440bbd63a539d08213daef1eddd0a9",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "60412f7cad1e462056d59e5c2d0ceadf702186ef0e28e95beb20e7a184808b15",
+      "url": "https://www.cnbc.com/2026/07/30/apple-earnings-live-updates.html",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "01547dadba7b8000f6772c76d8ac5c7e2071469fe85f6aea1e713d71edc5f74b",
+      "url": "https://www.qbitai.com/2026/07/463297.html",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "ec479e30f5573162bda1debe7aab9d0fe71ced4d4409441304bc7fd5b6db89d7",
+      "url": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "b51a58672076c66aa700253d9ba821181d1d47b1e853a1a2db6354623ef87cc5",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "2e9f7dd82e2a02029a8fd73e95e57f476ab68abbfe90a14e6c783596e6cd96eb",
+      "url": "https://www.theregister.com/systems/2026/07/30/samsung-warns-memory-crunch-will-last-through-2028-as-profit-rises-19-fold/5281142",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "aa07afabbc7c07a3cd91d240c095b17bac914cca8f63cbc3752a2447fa1dc98f",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-could-build-more-ai-accelerators-than-nvidia-sells-in-2028-analyst-claims-could-push-the-company-to-use-intel-foundry-to-meet-its-goals",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "ffe686bc2ecc73ad7da71cbab6dd5f103f86426bf7fac55ea69591fad6dfd243",
+      "url": "https://www.datacenterdynamics.com/en/news/chipagents-raises-additional-60m-in-expanded-series-a-round-to-support-ai-chip-design-platform/",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "828405b35084171d8d1df2d3ecd2c37fe19018010d07c904144fb9f2babe7ab2",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/30/oracle-adds-google-gemini-to-the-agent-menu/5281331",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "b729a0c7dc7d5da3a9603da3b4b6c07244812f053654a77bce8f5d9ef12f0ac8",
+      "url": "https://36kr.com/newsflashes/3918161688505730?f=rss",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "86c84bee7ae25b4cb37afafcb459f86e2c6772a3a5baf03e273475c109d24bd8",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "c5b1dff496d9a18cc566a6203dad2e421b45f87450a3cb5c69090571bb8ac1f8",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "sent_at": "2026-07-30T23:00:25+00:00"
+    },
+    {
+      "sig": "5a17d2e42b8d69d766f49089d80ddf382b7a825d4024abac211003ef62d197fb",
+      "url": "https://leaddev.com/reporting/ai-productivity-gains-are-closer-to-10-than-10x",
+      "sent_at": "2026-07-30T23:00:25+00:00"
     }
   ]
 }
