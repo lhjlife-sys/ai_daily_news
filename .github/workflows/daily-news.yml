@@ -3,8 +3,7 @@ name: Daily RSS AI Digest
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 22 * * *'  # 06:00 Asia/Shanghai (UTC+8)
-    - cron: '0 10 * * *'  # 18:00 Asia/Shanghai (UTC+8)
+
 
 permissions:
   contents: write
